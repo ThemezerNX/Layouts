@@ -1,0 +1,19 @@
+# General files
+node_modules
+package-lock.json
+.env
+
+layoutPusher.ts
+
+# MacOS-generated files
+.DS_Store
+
+# Yarn errors and logs
+*.log
+
+# local VSCode files
+.vscode/*
+.history
+
+# Exception for extension recommendations
+!.vscode/extensions.json
