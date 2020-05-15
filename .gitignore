@@ -13,8 +13,13 @@ layoutPusher.js
 *.log
 
 # local VSCode files
-.vscode/*
 .history
+
+# vscode setings
+.vscode/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
 
 # Exception for extension recommendations
 !.vscode/extensions.json
