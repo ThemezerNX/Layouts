@@ -25,7 +25,7 @@ jobs:
             - name: Install Deps
               run: yarn
             - name: Compile Script
-              run: yarn publish:compile
+              run: yarn run deploy:compile
             - name: Update Layouts
               env:
                   POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
@@ -34,4 +34,4 @@ jobs:
                   POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
                   POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
                   GHTOKEN: ${{ secrets.GHTOKEN }}
-              run: yarn publish
+              run: yarn run deploy

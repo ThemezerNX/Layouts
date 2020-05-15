@@ -1,13 +1,12 @@
 {
-  "name": "themezerlayouts",
+  "name": "themezer_layouts",
   "version": "1.0.0",
-  "author": "Migush",
+  "author": "Migushthe2nd <Migushthe2nd@users.noreply.github.com>",
   "license": "ISC",
-  "main": "index.js",
   "scripts": {
     "pretty": "prettier --write **/*.json",
-    "publish": "node ./layoutUpdater.js",
-    "publish:compile": "tsc ./layoutUpdater.ts"
+    "deploy": "node ./layoutUpdater.js",
+    "deploy:compile": "tsc ./layoutUpdater.ts"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
@@ -28,5 +27,7 @@
     "source-map-support": "^0.5.19",
     "typescript": "^3.8.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": "https://github.com/Migushthe2nd/ThemezerLayouts.git",
+  "private": false
 }
