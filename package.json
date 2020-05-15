@@ -2,7 +2,7 @@
   "name": "themezer_layouts",
   "version": "1.0.0",
   "author": "Migushthe2nd <Migushthe2nd@users.noreply.github.com>",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "scripts": {
     "pretty": "prettier --write **/*.json",
     "deploy": "node ./layoutUpdater.js",
