@@ -1,0 +1,37 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: DePloY
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "**.ts"
+      - "**.js"
+      - "**.json"
+      - "**.yml"
+jobs:
+  updateLayouts:
+    runs-on: ubuntu-18.04
+    if: github.repository_owner == 'Migushthe2nd'
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v2
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install Deps
+        run: npm install
+      - name: Compile Script
+        run: npm run publish:compile
+      - name: Update Layouts
+        env:
+          POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
+          POSTGRES_PORT: ${{ secrets.POSTGRES_PORT }}
+          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          GHTOKEN: ${{ secrets.GHTOKEN }}
+        run: npm run publish
