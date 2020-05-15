@@ -3,6 +3,7 @@ node_modules
 package-lock.json
 .env
 
+layoutUpdater.js
 
 # MacOS-generated files
 .DS_Store
