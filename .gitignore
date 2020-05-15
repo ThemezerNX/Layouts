@@ -3,8 +3,6 @@ node_modules
 package-lock.json
 .env
 
-layoutPusher.ts
-layoutPusher.js
 
 # MacOS-generated files
 .DS_Store
