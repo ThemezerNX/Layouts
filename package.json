@@ -1,10 +1,13 @@
 {
   "name": "themezerlayouts",
   "version": "1.0.0",
+  "author": "Migush",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "pretty": "prettier --write **/*.json",
-    "pu": "node ./layoutUpdater.js"
+    "publish": "node ./layoutUpdater.js",
+    "publish:compile": "tsc ./layoutUpdater.ts"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
@@ -14,7 +17,9 @@
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.30.0",
     "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
     "execa": "^4.0.0",
     "glob": "^7.1.6",
     "pg-promise": "^10.5.5",
@@ -23,7 +28,5 @@
     "source-map-support": "^0.5.19",
     "typescript": "^3.8.3"
   },
-  "author": "Migush",
-  "license": "ISC",
   "dependencies": {}
 }
