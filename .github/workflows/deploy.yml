@@ -14,7 +14,7 @@ on:
 jobs:
     updateLayouts:
         runs-on: ubuntu-18.04
-        if: github.repository_owner == 'Migushthe2nd'
+        if: github.repository_owner == 'ThemezerNX'
         steps:
             - name: Checkout Project
               uses: actions/checkout@v2
