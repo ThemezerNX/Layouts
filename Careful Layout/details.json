@@ -1,11 +1,10 @@
 {
-  "name": "Careful Layout",
-  "author": {
-    "name": "Migush",
-    "discordTag": "Migush#4096"
-  },
-  "description": "Another great material theme for users",
-  "color": "#888888",
-  "version": "1.0.0",
-  "uuid": "4581ca82-c2b4-4b78-bd7c-9447a1434835"
+    "name": "Careful Layout",
+    "author": {
+        "name": "Migush",
+        "discordTag": "Migush#4096"
+    },
+    "description": "Another great material theme for users",
+    "color": "#888888",
+    "version": "1.0.0"
 }
