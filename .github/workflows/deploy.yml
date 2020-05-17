@@ -38,7 +38,7 @@ jobs:
               run: |
                   git config user.name 'ThemezerNX'
                   git config user.email 'ThemezerNX@users.noreply.github.com'
-                  git remote set-url origin https://ThemezerNX:$GITHUB_TOKEN@$REPOSITORY.git
+                  git remote set-url origin https://ThemezerNX:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
                   if [[ `git status --porcelain --untracked-files=no` ]]; then
                     git commit -am "Automated UUID generation"
                     git push
