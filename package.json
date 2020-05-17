@@ -27,7 +27,10 @@
     "source-map-support": "^0.5.19",
     "typescript": "^3.8.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "edit-json-file": "^1.4.0",
+    "uuidv4": "^6.0.8"
+  },
   "repository": "https://github.com/ThemezerNX/Layouts.git",
   "private": false
 }

@@ -34,3 +34,12 @@ jobs:
                   POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
                   POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
               run: yarn run deploy
+            - name: Add UUIDs
+              run: |
+                  git config --global user.name 'Themezer'
+                  git config --global user.email 'Themezer@users.noreply.github.com'
+                  git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+                  git checkout "master"
+                  git add -A
+                  git commit -am "Automated UUID generation"
+                  git push

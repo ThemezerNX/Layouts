@@ -1,5 +1,7 @@
 require('dotenv').config()
 import 'source-map-support/register'
+const editJsonFile = require('edit-json-file')
+import { uuid } from 'uuidv4'
 const pgPromise = require('pg-promise')
 import { readdirSync, statSync, readFileSync } from 'fs'
 
@@ -29,7 +31,10 @@ async function run() {
 	)
 
 	const layouts = layoutFolders.map((lF) => {
-		const details = JSON.parse(readFileSync(`${lF}/details.json`, 'utf-8')),
+		let file = editJsonFile(`${lF}/details.json`)
+		if (!file.get('uuid')) file.set('uuid', uuid())
+
+		const details = file.toObject(),
 			baselayout = readFileSync(`${lF}/layout.json`, 'utf-8')
 
 		let resJson: any = {
@@ -37,8 +42,11 @@ async function run() {
 			uuid: details.uuid,
 			details,
 			baselayout,
-			menu: JSON.parse(baselayout).TargetName,
+			menu: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
 		}
+
+		file.save()
+
 		return resJson
 	})
 
