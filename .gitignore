@@ -4,6 +4,7 @@ package-lock.json
 .env
 
 layoutUpdater.js
+symlinkCreator.js
 
 # MacOS-generated files
 .DS_Store

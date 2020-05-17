@@ -5,8 +5,9 @@
 	"license": "MPL-2.0",
 	"scripts": {
 		"pretty": "prettier --write **/*.json",
+		"symlink": "node ./symlinkCreator.js",
 		"deploy": "node ./layoutUpdater.js",
-		"deploy:compile": "tsc ./layoutUpdater.ts"
+		"deploy:compile": "tsc ./layoutUpdater.ts ./symlinkCreator.ts"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",

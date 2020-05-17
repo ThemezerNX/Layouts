@@ -45,3 +45,15 @@ jobs:
                     git commit -am "Prettify & Automated UUID generation"
                     git push
                   fi
+            - name: Updating overlays in storage
+              uses: appleboy/ssh-action@master
+              with:
+                  host: ${{ secrets.SSHHOST }}
+                  username: ${{ secrets.SSHUSERNAME }}
+                  password: ${{ secrets.SSHPASSWORD }}
+                  script: |
+                      cd /home/themezer/Layouts
+                      git reset --hard
+                      git pull
+                      yarn run symlink
+                      find . -xtype l -delete
