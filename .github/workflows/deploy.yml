@@ -43,5 +43,5 @@ jobs:
                   if [[ `git status --porcelain --untracked-files=no` ]]; then
                     git add -A \
                     git commit -am "Automated UUID generation" \
-                    git push \
+                    git push
                   fi
