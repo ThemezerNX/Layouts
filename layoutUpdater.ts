@@ -43,6 +43,7 @@ async function run() {
 			details,
 			baselayout,
 			menu: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
+			last_updated: new Date(),
 		}
 
 		file.save()
@@ -51,61 +52,83 @@ async function run() {
 	})
 
 	const newLayouts = layouts.filter(
-			(p) => !dbLayouts.some((dP) => dP.uuid === p.uuid)
+			(l) => !dbLayouts.some((dL) => dL.uuid === l.uuid)
 		),
 		deletedLayouts = dbLayouts.filter(
-			(dP) => !layouts.some((p) => p.uuid === dP.uuid)
+			(dL) => !layouts.some((l) => l.uuid === dL.uuid)
 		),
 		outdatedLayouts = dbLayouts
-			.filter((p) =>
+			.filter((l) =>
 				layouts.find(
-					(dp) =>
-						p.uuid === dp.uuid &&
-						dp.details.version !== p.details.version
+					(dL) =>
+						l.uuid === dL.uuid &&
+						dL.details.version !== l.details.version
 				)
 			)
-			.map((dP) => layouts.find((p) => p.uuid === dP.uuid))
+			.map((dL) => layouts.find((l) => l.uuid === dL.uuid))
 
-	let nP,
-		dP = [],
-		oP = []
+	let nL,
+		dL = [],
+		oL = []
 
 	if (newLayouts.length > 0) {
+		console.log('\n---- newLayouts:')
+		console.log(newLayouts.map((l) => l.name).join('\n'))
+
 		const cs = new pgp.helpers.ColumnSet(
-			['uuid', 'name', 'details', 'baselayout', 'menu'],
+			['uuid', 'name', 'details', 'baselayout', 'menu', 'last_updated'],
 			{
 				table: 'layouts',
 			}
 		)
 
 		const query = () => pgp.helpers.insert(newLayouts, cs)
-		nP = db.none(query)
+		nL = db.none(query)
 	}
 
-	if (deletedLayouts.length > 0)
-		dP = deletedLayouts.map((p) =>
-			db.none(
-				`
-				DELETE FROM layouts
-				WHERE uuid = $1
-			`,
-				[p.details.uuid]
-			)
-		)
+	if (deletedLayouts.length > 0) {
+		console.log('\n---- deletedLayouts:')
+		dL = deletedLayouts.map((l) => {
+			console.log(`${l.name}\n`)
 
-	if (outdatedLayouts.length > 0)
-		oP = outdatedLayouts.map((p) =>
-			db.none(
+			return db.none(
+				`
+					DELETE FROM layouts
+					WHERE uuid = $1
+				`,
+				[l.uuid]
+			)
+		})
+	}
+
+	if (outdatedLayouts.length > 0) {
+		console.log('\n---- outdatedLayouts:')
+		oL = outdatedLayouts.map((l) => {
+			console.log(`${l.name}\n`)
+			return db.one(
 				`
 				UPDATE layouts
-				SET baselayout = $2
+				SET name = $2,
+					details = $3,
+					baselayout = $4,
+					menu = $5,
+					last_updated = $6
 				WHERE uuid = $1
+				RETURNING *
 			`,
-				[p.details.uuid, p]
+				[
+					l.uuid,
+					l.name,
+					l.details,
+					l.baselayout,
+					l.menu,
+					l.last_updated,
+				]
 			)
-		)
+		})
+	}
 
-	Promise.all([nP, ...dP, ...oP]).then(() => db.$pool.end())
+	Promise.all([nL, ...dL, ...oL]).then(() => db.$pool.end())
 }
 
 run()

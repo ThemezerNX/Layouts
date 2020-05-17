@@ -1,36 +1,36 @@
 {
-  "name": "themezer_layouts",
-  "version": "1.0.0",
-  "author": "Migushthe2nd <Migushthe2nd@users.noreply.github.com>",
-  "license": "MPL-2.0",
-  "scripts": {
-    "pretty": "prettier --write **/*.json",
-    "deploy": "node ./layoutUpdater.js",
-    "deploy:compile": "tsc ./layoutUpdater.ts"
-  },
-  "devDependencies": {
-    "@types/glob": "^7.1.1",
-    "@types/node": "^13.13.4",
-    "@types/prettier": "^2.0.0",
-    "@types/semver": "^7.1.0",
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
-    "@typescript-eslint/parser": "^2.30.0",
-    "chalk": "^4.0.0",
-    "dotenv": "^8.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "execa": "^4.0.0",
-    "glob": "^7.1.6",
-    "pg-promise": "^10.5.5",
-    "prettier": "^2.0.5",
-    "semver": "^7.3.2",
-    "source-map-support": "^0.5.19",
-    "typescript": "^3.8.3"
-  },
-  "dependencies": {
-    "edit-json-file": "^1.4.0",
-    "uuidv4": "^6.0.8"
-  },
-  "repository": "https://github.com/ThemezerNX/Layouts.git",
-  "private": false
+	"name": "themezer_layouts",
+	"version": "1.0.0",
+	"author": "Migushthe2nd <Migushthe2nd@users.noreply.github.com>",
+	"license": "MPL-2.0",
+	"scripts": {
+		"pretty": "prettier --write **/*.json",
+		"deploy": "node ./layoutUpdater.js",
+		"deploy:compile": "tsc ./layoutUpdater.ts"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/node": "^13.13.4",
+		"@types/prettier": "^2.0.0",
+		"@types/semver": "^7.1.0",
+		"@typescript-eslint/eslint-plugin": "^2.31.0",
+		"@typescript-eslint/parser": "^2.30.0",
+		"chalk": "^4.0.0",
+		"dotenv": "^8.2.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.11.0",
+		"execa": "^4.0.0",
+		"glob": "^7.1.6",
+		"pg-promise": "^10.5.5",
+		"prettier": "^2.0.5",
+		"semver": "^7.3.2",
+		"source-map-support": "^0.5.19",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"edit-json-file": "^1.4.0",
+		"uuidv4": "^6.0.8"
+	},
+	"repository": "https://github.com/ThemezerNX/Layouts.git",
+	"private": false
 }

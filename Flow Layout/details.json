@@ -1,11 +1,11 @@
 {
-  "name": "Flow Layout",
-  "author": {
-    "name": "Migush",
-    "discordTag": "Migush#4096"
-  },
-  "description": "A great material theme for users",
-  "color": "#FFFFFF",
-  "version": "1.0.0",
-  "uuid": "0cbb94e7-df26-469b-86fa-5c788c44a518"
+	"name": "Flow Layout",
+	"author": {
+		"name": "Migush",
+		"discordTag": "Migush#4096"
+	},
+	"description": "A great material theme for users",
+	"color": "#FFFFFF",
+	"version": "1.0.0",
+	"uuid": "0cbb94e7-df26-469b-86fa-5c788c44a518"
 }
