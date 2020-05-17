@@ -15,8 +15,8 @@ async function run() {
 
 	const layouts = layoutFolders.map((lF) => {
 		let file = editJsonFile(`${lF}/details.json`)
-
 		const details = file.toObject()
+
 		link(
 			`./${lF}/overlay.png`,
 			`../storage/layouts/${details.uuid}/overlay.png`
