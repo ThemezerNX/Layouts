@@ -1,6 +1,6 @@
 import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
-import link from 'fs-symlink'
+const link = require('fs-symlink')
 import { readdirSync, statSync, symlink } from 'fs'
 
 async function run() {
