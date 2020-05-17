@@ -6,8 +6,9 @@
 	"scripts": {
 		"pretty": "prettier --write **/*.json",
 		"symlink": "node ./symlinkCreator.js",
+		"symlink:compile": "tsc ./symlinkCreator.ts",
 		"deploy": "node ./layoutUpdater.js",
-		"deploy:compile": "tsc ./layoutUpdater.ts ./symlinkCreator.ts"
+		"deploy:compile": "tsc ./layoutUpdater.ts"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
@@ -25,10 +26,10 @@
 		"pg-promise": "^10.5.5",
 		"prettier": "^2.0.5",
 		"semver": "^7.3.2",
-		"source-map-support": "^0.5.19",
-		"typescript": "^3.8.3"
+		"source-map-support": "^0.5.19"
 	},
 	"dependencies": {
+		"typescript": "^3.8.3",
 		"edit-json-file": "^1.4.0",
 		"uuidv4": "^6.0.8"
 	},

@@ -17,8 +17,8 @@ async function run() {
 		const details = file.toObject()
 
 		symlink(
-			`~/storage/overlays/${details.uuid}.png`,
-			`${lF}/overlay.png`,
+			`/home/themezer/Layouts/${lF}/overlay.png`,
+			`/home/themezer/storage/overlays/${details.uuid}.png`,
 			(err) => console.error
 		)
 	})

@@ -56,6 +56,6 @@ jobs:
                       git reset --hard
                       git pull
                       yarn
-                      yarn run deploy:compile
+                      yarn run symlink:compile
                       yarn run symlink
                       find . -xtype l -delete
