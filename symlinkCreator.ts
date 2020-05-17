@@ -17,7 +17,6 @@ async function run() {
 		let file = editJsonFile(`${lF}/details.json`)
 
 		const details = file.toObject()
-		mkdirp.sync(`../storage/layouts/${details.uuid}`)
 		link(
 			`./${lF}/overlay.png`,
 			`../storage/layouts/${details.uuid}/overlay.png`
