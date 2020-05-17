@@ -58,4 +58,4 @@ jobs:
                       yarn
                       yarn run symlink:compile
                       yarn run symlink
-                      find . -xtype l -delete
+                      find /home/themezer/storage -xtype l -delete
