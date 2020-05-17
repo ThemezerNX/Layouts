@@ -1,5 +1,6 @@
 import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
+const mkdirp = require('mkdirp')
 const link = require('fs-symlink')
 import { readdirSync, statSync, symlink } from 'fs'
 
@@ -16,8 +17,11 @@ async function run() {
 		let file = editJsonFile(`${lF}/details.json`)
 
 		const details = file.toObject()
-
-		link(`./${lF}/overlay.png`, `../storage/overlays/${details.uuid}.png`)
+		mkdirp.sync(`../storage/layouts/${details.uuid}`)
+		link(
+			`./${lF}/overlay.png`,
+			`../storage/layouts/${details.uuid}/overlay.png`
+		)
 	})
 }
 
