@@ -17,10 +17,7 @@ async function run() {
 
 		const details = file.toObject()
 
-		link(
-			`~/Layouts/${lF}/overlay.png`,
-			`~/storage/overlays/${details.uuid}.png`
-		)
+		link(`./${lF}/overlay.png`, `../storage/overlays/${details.uuid}.png`)
 	})
 }
 
