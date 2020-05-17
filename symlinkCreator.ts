@@ -1,5 +1,6 @@
 import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
+import link from 'fs-symlink'
 import { readdirSync, statSync, symlink } from 'fs'
 
 async function run() {
@@ -16,10 +17,9 @@ async function run() {
 
 		const details = file.toObject()
 
-		symlink(
-			`/home/themezer/Layouts/${lF}/overlay.png`,
-			`/home/themezer/storage/overlays/${details.uuid}.png`,
-			(err) => console.error
+		link(
+			`~/Layouts/${lF}/overlay.png`,
+			`~/storage/overlays/${details.uuid}.png`
 		)
 	})
 }
