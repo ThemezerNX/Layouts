@@ -39,7 +39,7 @@ jobs:
                   git config --global user.name 'ThemezerNX'
                   git config --global user.email 'ThemezerNX@users.noreply.github.com'
                   if [[ `git status --porcelain --untracked-files=no` ]]; then
-                    git add -A
-                    git commit -m "Automated UUID generation" \
+                    git add -A &&
+                    git commit -m "Automated UUID generation"
                     git push
                   fi
