@@ -31,9 +31,11 @@ async function run() {
 	)
 
 	const layoutFolders = []
-	menuFolders.forEach((m) =>
-		readdirSync(m).forEach((lF) => layoutFolders.push(`${m}/${lF}`))
-	)
+	menuFolders.forEach((m) => {
+		readdirSync(m).forEach((lF) => {
+			layoutFolders.push(`${m}/${lF}`)
+		})
+	})
 
 	const layouts = layoutFolders.map((lF) => {
 		let file = editJsonFile(`${lF}/details.json`)
