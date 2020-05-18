@@ -1,11 +1,11 @@
 {
-  "name": "Transparant Playerselect",
-  "author": {
-    "name": "Migush",
-    "discordTag": "Migush#4096"
-  },
-  "description": "A transparant version of the Playerselect menu.",
-  "color": "#52ad34",
-  "version": "1.0.0",
-  "uuid": "c7323872-49f1-4abe-b526-c7650851fd76"
+	"name": "Transparant Playerselect",
+	"author": {
+		"name": "Migush",
+		"discordTag": "Migush#4096"
+	},
+	"description": "A transparant version of the Playerselect menu.",
+	"color": "#52ad34",
+	"version": "1.0.0",
+	"uuid": "c7323872-49f1-4abe-b526-c7650851fd76"
 }
