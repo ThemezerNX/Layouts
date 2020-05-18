@@ -38,8 +38,11 @@ async function run() {
 	})
 
 	const layouts = layoutFolders.map((lF) => {
-		let file = editJsonFile(`${lF}/details.json`)
-		if (!file.get('uuid')) file.set('uuid', uuid())
+		const file = editJsonFile(`${lF}/details.json`)
+		if (!file.get('uuid')) {
+			file.set('uuid', uuid())
+			file.save()
+		}
 
 		const details = file.toObject(),
 			baselayout = readFileSync(`${lF}/layout.json`, 'utf-8')
@@ -52,8 +55,6 @@ async function run() {
 			menu: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
 			last_updated: new Date(),
 		}
-
-		file.save()
 
 		return resJson
 	})

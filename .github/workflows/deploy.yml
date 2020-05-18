@@ -34,8 +34,6 @@ jobs:
                   POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
                   POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
               run: yarn run deploy
-            - name: Prettify
-              run: yarn run pretty
             - name: Push changes
               run: |
                   git config user.name 'ThemezerNX'

@@ -1,11 +1,11 @@
 {
-	"name": "DogeLayout - M-Edition",
-	"author": {
-		"name": "Migush",
-		"discordTag": "Migush#4096"
-	},
-	"description": "A modified version of DogeLayout",
-	"color": "#77777",
-	"version": "1.0.0",
-	"uuid": "a191a75b-210e-4bc4-955d-05b178021a08"
+  "name": "DogeLayout - M-Edition",
+  "author": {
+    "name": "Migush",
+    "discordTag": "Migush#4096"
+  },
+  "description": "A modified version of DogeLayout",
+  "color": "#77777",
+  "version": "1.0.0",
+  "uuid": "a191a75b-210e-4bc4-955d-05b178021a08"
 }

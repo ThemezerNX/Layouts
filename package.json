@@ -7,7 +7,7 @@
 		"pretty": "prettier --write **/*.json",
 		"symlink": "node ./symlinkCreator.js",
 		"symlink:compile": "tsc ./symlinkCreator.ts",
-		"deploy": "node ./layoutUpdater.js",
+		"deploy": "node ./layoutUpdater.js && yarn run pretty",
 		"deploy:compile": "tsc ./layoutUpdater.ts"
 	},
 	"devDependencies": {
