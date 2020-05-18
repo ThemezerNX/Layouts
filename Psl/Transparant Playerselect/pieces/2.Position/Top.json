@@ -1,17 +1,17 @@
 {
-    "Files": [
-        {
-            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Cnt",
-                    "Position": {
-                        "X": 0.0,
-                        "Y": 200.0,
-                        "Z": 0.0
-                    }
-                }
-            ]
-        }
-    ]
+	"Files": [
+		{
+			"FileName": "blyt/PslSelectSinglePlayer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Cnt",
+					"Position": {
+						"X": 0.0,
+						"Y": 200.0,
+						"Z": 0.0
+					}
+				}
+			]
+		}
+	]
 }
