@@ -45,10 +45,7 @@
 			"AddGroups": [
 				{
 					"GroupName": "G_TimeFormatMigush",
-					"Panes": [
-						"N_Root",
-						"N_AMPM"
-					]
+					"Panes": ["N_Root", "N_AMPM"]
 				}
 			]
 		},
@@ -97,12 +94,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"31",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["31", "0", "0", "0"],
 							"type": 1
 						}
 					],
@@ -252,16 +244,11 @@
 				},
 				{
 					"GroupName": "G_RootMigush",
-					"Panes": [
-						"N_Root",
-						"exelixLK"
-					]
+					"Panes": ["N_Root", "exelixLK"]
 				},
 				{
 					"GroupName": "G_HomeMigush",
-					"Panes": [
-						"N_Home"
-					]
+					"Panes": ["N_Home"]
 				}
 			],
 			"Materials": [
@@ -335,12 +322,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"58",
-								"88",
-								"92",
-								"92"
-							],
+							"PropValues": ["58", "88", "92", "92"],
 							"type": 1
 						}
 					]
@@ -350,12 +332,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"58",
-								"88",
-								"92",
-								"92"
-							],
+							"PropValues": ["58", "88", "92", "92"],
 							"type": 1
 						}
 					]
@@ -370,12 +347,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"92",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["92", "0", "0", "0"],
 							"type": 1
 						}
 					]
@@ -412,9 +384,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -492,9 +462,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
@@ -504,9 +472,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
@@ -521,19 +487,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"31",
-								"31",
-								"0",
-								"0"
-							],
+							"PropValues": ["31", "31", "0", "0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"100"
-							],
+							"PropValues": ["100"],
 							"type": 2
 						}
 					]
