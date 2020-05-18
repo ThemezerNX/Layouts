@@ -1,0 +1,10 @@
+{
+  "name": "Side Lock",
+  "author": {
+    "name": "Migush",
+    "discordTag": "Migush#4096"
+  },
+  "description": "A lockscreen on the side with a beautiful slide and unlock animation.",
+  "color": "#1e6cb0",
+  "version": "1.0.0"
+}

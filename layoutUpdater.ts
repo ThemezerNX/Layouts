@@ -22,12 +22,17 @@ async function run() {
 		FROM layouts
 	`)
 
-	const layoutFolders = readdirSync('./').filter(
+	const menuFolders = readdirSync('./').filter(
 		(lF) =>
 			!lF.startsWith('@') &&
 			!lF.startsWith('.') &&
 			!lF.startsWith('node_modules') &&
 			statSync(lF).isDirectory()
+	)
+
+	const layoutFolders = []
+	menuFolders.forEach((m) =>
+		readdirSync(m).forEach((lF) => layoutFolders.push(`${m}/${lF}`))
 	)
 
 	const layouts = layoutFolders.map((lF) => {
