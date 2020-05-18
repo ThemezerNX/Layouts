@@ -1,11 +1,11 @@
 {
-  "name": "Side Lock",
-  "author": {
-    "name": "Migush",
-    "discordTag": "Migush#4096"
-  },
-  "description": "A lockscreen on the side with a beautiful slide and unlock animation.",
-  "color": "#1e6cb0",
-  "version": "1.0.0",
-  "uuid": "1133f17a-9589-49f1-8b82-a1e7908f844f"
+	"name": "Side Lock",
+	"author": {
+		"name": "Migush",
+		"discordTag": "Migush#4096"
+	},
+	"description": "A lockscreen on the side with a beautiful slide and unlock animation.",
+	"color": "#1e6cb0",
+	"version": "1.0.0",
+	"uuid": "1133f17a-9589-49f1-8b82-a1e7908f844f"
 }
