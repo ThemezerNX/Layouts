@@ -2,7 +2,7 @@ import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 const mkdirp = require('mkdirp')
 const link = require('fs-symlink')
-import { readdirSync, statSync, symlink } from 'fs'
+import { readdirSync, statSync, existsSync } from 'fs'
 
 async function run() {
 	const menuFolders = readdirSync('./').filter(
@@ -26,10 +26,11 @@ async function run() {
 		let file = editJsonFile(`${lF}/details.json`)
 		const details = file.toObject()
 
-		link(
-			`./${lF}/overlay.png`,
-			`../storage/layouts/${details.uuid}/overlay.png`
-		)
+		if (existsSync(`./${lF}/overlay.png`))
+			link(
+				`./${lF}/overlay.png`,
+				`../storage/layouts/${details.uuid}/overlay.png`
+			)
 	})
 }
 
