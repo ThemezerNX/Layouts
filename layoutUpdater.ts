@@ -3,7 +3,7 @@ import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 import { uuid } from 'uuidv4'
 const pgPromise = require('pg-promise')
-import { readdirSync, statSync, readFileSync } from 'fs'
+import { accessSync, constants, readdirSync, statSync, readFileSync } from 'fs'
 
 const config = {
 	host: process.env.POSTGRES_HOST,
@@ -15,6 +15,15 @@ const config = {
 
 export const pgp = pgPromise({ capSQL: true })
 export const db = pgp(config)
+
+const exist = (dir) => {
+	try {
+		accessSync(dir, constants.F_OK | constants.R_OK | constants.W_OK)
+		return true
+	} catch (e) {
+		return false
+	}
+}
 
 async function run() {
 	const dbLayouts = await db.any(`
@@ -38,14 +47,48 @@ async function run() {
 	})
 
 	const layouts = layoutFolders.map((lF) => {
-		const file = editJsonFile(`${lF}/details.json`)
-		if (!file.get('uuid')) {
-			file.set('uuid', uuid())
-			file.save()
+		const f = editJsonFile(`${lF}/details.json`)
+		if (!f.get('uuid')) {
+			f.set('uuid', uuid())
+			f.save()
 		}
 
-		const details = file.toObject(),
+		const details = f.toObject(),
 			baselayout = readFileSync(`${lF}/layout.json`, 'utf-8')
+
+		const pcs = []
+		if (exist(`${lF}/pieces`)) {
+			const opts = readdirSync(`${lF}/pieces`)
+			opts.forEach((op) => {
+				const split = op.split('_')
+				if (split.length > 1) split.shift()
+				const optionName = split.join()
+
+				const values = readdirSync(`${lF}/pieces/${op}`)
+				const jsons = values.filter((v) => v.endsWith('.json'))
+
+				const valueJsons = []
+				jsons.forEach((j) => {
+					const trimmed = j.replace('.json', '')
+
+					valueJsons.push({
+						value: trimmed,
+						image: values.includes(`${trimmed}.jpg`),
+						json: JSON.parse(
+							readFileSync(
+								`${lF}/pieces/${op}/${trimmed}.json`,
+								'utf-8'
+							)
+						),
+					})
+				})
+
+				pcs.push({
+					name: optionName,
+					values: valueJsons,
+				})
+			})
+		}
 
 		let resJson: any = {
 			name: details.name,
@@ -54,6 +97,7 @@ async function run() {
 			baselayout,
 			menu: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
 			last_updated: new Date(),
+			pieces: pcs,
 		}
 
 		return resJson
@@ -77,18 +121,26 @@ async function run() {
 
 	let nL,
 		dL = [],
-		oL = []
+		oL
+
+	const cs = new pgp.helpers.ColumnSet(
+		[
+			{ name: 'uuid', cast: 'uuid' },
+			'name',
+			{ name: 'details', cast: 'json' },
+			'baselayout',
+			'menu',
+			{ name: 'last_updated', cast: 'timestamp without time zone' },
+			{ name: 'pieces', cast: 'json[]' },
+		],
+		{
+			table: 'layouts',
+		}
+	)
 
 	if (newLayouts.length > 0) {
 		console.log('\n---- newLayouts:')
 		console.log(newLayouts.map((l) => l.name).join('\n'))
-
-		const cs = new pgp.helpers.ColumnSet(
-			['uuid', 'name', 'details', 'baselayout', 'menu', 'last_updated'],
-			{
-				table: 'layouts',
-			}
-		)
 
 		const query = () => pgp.helpers.insert(newLayouts, cs)
 		nL = db.none(query)
@@ -111,32 +163,14 @@ async function run() {
 
 	if (outdatedLayouts.length > 0) {
 		console.log('\n---- outdatedLayouts:')
-		oL = outdatedLayouts.map((l) => {
-			console.log(`${l.name}\n`)
-			return db.one(
-				`
-				UPDATE layouts
-				SET name = $2,
-					details = $3,
-					baselayout = $4,
-					menu = $5,
-					last_updated = $6
-				WHERE uuid = $1
-				RETURNING *
-			`,
-				[
-					l.uuid,
-					l.name,
-					l.details,
-					l.baselayout,
-					l.menu,
-					l.last_updated,
-				]
-			)
-		})
+		console.log(outdatedLayouts.map((l) => l.name).join('\n'))
+
+		const query = () =>
+			pgp.helpers.update(outdatedLayouts, cs) + ' where v.uuid = t.uuid'
+		oL = db.none(query)
 	}
 
-	Promise.all([nL, ...dL, ...oL]).then(() => db.$pool.end())
+	Promise.all([nL, ...dL, oL]).then(() => db.$pool.end())
 }
 
 run()
