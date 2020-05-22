@@ -2,7 +2,16 @@ import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 const mkdirp = require('mkdirp')
 const link = require('fs-symlink')
-import { exist, readFileSync, readdirSync, statSync, existsSync } from 'fs'
+import { accessSync, readFileSync, readdirSync, statSync, existsSync } from 'fs'
+
+const exist = (dir) => {
+	try {
+		accessSync(dir, constants.F_OK | constants.R_OK | constants.W_OK)
+		return true
+	} catch (e) {
+		return false
+	}
+}
 
 async function run() {
 	const menuFolders = readdirSync('./').filter(
