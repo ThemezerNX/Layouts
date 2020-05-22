@@ -2,7 +2,7 @@ import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 const mkdirp = require('mkdirp')
 const link = require('fs-symlink')
-import { readdirSync, statSync, existsSync } from 'fs'
+import { exist, readFileSync, readdirSync, statSync, existsSync } from 'fs'
 
 async function run() {
 	const menuFolders = readdirSync('./').filter(
@@ -31,6 +31,25 @@ async function run() {
 				`./${lF}/overlay.png`,
 				`../storage/layouts/${details.uuid}/overlay.png`
 			)
+
+		if (exist(`${lF}/pieces`)) {
+			const opts = readdirSync(`${lF}/pieces`)
+			opts.forEach((op) => {
+				const split = op.split('_')
+				if (split.length > 1) split.shift()
+				const optionName = split.join()
+
+				const values = readdirSync(`${lF}/pieces/${op}`)
+				const images = values.filter((v) => v.endsWith('.jpg'))
+
+				images.forEach((j) => {
+					link(
+						`./${lF}/pieces/${op}/${j}`,
+						`../storage/layouts/${details.uuid}/pieces/${optionName}/${j}`
+					)
+				})
+			})
+		}
 	})
 }
 
