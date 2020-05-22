@@ -2,7 +2,14 @@ import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 const mkdirp = require('mkdirp')
 const link = require('fs-symlink')
-import { accessSync, readFileSync, readdirSync, statSync, existsSync } from 'fs'
+import {
+	accessSync,
+	constants,
+	readFileSync,
+	readdirSync,
+	statSync,
+	existsSync,
+} from 'fs'
 
 const exist = (dir) => {
 	try {
