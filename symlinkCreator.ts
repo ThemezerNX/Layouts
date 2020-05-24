@@ -1,6 +1,5 @@
 import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
-const mkdirp = require('mkdirp')
 const link = require('fs-symlink')
 import {
 	accessSync,

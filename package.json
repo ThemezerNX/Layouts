@@ -32,7 +32,6 @@
 	"dependencies": {
 		"edit-json-file": "^1.4.0",
 		"fs-symlink": "^1.2.1",
-		"mkdirp": "^1.0.4",
 		"typescript": "^3.8.3",
 		"uuidv4": "^6.0.8"
 	},

@@ -110,9 +110,8 @@ async function run() {
 		outdatedLayouts = dbLayouts
 			.filter((l) =>
 				layouts.find(
-					(dL) =>
-						l.uuid === dL.uuid &&
-						dL.details.version !== l.details.version
+					(dL) => l.uuid === dL.uuid
+					// && dL.details.version !== l.details.version
 				)
 			)
 			.map((dL) => layouts.find((l) => l.uuid === dL.uuid))
@@ -160,7 +159,7 @@ async function run() {
 	}
 
 	if (outdatedLayouts.length > 0) {
-		console.log('\n---- outdatedLayouts:')
+		console.log('\n---- existingLayouts:')
 		console.log(outdatedLayouts.map((l) => l.name).join('\n'))
 
 		const query = () =>
