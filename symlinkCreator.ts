@@ -55,7 +55,7 @@ async function run() {
 				const optionName = split.join()
 
 				const values = readdirSync(`${lF}/pieces/${op}`)
-				const images = values.filter((v) => v.endsWith('.jpg'))
+				const images = values.filter((v) => v.endsWith('.png'))
 
 				images.forEach((j) => {
 					link(

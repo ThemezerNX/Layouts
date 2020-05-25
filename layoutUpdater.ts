@@ -73,7 +73,7 @@ async function run() {
 
 					valueJsons.push({
 						value: trimmed,
-						image: values.includes(`${trimmed}.jpg`),
+						image: values.includes(`${trimmed}.png`),
 						json: readFileSync(
 							`${lF}/pieces/${op}/${trimmed}.json`,
 							'utf-8'
