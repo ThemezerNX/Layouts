@@ -24,19 +24,6 @@
 					"Visible": false
 				}
 			]
-		},
-		{
-			"FileName": "blyt/DBtmHeaderNml.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_00",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_Line",
-					"Visible": false
-				}
-			]
 		}
 	]
 }
