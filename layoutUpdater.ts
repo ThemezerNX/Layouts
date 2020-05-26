@@ -47,13 +47,26 @@ async function run() {
 	})
 
 	const layouts = layoutFolders.map((lF) => {
-		const f = editJsonFile(`${lF}/details.json`)
-		if (!f.get('uuid')) {
-			f.set('uuid', uuid())
-			f.save()
+		const fD = editJsonFile(`${lF}/details.json`)
+		const fL = editJsonFile(`${lF}/layout.json`)
+
+		const fDUUID = fD.get('uuid')
+		const fLUUID = fL.get('uuid')
+		if (fDUUID && !fLUUID) {
+			fL.set('uuid', fDUUID)
+			fL.save()
+		} else if (!fDUUID && fLUUID) {
+			fD.set('uuid', fLUUID)
+			fD.save()
+		} else if (!(fDUUID && fLUUID)) {
+			const U = uuid()
+			fD.set('uuid', U)
+			fD.save()
+			fL.set('uuid', U)
+			fL.save()
 		}
 
-		const details = f.toObject(),
+		const details = fD.toObject(),
 			baselayout = readFileSync(`${lF}/layout.json`, 'utf-8')
 
 		const pcs = []
