@@ -84,6 +84,14 @@ async function run() {
 				jsons.forEach((j) => {
 					const trimmed = j.replace('.json', '')
 
+					const fO = editJsonFile(
+						`${lF}/pieces/${op}/${trimmed}.json`
+					)
+					if (!fO.get('uuid')) {
+						fO.set('uuid', uuid())
+						fO.save()
+					}
+
 					valueJsons.push({
 						value: trimmed,
 						image: values.includes(`${trimmed}.png`),
