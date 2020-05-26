@@ -8,7 +8,7 @@
 		"symlink": "node ./symlinkCreator.js",
 		"symlink:compile": "tsc ./symlinkCreator.ts",
 		"dev": "yarn run deploy:compile && yarn run deploy",
-		"deploy": "yarn run pretty && node ./layoutUpdater.js",
+		"deploy": "node ./layoutUpdater.js && yarn run pretty",
 		"deploy:compile": "tsc ./layoutUpdater.ts"
 	},
 	"devDependencies": {
