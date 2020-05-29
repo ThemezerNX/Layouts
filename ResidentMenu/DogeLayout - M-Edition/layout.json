@@ -24,12 +24,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"31",
-								"2",
-								"0",
-								"0"
-							],
+							"PropValues": ["31", "2", "0", "0"],
 							"type": 1
 						}
 					]
@@ -68,10 +63,7 @@
 			"AddGroups": [
 				{
 					"GroupName": "G_TimeFormatMigush",
-					"Panes": [
-						"N_AMPM",
-						"N_Root"
-					]
+					"Panes": ["N_AMPM", "N_Root"]
 				}
 			]
 		},
@@ -87,12 +79,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"9",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["9", "0", "0", "0"],
 							"type": 1
 						}
 					]
@@ -129,16 +116,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"7"
-							],
+							"PropValues": ["7"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowDistance",
-							"PropValues": [
-								"1.0"
-							],
+							"PropValues": ["1.0"],
 							"type": 2
 						}
 					]
@@ -148,9 +131,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"7"
-							],
+							"PropValues": ["7"],
 							"type": 2
 						}
 					]
@@ -632,12 +613,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"9",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["9", "0", "0", "0"],
 							"type": 1
 						}
 					]
@@ -647,12 +623,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"9",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["9", "0", "0", "0"],
 							"type": 1
 						}
 					]
