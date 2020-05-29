@@ -103,7 +103,6 @@ async function run() {
 		}
 
 		let resJson: any = {
-			name: details.name,
 			uuid: details.uuid,
 			details,
 			baselayout,
@@ -137,7 +136,6 @@ async function run() {
 	const cs = new pgp.helpers.ColumnSet(
 		[
 			{ name: 'uuid', cast: 'uuid' },
-			'name',
 			{ name: 'details', cast: 'json' },
 			'baselayout',
 			'target',
