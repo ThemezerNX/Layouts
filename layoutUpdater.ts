@@ -31,7 +31,7 @@ async function run() {
 		FROM layouts
 	`)
 
-	const menuFolders = readdirSync('./').filter(
+	const targetFolders = readdirSync('./').filter(
 		(lF) =>
 			!lF.startsWith('@') &&
 			!lF.startsWith('.') &&
@@ -40,7 +40,7 @@ async function run() {
 	)
 
 	const layoutFolders = []
-	menuFolders.forEach((m) => {
+	targetFolders.forEach((m) => {
 		readdirSync(m).forEach((lF) => {
 			layoutFolders.push(`${m}/${lF}`)
 		})
@@ -48,22 +48,11 @@ async function run() {
 
 	const layouts = layoutFolders.map((lF) => {
 		const fD = editJsonFile(`${lF}/details.json`)
-		const fL = editJsonFile(`${lF}/layout.json`)
 
-		const fDUUID = fD.get('uuid')
-		const fLUUID = fL.get('uuid')
-		if (fDUUID && !fLUUID) {
-			fL.set('uuid', fDUUID)
-			fL.save()
-		} else if (!fDUUID && fLUUID) {
-			fD.set('uuid', fLUUID)
-			fD.save()
-		} else if (!(fDUUID && fLUUID)) {
+		if (!fD.get('uuid')) {
 			const U = uuid()
 			fD.set('uuid', U)
 			fD.save()
-			fL.set('uuid', U)
-			fL.save()
 		}
 
 		const details = fD.toObject(),
@@ -92,13 +81,17 @@ async function run() {
 						fO.save()
 					}
 
+					const value = fO.toObject()
+					const value_uuid = value.uuid
+					delete value.uuid
+
 					valueJsons.push({
-						value: trimmed,
-						image: values.includes(`${trimmed}.png`),
-						json: readFileSync(
-							`${lF}/pieces/${op}/${trimmed}.json`,
-							'utf-8'
-						),
+						value: jsons.length > 1 ? trimmed : true,
+						uuid: value_uuid,
+						image: values.includes(`${trimmed}.png`)
+							? `${trimmed}.png`
+							: null,
+						json: JSON.stringify(value),
 					})
 				})
 
@@ -114,7 +107,7 @@ async function run() {
 			uuid: details.uuid,
 			details,
 			baselayout,
-			menu: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
+			target: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
 			last_updated: new Date(),
 			pieces: pcs,
 		}
@@ -147,7 +140,7 @@ async function run() {
 			'name',
 			{ name: 'details', cast: 'json' },
 			'baselayout',
-			'menu',
+			'target',
 			{ name: 'last_updated', cast: 'timestamp without time zone' },
 			{ name: 'pieces', cast: 'json[]' },
 		],

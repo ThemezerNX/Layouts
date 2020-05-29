@@ -1,7 +1,8 @@
 {
-	"PatchName": "Transparant Playerselect",
+	"PatchName": "Transparent Playerselect",
 	"AuthorName": "Migush",
 	"TargetName": "Psl.szs",
+	"Ready8X": true,
 	"Files": [
 		{
 			"FileName": "blyt/DBtmHeaderNml.bflyt",
@@ -25,6 +26,5 @@
 				}
 			]
 		}
-	],
-	"uuid": "c7323872-49f1-4abe-b526-c7650851fd76"
+	]
 }

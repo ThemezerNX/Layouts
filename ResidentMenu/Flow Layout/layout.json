@@ -2,6 +2,7 @@
 	"PatchName": "Flow layout",
 	"AuthorName": "Migush",
 	"TargetName": "ResidentMenu.szs",
+	"Ready8X": true,
 	"Files": [
 		{
 			"FileName": "blyt/BgNml.bflyt",
@@ -849,6 +850,5 @@
 			"FileName": "anim/RdtBtnIconGame_FocusTouch.bflan",
 			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":9,\"Name\":\"FocusTouch\",\"ChildBinding\":0,\"Groups\":[\"G_BtnTouch\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AGUA\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_BtnTouch\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":32.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
 		}
-	],
-	"uuid": "0cbb94e7-df26-469b-86fa-5c788c44a518"
+	]
 }

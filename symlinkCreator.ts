@@ -20,7 +20,7 @@ const exist = (dir) => {
 }
 
 async function run() {
-	const menuFolders = readdirSync('./').filter(
+	const targetFolders = readdirSync('./').filter(
 		(lF) =>
 			!lF.startsWith('@') &&
 			!lF.startsWith('.') &&
@@ -29,7 +29,7 @@ async function run() {
 	)
 
 	const layoutFolders = []
-	menuFolders.forEach((m) => {
+	targetFolders.forEach((m) => {
 		readdirSync(m).forEach((lF) => {
 			layoutFolders.push(`${m}/${lF}`)
 		})
