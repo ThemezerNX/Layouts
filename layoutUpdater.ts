@@ -57,6 +57,10 @@ async function run() {
 
 		const details = fD.toObject(),
 			baselayout = readFileSync(`${lF}/layout.json`, 'utf-8')
+		let commonlayout = null
+		try {
+			commonlayout = readFileSync(`${lF}/common.json`, 'utf-8')
+		} catch (e) {}
 
 		const pcs = []
 		if (exist(`${lF}/pieces`)) {
@@ -109,6 +113,7 @@ async function run() {
 			target: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
 			last_updated: new Date(),
 			pieces: pcs,
+			commonlayout,
 		}
 
 		return resJson
@@ -120,7 +125,7 @@ async function run() {
 		deletedLayouts = dbLayouts.filter(
 			(dL) => !layouts.some((l) => l.uuid === dL.uuid)
 		),
-		outdatedLayouts = dbLayouts
+		existingLayouts = dbLayouts
 			.filter((l) =>
 				layouts.find(
 					(dL) => l.uuid === dL.uuid
@@ -141,6 +146,7 @@ async function run() {
 			'target',
 			{ name: 'last_updated', cast: 'timestamp without time zone' },
 			{ name: 'pieces', cast: 'json[]' },
+			'commonlayout',
 		],
 		{
 			table: 'layouts',
@@ -149,7 +155,7 @@ async function run() {
 
 	if (newLayouts.length > 0) {
 		console.log('\n---- newLayouts:')
-		console.log(newLayouts.map((l) => l.name).join('\n'))
+		console.log(newLayouts.map((l) => l.details.name).join('\n'))
 
 		const query = () => pgp.helpers.insert(newLayouts, cs)
 		nL = db.none(query)
@@ -158,7 +164,7 @@ async function run() {
 	if (deletedLayouts.length > 0) {
 		console.log('\n---- deletedLayouts:')
 		dL = deletedLayouts.map((l) => {
-			console.log(`${l.name}\n`)
+			console.log(`${l.details.name}\n`)
 
 			return db.none(
 				`
@@ -170,12 +176,12 @@ async function run() {
 		})
 	}
 
-	if (outdatedLayouts.length > 0) {
+	if (existingLayouts.length > 0) {
 		console.log('\n---- existingLayouts:')
-		console.log(outdatedLayouts.map((l) => l.name).join('\n'))
+		console.log(existingLayouts.map((l) => l.details.name).join('\n'))
 
 		const query = () =>
-			pgp.helpers.update(outdatedLayouts, cs) + ' where v.uuid = t.uuid'
+			pgp.helpers.update(existingLayouts, cs) + ' where v.uuid = t.uuid'
 		oL = db.none(query)
 	}
 
