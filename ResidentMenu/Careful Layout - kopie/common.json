@@ -1,0 +1,64 @@
+{
+	"PatchName": "JAG Common Layout",
+	"AuthorName": "Migush",
+	"TargetName": "common.szs",
+	"Ready8X": true,
+	"Files": [
+		{
+			"FileName": "blyt/FooterAll.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line_00",
+					"Position": {
+						"X": 55.0,
+						"Y": 72.0,
+						"Z": 0.0
+					}
+				},
+				{
+					"PaneName": "L_Line_01",
+					"Position": {
+						"X": 55.0,
+						"Y": 72.0,
+						"Z": 0.0
+					}
+				},
+				{
+					"PaneName": "L_Line_02",
+					"Position": {
+						"X": 55.0,
+						"Y": 72.0,
+						"Z": 0.0
+					}
+				},
+				{
+					"PaneName": "L_Ctrl",
+					"Position": {
+						"X": 200.0,
+						"Y": 0.0,
+						"Z": 0.0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Size": {
+						"X": 1110.0,
+						"Y": 2.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["100"],
+							"type": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}
