@@ -1,33 +1,34 @@
 {
-    "Files": [
-        {
-            "FileName": "blyt/RdtBtnChildLock.bflyt"
-        }
-    ],
-    "Anims": [
-        {
-            "FileName": "anim/RdtBtnChildLock_Active.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_Inactive.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_PlayTimerIn.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_In.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_PlayTimerOut.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_ColorOff.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_ColorOn.bflan"
-        },
-        {
-            "FileName": "anim/RdtBtnChildLock_ColorOver.bflan"
-        }
-    ]
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnChildLock.bflyt"
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/RdtBtnChildLock_Active.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_Inactive.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_PlayTimerIn.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_In.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_PlayTimerOut.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_ColorOff.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_ColorOn.bflan"
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_ColorOver.bflan"
+		}
+	],
+	"uuid": "b8c4067b-eb97-44aa-9e02-3ec32a7d0d8c"
 }
