@@ -1,10 +1,7 @@
 {
 	"name": "JAG Layout",
-	"author": {
-		"name": "Migush",
-		"discord_tag": "Migush#4096"
-	},
 	"description": "A Layout based on Reddit user JustAnyGamer's design",
+	"creator_id": "123859829453357056",
 	"color": "#1b9e11",
 	"version": "1.0.0",
 	"uuid": "37fa5b25-5e90-4879-a215-81a16080c445"

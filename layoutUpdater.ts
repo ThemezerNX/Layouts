@@ -33,10 +33,7 @@ async function run() {
 
 	const targetFolders = readdirSync('./').filter(
 		(lF) =>
-			!lF.startsWith('@') &&
-			!lF.startsWith('.') &&
-			!lF.startsWith('node_modules') &&
-			statSync(lF).isDirectory()
+			!lF.startsWith('@') && !lF.startsWith('.') && !lF.startsWith('node_modules') && statSync(lF).isDirectory()
 	)
 
 	const layoutFolders = []
@@ -77,9 +74,7 @@ async function run() {
 				jsons.forEach((j) => {
 					const trimmed = j.replace('.json', '')
 
-					const fO = editJsonFile(
-						`${lF}/pieces/${op}/${trimmed}.json`
-					)
+					const fO = editJsonFile(`${lF}/pieces/${op}/${trimmed}.json`)
 					if (!fO.get('uuid')) {
 						fO.set('uuid', uuid())
 						fO.save()
@@ -92,9 +87,7 @@ async function run() {
 					valueJsons.push({
 						value: jsons.length > 1 ? trimmed : true,
 						uuid: value_uuid,
-						image: values.includes(`${trimmed}.png`)
-							? `${trimmed}.png`
-							: null,
+						image: values.includes(`${trimmed}.png`) ? `${trimmed}.png` : null,
 						json: JSON.stringify(value),
 					})
 				})
@@ -114,17 +107,14 @@ async function run() {
 			last_updated: new Date(),
 			pieces: pcs,
 			commonlayout,
+			creator_id: details.creator_id,
 		}
 
 		return resJson
 	})
 
-	const newLayouts = layouts.filter(
-			(l) => !dbLayouts.some((dL) => dL.uuid === l.uuid)
-		),
-		deletedLayouts = dbLayouts.filter(
-			(dL) => !layouts.some((l) => l.uuid === dL.uuid)
-		),
+	const newLayouts = layouts.filter((l) => !dbLayouts.some((dL) => dL.uuid === l.uuid)),
+		deletedLayouts = dbLayouts.filter((dL) => !layouts.some((l) => l.uuid === dL.uuid)),
 		existingLayouts = dbLayouts
 			.filter((l) =>
 				layouts.find(
@@ -147,6 +137,7 @@ async function run() {
 			{ name: 'last_updated', cast: 'timestamp without time zone' },
 			{ name: 'pieces', cast: 'json[]' },
 			'commonlayout',
+			'creator_id',
 		],
 		{
 			table: 'layouts',
@@ -180,8 +171,7 @@ async function run() {
 		console.log('\n---- existingLayouts:')
 		console.log(existingLayouts.map((l) => l.details.name).join('\n'))
 
-		const query = () =>
-			pgp.helpers.update(existingLayouts, cs) + ' where v.uuid = t.uuid'
+		const query = () => pgp.helpers.update(existingLayouts, cs) + ' where v.uuid = t.uuid'
 		oL = db.none(query)
 	}
 
