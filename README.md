@@ -56,6 +56,14 @@ This repository has the following structure:
 
 -   For every layout, an overlay.png is required.
 -   For every piece value, a png is required.
+-   The 'target file' may be any of the following:
+    -   `ResidentMenu` (Home Menu)
+    -   `Entrance` (Lockscreen)
+    -   `Flaunch` (All Apps)
+    -   `Set` (Settings)
+    -   `Notification` (News)
+    -   `Psl` (Player Select)
+    -   ~~`MyPage` (User Page)~~ TODO
 
 ## The `details.json`
 
