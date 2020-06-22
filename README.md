@@ -76,7 +76,7 @@ The `details.json` contains information to display on the website. You're allowe
 * Remove the color field if not in use.
 
 ## Pieces
-* Piece folders can have a prefix with a number: `1_`. This allows you to specify the order the layouts are applied in.
+* Piece folders can have a prefix with a number: `1_`. This allows you to specify the order the pieces are applied in.
 * The 'Piece Title' is shown on the website as the option.
 * The Piece value file names (json and png) must **always** match.
 * For a single value (toggle): the value file name does not matter (although they must still match) as it becomes a toggle with the 'Piece Title'
