@@ -17,7 +17,6 @@ An example:
     "AuthorName": "Name",
     "TargetName": "ResidentMenu.szs",
     "ID": "Themezer:e4446038-b47a-11ea-b3de-0242ac130004|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
-    "Files": [
     ...
 ```
 
