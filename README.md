@@ -63,7 +63,7 @@ This repository has the following structure:
     -   `Set` (Settings)
     -   `Notification` (News)
     -   `Psl` (Player Select)
-    -   ~~`MyPage` (User Page)~~ TODO
+    -   `MyPage` (User Page)
 
 ## The `details.json`
 
