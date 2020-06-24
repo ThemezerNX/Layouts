@@ -118,8 +118,15 @@ async function run() {
 		existingLayouts = dbLayouts
 			.filter((l) =>
 				layouts.find(
-					(dL) => l.uuid === dL.uuid
-					// && dL.details.version !== l.details.version
+					(dL) =>
+						l.uuid === dL.uuid &&
+						// Check if any of the fields changed, not only version string
+						(JSON.stringify(dL.details) !== JSON.stringify(l.details) ||
+							dL.baselayout !== l.baselayout ||
+							JSON.stringify(dL.pieces) !== JSON.stringify(l.pieces) ||
+							dL.commonlayout !== l.commonlayout ||
+							dL.creator_id !== l.creator_id ||
+							dL.version !== l.version)
 				)
 			)
 			.map((dL) => layouts.find((l) => l.uuid === dL.uuid))
