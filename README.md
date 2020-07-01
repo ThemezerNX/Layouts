@@ -89,7 +89,7 @@ The `details.json` contains information to display on the website. You're allowe
 
 ### Notes:
 
--   When a pull request is merged the `uuid` field is automatically added to the `details.json`. You must never edit this!
+-   When a pull request is merged the `uuid` field is automatically added to the `details.json`. You must never add/edit this yourself!
 -   Remove the color field if not in use.
 
 ## Pieces
@@ -99,7 +99,7 @@ The `details.json` contains information to display on the website. You're allowe
 -   A piece value json always requires a corresponding png. This png is an overly. The overlay must be made from the layout with only the piece it is for active. File names must **always** match.
 -   For a single value (toggle): the value file name does not matter (although they must still match) as it becomes a toggle with the 'Piece Title'
 -   For a dropdown: the values filenames _do_ matter. Every value file name will be an entry in the dropdown.
--   When a pull request is merged the `uuid` field is automatically added to the `[value].json`. You must never edit this!
+-   When a pull request is merged the `uuid` field is automatically added to the `[value].json`. You must never add/edit this yourself!
 
 **Pull requests not meeting the requirements won't be merged (right away).**
 
