@@ -53,7 +53,8 @@ async function run() {
 		}
 
 		const details = fD.toObject(),
-			baselayout = readFileSync(`${lF}/layout.json`, 'utf-8')
+			baselayout = JSON.parse(readFileSync(`${lF}/layout.json`, 'utf-8'))
+                delete baselayout.Ready8X
 		let commonlayout = null
 		try {
 			commonlayout = readFileSync(`${lF}/common.json`, 'utf-8')
@@ -102,7 +103,7 @@ async function run() {
 		let resJson: any = {
 			uuid: details.uuid,
 			details,
-			baselayout,
+			baselayout: JSON.stringify(baselayout),
 			target: JSON.parse(baselayout).TargetName.replace(/.szs/i, ''),
 			last_updated: new Date(),
 			pieces: pcs,
