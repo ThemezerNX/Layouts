@@ -77,7 +77,7 @@ The `details.json` contains information to display on the website. You're allowe
 	"description": "", *
 	"creator_id": "", *
 	"color": "",
-	"version": "", *
+	"version": "" *
 }
 ```
 
@@ -91,12 +91,13 @@ The `details.json` contains information to display on the website. You're allowe
 
 -   When a pull request is merged the `uuid` field is automatically added to the `details.json`. You must never add/edit this yourself!
 -   Remove the color field if not in use.
+-   The version field should be updated if the base layout has changed. Not when pieces are added or updated.
 
 ## Pieces
 
--   Piece folders can have a prefix with a number: `1_`. This allows you to specify the order the layouts are applied in.
+-   Piece folders can have a prefix with a number: `1_`. This allows you to specify the order the pieces are applied in.
 -   The 'Piece Title' is shown on the website as the option.
--   A piece value json always requires a corresponding png. This png is an overly. The overlay must be made from the layout with only the piece it is for active. File names must **always** match.
+-   A piece value json always requires a corresponding png. This png is an overlay. The overlay must be made from the layout with only the piece it is for active. File names must **always** match.
 -   For a single value (toggle): the value file name does not matter (although they must still match) as it becomes a toggle with the 'Piece Title'
 -   For a dropdown: the values filenames _do_ matter. Every value file name will be an entry in the dropdown.
 -   When a pull request is merged the `uuid` field is automatically added to the `[value].json`. You must never add/edit this yourself!
