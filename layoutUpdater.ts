@@ -1,20 +1,8 @@
-require('dotenv').config()
 import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 import { uuid } from 'uuidv4'
-const pgPromise = require('pg-promise')
 import { accessSync, constants, readdirSync, statSync, readFileSync } from 'fs'
-
-const config = {
-	host: process.env.POSTGRES_HOST,
-	port: process.env.POSTGRES_PORT,
-	database: process.env.POSTGRES_DB,
-	user: process.env.POSTGRES_USER,
-	password: process.env.POSTGRES_PASSWORD,
-}
-
-export const pgp = pgPromise({ capSQL: true })
-export const db = pgp(config)
+import { pgp, db } from './db'
 
 const exist = (dir) => {
 	try {
@@ -54,8 +42,8 @@ async function run() {
 
 		const details = fD.toObject(),
 			fBL = editJsonFile(`${lF}/layout.json`)
-                fBL.unset('Ready8X')
-                fBL.save()
+		fBL.unset('Ready8X')
+		fBL.save()
 
 		let commonlayout = null
 		try {

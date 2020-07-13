@@ -5,6 +5,7 @@ package-lock.json
 
 layoutUpdater.js
 symlinkCreator.js
+localCreatorsUpdater.js
 
 # MacOS-generated files
 .DS_Store
