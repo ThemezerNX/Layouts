@@ -1,0 +1,21 @@
+{
+	"Files": [
+		{
+			"PaneName": "L_BtnResume",
+			"Position": {
+				"X": -180,
+				"Y": -300,
+				"Z": 0
+			}
+		},
+		{
+			"PaneName": "N_CntHud",
+			"Position": {
+				"X": -180,
+				"Y": -14,
+				"Z": 0
+			}
+		}
+	],
+	"uuid": "44c5a3f7-302a-459f-8f32-eb28afcc931f"
+}

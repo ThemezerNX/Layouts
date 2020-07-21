@@ -1,0 +1,107 @@
+{
+	"PatchName": "Simple Layout Lockscreen",
+	"AuthorName": "Akai",
+	"TargetName": "Entrance.szs",
+	"Files": [
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_CntRMain",
+					"Position": {
+						"X": 300,
+						"Y": -299,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.4,
+						"Y": 0.4
+					}
+				},
+				{
+					"PaneName": "L_BtnResume",
+					"Position": {
+						"X": 1000,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "N_ChildLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_MarginChildLockHud",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_CntL",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_News",
+					"Position": {
+						"X": -100,
+						"Y": 36,
+						"Z": 0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNtf",
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Lock",
+					"Position": {
+						"X": -200,
+						"Y": -290,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					}
+				},
+				{
+					"PaneName": "L_BtnBack",
+					"Position": {
+						"X": -362,
+						"Y": -285,
+						"Z": 0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnChildLock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Hud.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Position": {
+						"X": -900,
+						"Y": -580,
+						"Z": 0
+					}
+				}
+			]
+		}
+	]
+}

@@ -33,7 +33,8 @@ async function run() {
 				liked_creators varchar[],
 				liked_layouts uuid[],
 				liked_themes uuid[],
-				liked_packs uuid[]
+				liked_packs uuid[],
+				custom_username varchar
 				);
 			
 		-- Recreate constraints
