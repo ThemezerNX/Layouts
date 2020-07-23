@@ -1,0 +1,50 @@
+{
+	"Files": [
+		{
+			"FileName": "blyt/FlcBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_IconGame",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["38"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				}
+			]
+		}
+	],
+	"uuid": "2ee3f0bc-9140-402e-bdfc-d50042c4d45e"
+}
