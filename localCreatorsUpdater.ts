@@ -31,10 +31,10 @@ async function run() {
 				backup_code varchar,
 				old_ids varchar[],
 				liked_creators varchar[],
-				liked_layouts uuid[],
-				liked_themes uuid[],
-				liked_packs uuid[],
 				custom_username varchar
+				liked_layouts int[],
+				liked_packs int[],
+				liked_themes int[],
 				);
 			
 		-- Recreate constraints
