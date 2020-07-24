@@ -24,6 +24,8 @@ A user should **never modify the ID value manually** in a downloaded layout from
 
 # **Submitting**
 
+If you really, really don't like reading [start here](#Layout-Submission-Example).
+
 ## **- Layouts**
 
 Layout and piece submissions happen through pull requests.
