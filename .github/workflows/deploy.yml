@@ -43,7 +43,7 @@ jobs:
                     git commit -am "Prettify & Automated UUID generation"
                     git push
                   fi
-            - name: Updating storage
+            - name: Updating cdn
               uses: appleboy/ssh-action@master
               with:
                   host: ${{ secrets.SSHHOST }}
@@ -54,8 +54,8 @@ jobs:
                       git reset --hard
                       git pull
                       yarn
-                      # rm -rfd /home/themezer/storage
+                      # rm -rfd /home/themezer/cdn
                       yarn run symlink:compile
                       yarn run symlink
-                      find /home/themezer/storage -xtype l -delete
-                      find /home/themezer/storage -type d -empty -delete
+                      find /home/themezer/cdn -xtype l -delete
+                      find /home/themezer/cdn -type d -empty -delete
