@@ -26,7 +26,7 @@ A user should **never modify the ID value manually** in a downloaded layout from
 
 If you really, really don't like reading [start here](#Layout-Submission-Example).
 
-## **- Layouts**
+## **Layouts**
 
 Layout and piece submissions happen through pull requests.
 Anyone with a GitHub account can contribute.
@@ -69,7 +69,7 @@ This repository has the following structure:
     -   `Psl` (Player Select)
     -   `MyPage` (User Page)
 
-## **- Pieces (optional)**
+## **Pieces (optional)**
 
 -   Piece folders should have a prefix: `1_`. This allows you to specify the order the pieces are applied in.
 -   The 'Piece Title' is shown on the website as the option.
@@ -78,7 +78,7 @@ This repository has the following structure:
 -   For a dropdown: the values filenames _do_ matter. Every value file name will be an entry in the dropdown.
 -   When a pull request is merged the `uuid` field is automatically added to the `[value].json`. You must never add/edit this yourself!
 
-## **- The `details.json`**
+## **The `details.json`**
 
 The `details.json` contains information to display on the website. You're allowed to edit the following fields:
 
