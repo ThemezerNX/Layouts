@@ -132,7 +132,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu
 2. Go to the correct 'target file' (see ['Submitting' -> 'Layouts' -> 'Notes'](###Notes:)) your layout is for.
 3. Create a folder with the name of your layout, enter it.
 4. Copy the layout json file to your layout folder as `layout.json`.  
-   Also copy the common json (if you have any) as `common.json`
+   Also copy the common json (if you have one) as `common.json`
 5. Make sure to remove the `ID` and `Ready8X` fields from the `layout.json` and (if applicable) the `common.json`.
 6. Create a `details.json` and paste the following contents **and fill in your own**:
 
@@ -147,7 +147,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu
 
 8. Create a layout overlay by following the ['Creating Overlays' guide](##3.-Creating-overlays) and save it as `overlay.png` in your layout folder.
 
-## **Advanced**
+## **Advanced: pieces**
 
 9. Create a `pieces` folder, enter it.
 10. Create a folder for the option you want e.g. `1_Hide eShop button` (this is displayed on Themezer), enter it.
