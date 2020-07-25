@@ -1,14 +1,7 @@
 import 'source-map-support/register'
 const editJsonFile = require('edit-json-file')
 const link = require('fs-symlink')
-import {
-	accessSync,
-	constants,
-	readFileSync,
-	readdirSync,
-	statSync,
-	existsSync,
-} from 'fs'
+import { accessSync, constants, readFileSync, readdirSync, statSync, existsSync } from 'fs'
 
 const exist = (dir) => {
 	try {
@@ -22,10 +15,7 @@ const exist = (dir) => {
 async function run() {
 	const targetFolders = readdirSync('./').filter(
 		(lF) =>
-			!lF.startsWith('@') &&
-			!lF.startsWith('.') &&
-			!lF.startsWith('node_modules') &&
-			statSync(lF).isDirectory()
+			!lF.startsWith('@') && !lF.startsWith('.') && !lF.startsWith('node_modules') && statSync(lF).isDirectory()
 	)
 
 	const layoutFolders = []
@@ -41,11 +31,10 @@ async function run() {
 		let file = editJsonFile(`${lF}/details.json`)
 		const details = file.toObject()
 
-		if (existsSync(`./${lF}/overlay.png`))
-			link(
-				`./${lF}/overlay.png`,
-				`../storage/layouts/${details.uuid}/overlay.png`
-			)
+		if (existsSync(`./${lF}/overlay.png`)) {
+			console.log(`./${lF}/overlay.png`, `../storage/layouts/${details.uuid}/overlay.png`)
+			link(`./${lF}/overlay.png`, `../storage/layouts/${details.uuid}/overlay.png`)
+		}
 
 		if (exist(`${lF}/pieces`)) {
 			const opts = readdirSync(`${lF}/pieces`)
@@ -58,10 +47,7 @@ async function run() {
 				const images = values.filter((v) => v.endsWith('.png'))
 
 				images.forEach((j) => {
-					link(
-						`./${lF}/pieces/${op}/${j}`,
-						`../storage/layouts/${details.uuid}/pieces/${optionName}/${j}`
-					)
+					link(`./${lF}/pieces/${op}/${j}`, `../storage/layouts/${details.uuid}/pieces/${optionName}/${j}`)
 				})
 			})
 		}
