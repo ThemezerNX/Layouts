@@ -32,8 +32,8 @@ async function run() {
 		const details = file.toObject()
 
 		if (existsSync(`./${lF}/overlay.png`)) {
-			console.log(`./${lF}/overlay.png`, `../storage/layouts/${details.uuid}/overlay.png`)
-			link(`./${lF}/overlay.png`, `../storage/layouts/${details.uuid}/overlay.png`)
+			console.log(`./${lF}/overlay.png`, `../cdn/layouts/${details.uuid}/overlay.png`)
+			link(`./${lF}/overlay.png`, `../cdn/layouts/${details.uuid}/overlay.png`)
 		}
 
 		if (exist(`${lF}/pieces`)) {
@@ -47,7 +47,7 @@ async function run() {
 				const images = values.filter((v) => v.endsWith('.png'))
 
 				images.forEach((j) => {
-					link(`./${lF}/pieces/${op}/${j}`, `../storage/layouts/${details.uuid}/pieces/${optionName}/${j}`)
+					link(`./${lF}/pieces/${op}/${j}`, `../cdn/layouts/${details.uuid}/pieces/${optionName}/${j}`)
 				})
 			})
 		}
