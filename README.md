@@ -3,11 +3,11 @@
 ![Deploy](https://github.com/ThemezerNX/Layouts/workflows/Deploy/badge.svg)
 
 This repository holds all layouts with pieces available on the website.
-Pieces are small json files with patches for the original layout. This way the visitor can modify the layout using the available pieces to their taste. The Themezer website downloads the layout and saves the layout uuid and pieces uuids as a string in the ID field in the layout.json.
+Pieces are small json files with patches for the original layout. This way the visitor can modify the layout to their taste. The Themezer website downloads the layout and saves the layout id and pieces uuids as a string in the ID field in the layout.json.
 For Themezer this ID string has the following structure:
 
 ```
-<service>:[layout uuid]|[pieces uuids separated by ',']
+<service>:[layout id]|[pieces uuids separated by ',']
 ```
 
 An example:
@@ -16,7 +16,7 @@ An example:
     ...
     "AuthorName": "Name",
     "TargetName": "ResidentMenu.szs",
-    "ID": "Themezer:e4446038-b47a-11ea-b3de-0242ac130004|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
+    "ID": "Themezer:0000f|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
     ...
 ```
 
