@@ -56,7 +56,7 @@ This repository has the following structure:
                 //  ^ Multiple values become a dropdown
 ```
 
-### **Notes 2:**
+### **Notes:**
 
 -   For every layout, an overlay.png is required.
 -   For every piece value, a png is required.
@@ -100,7 +100,7 @@ The `details.json` contains information to display on the website. You're allowe
 -   `color`: A hex color to display behind the overlay (example: `#7ca982`)
 -   `version`: A string with the layout version (example: "1.0")
 
-### **Notes 1:**
+### **Notes:**
 
 -   When a pull request is merged the `uuid` field is automatically added to the `details.json`. You must never add/edit this yourself!
 -   Remove the color field if not in use.
@@ -131,7 +131,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu
 ## **Basic**
 
 1. [Fork the repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
-2. Go to the correct 'target file' (see ['Submitting' -> 'Layouts' -> 'Notes-1'](###Notes-1)) your layout is for.
+2. Go to the correct 'target file' (see ['Submitting' -> 'Layouts' -> 'Notes'](###Notes)) your layout is for.
 3. Create a folder with the name of your layout, enter it.
 4. Copy the layout json file to your layout folder as `layout.json`.  
    Also copy the common json (if you have one) as `common.json`
