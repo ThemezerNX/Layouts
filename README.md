@@ -117,8 +117,8 @@ Simple explanation:
 1.  Open a layout and optionally a piece your want to patch the json file with and/or common layout. - Click 'GET'. The tool will return two NXThemes: one with a black and one with a white background.
 2.  Transfer the themes to the `themes` folder on your SD card.
 
-For the following two steps you will have to change your system theme. For example [Flow Layout](https://themezer.ga/layouts/homemenu/Flow-Layout-5) has background panes, so the HUD, controller icon and buttons are readable. You may choose yourself if you want the screenshot to have the light or dark mode.
-Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu/Small-Compact-Homescreen-15). Here there is no pane behind the hud, controller icon and buttons. The text would be unreadable due to the dark background on Themezer if screenshot was taken with light mode, so you should set it in dark mode here **OR** set a custom (lighter) background color in the `details.json` via the `color` field.
+For the following two steps you will have to change your system theme. For example [Flow Layout](https://themezer.ga/layouts/homemenu/Flow-Layout-00005) has background panes, so the HUD, controller icon and buttons are readable. You may choose yourself if you want the screenshot to have the light or dark mode.
+Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu/Small-Compact-Homescreen-0000f). Here there is no pane behind the hud, controller icon and buttons. The text would be unreadable due to the dark background on Themezer if screenshot was taken with light mode, so you should set it in dark mode here **OR** set a custom (lighter) background color in the `details.json` via the `color` field.
 
 3.  Install one theme, reboot, take a screenshot.
 4.  Install the other theme, reboot take a screeshot.
