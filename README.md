@@ -131,7 +131,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu
 ## **Basic**
 
 1. [Fork the repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
-2. Go to the correct 'target file' (see ['Submitting' -> 'Layouts' -> 'Notes'](###Notes:)) your layout is for.
+2. Go to the correct 'target file' (see ['Submitting' -> 'Layouts' -> 'Notes'](###Notes)) your layout is for.
 3. Create a folder with the name of your layout, enter it.
 4. Copy the layout json file to your layout folder as `layout.json`.  
    Also copy the common json (if you have one) as `common.json`
@@ -142,7 +142,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu
 {
 	"name": "<The name of your layout>",
 	"description": "<A description of what your layout looks like or whatever>",
-	"creator_id": "<your creator ID>",
+	"creator_id": "<your creator ID (the ID in the url when you go to your profile on Themezer)>",
 	"version": "<Anything will do here, from '1.0' to 'boomer1'>"
 }
 ```
