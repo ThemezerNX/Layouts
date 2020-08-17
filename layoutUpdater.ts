@@ -42,8 +42,11 @@ async function run() {
 
 		const details = fD.toObject(),
 			fBL = editJsonFile(`${lF}/layout.json`)
-		fBL.unset('Ready8X')
-		fBL.save()
+
+		if (details.creator_id !== '0') {
+			fBL.unset('Ready8X')
+			fBL.save()
+		}
 
 		let commonlayout = null
 		try {
@@ -90,11 +93,13 @@ async function run() {
 			})
 		}
 
+		const layout_str = JSON.stringify(fBL.toObject())
+
 		let resJson: any = {
 			uuid: details.uuid,
 			details,
-			baselayout: JSON.stringify(fBL.toObject()),
-			target: fBL.get('TargetName').replace(/.szs/i, ''),
+			baselayout: layout_str !== '{}' ? layout_str : null,
+			target: fBL.get('TargetName')?.replace(/.szs/i, '') || lF.split('/')[0],
 			last_updated: new Date(),
 			pieces: pcs,
 			commonlayout,
