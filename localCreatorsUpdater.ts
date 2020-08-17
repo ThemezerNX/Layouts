@@ -19,7 +19,7 @@ async function run() {
 		SELECT *
 		FROM dblink('hostaddr=${process.env.POSTGRES_PROD_HOST} dbname=${process.env.POSTGRES_PROD_DB} user=${process.env.POSTGRES_PROD_USER} password=${process.env.POSTGRES_PROD_PASSWORD}',
 				'select * from creators')
-			AS t1(role varchar,
+			AS t1(
 				bio varchar,
 				joined timestamp without time zone,
 				discord_user json,
@@ -34,7 +34,8 @@ async function run() {
 				custom_username varchar,
 				liked_layouts int[],
 				liked_packs int[],
-				liked_themes int[]
+				liked_themes int[],
+				roles varchar[]
 				);
 			
 		-- Recreate constraints
