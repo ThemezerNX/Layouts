@@ -96,7 +96,7 @@ The `details.json` contains information to display on the website. You're allowe
 
 -   `name`: The name of the layout
 -   `description`: A short description of your layout
--   `creator_id`: Your discord user id. You can find this by visiting [this page](https://themezer.ga/me) on Themezer. The id will be displayed in the url. You must login **at least once** before submitting.
+-   `creator_id`: Your discord user id. You can find this by visiting [this page](https://themezer.net/me) on Themezer. The id will be displayed in the url. You must login **at least once** before submitting.
 -   `color`: A hex color to display behind the overlay (example: `#7ca982`)
 -   `version`: A string with the layout version (example: "1.0")
 
@@ -110,15 +110,15 @@ The `details.json` contains information to display on the website. You're allowe
 
 ## **3. Creating Overlays**
 
-[There is a tool for this on the Themezer website.](https://themezer.ga/tools/overlaycreator)
+[There is a tool for this on the Themezer website.](https://themezer.net/tools/overlaycreator)
 
 Simple explanation:
 
 1.  Open a layout and optionally a piece your want to patch the json file with and/or common layout. - Click 'GET'. The tool will return two NXThemes: one with a black and one with a white background.
 2.  Transfer the themes to the `themes` folder on your SD card.
 
-For the following two steps you will have to change your system theme. For example [Flow Layout](https://themezer.ga/layouts/homemenu/Flow-Layout-00005) has background panes, so the HUD, controller icon and buttons are readable. You may choose yourself if you want the screenshot to have the light or dark mode.
-Now lets look at [Small Compact Homescreen](https://themezer.ga/layouts/homemenu/Small-Compact-Homescreen-0000f). Here there is no pane behind the hud, controller icon and buttons. The text would be unreadable due to the dark background on Themezer if screenshot was taken with light mode, so you should set it in dark mode here **OR** set a custom (lighter) background color in the `details.json` via the `color` field.
+For the following two steps you will have to change your system theme. For example [Flow Layout](https://themezer.net/layouts/homemenu/Flow-Layout-00005) has background panes, so the HUD, controller icon and buttons are readable. You may choose yourself if you want the screenshot to have the light or dark mode.
+Now lets look at [Small Compact Homescreen](https://themezer.net/layouts/homemenu/Small-Compact-Homescreen-0000f). Here there is no pane behind the hud, controller icon and buttons. The text would be unreadable due to the dark background on Themezer if screenshot was taken with light mode, so you should set it in dark mode here **OR** set a custom (lighter) background color in the `details.json` via the `color` field.
 
 3.  Install one theme, reboot, take a screenshot.
 4.  Install the other theme, reboot take a screeshot.
