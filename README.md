@@ -149,7 +149,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.net/layouts/homemen
 
 8. Create a layout overlay by following the ['Creating Overlays' guide](##3.-Creating-overlays) and save it as `overlay.png` in your layout folder.
 
-If with the above instructions, you're still inclear what to do, dm me (Migush#4096) on Discord.
+_If with the above instructions, you're still not sure what to do, dm me (Migush#4096) on Discord._
 
 ## **Advanced: pieces**
 
