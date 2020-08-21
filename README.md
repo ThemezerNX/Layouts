@@ -16,7 +16,7 @@ An example:
     ...
     "AuthorName": "Name",
     "TargetName": "ResidentMenu.szs",
-    "ID": "Themezer:0000f|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
+    "ID": "Themezer:1a|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
     ...
 ```
 
@@ -24,7 +24,7 @@ A user should **never modify the ID value manually** in a downloaded layout from
 
 # **Submitting**
 
-If you really, really don't like reading [start here](#Layout-Submission-Example).
+If you really, really don't like reading or this is just too technical for you: [start reading here](#Layout-Submission-Example).
 
 ## **Layouts**
 
