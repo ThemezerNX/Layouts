@@ -16,7 +16,7 @@ An example:
     ...
     "AuthorName": "Name",
     "TargetName": "ResidentMenu.szs",
-    "ID": "Themezer:0000f|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
+    "ID": "Themezer:1a|e96002f2-b47a-11ea-b3de-0242ac130004,f057c2f2-b47a-11ea-b3de-0242ac130004",
     ...
 ```
 
@@ -24,7 +24,7 @@ A user should **never modify the ID value manually** in a downloaded layout from
 
 # **Submitting**
 
-If you really, really don't like reading [start here](#Layout-Submission-Example).
+If you really, really don't like reading or this is just too technical for you: [start reading here](#Layout-Submission-Example).
 
 ## **Layouts**
 
@@ -148,6 +148,8 @@ Now lets look at [Small Compact Homescreen](https://themezer.net/layouts/homemen
 ```
 
 8. Create a layout overlay by following the ['Creating Overlays' guide](##3.-Creating-overlays) and save it as `overlay.png` in your layout folder.
+
+_If with the above instructions, you're still not sure what to do, dm me (Migush#4096) on Discord._
 
 ## **Advanced: pieces**
 
