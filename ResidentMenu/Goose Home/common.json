@@ -1,0 +1,15 @@
+{
+	"PatchName": "Goose Common",
+	"AuthorName": "Goose",
+	"Files": [
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

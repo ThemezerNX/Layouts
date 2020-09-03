@@ -1,0 +1,248 @@
+{
+	"PatchName": "Goose Home",
+	"AuthorName": "Goose",
+	"TargetName": "ResidentMenu.szs",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBase.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_ScrollArea",
+					"Position": {
+						"X": 0,
+						"Y": -142,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "N_ScrollWindow",
+					"Position": {
+						"X": 0,
+						"Y": -142,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "N_GameRoot",
+					"Position": {
+						"X": -80,
+						"Y": -150,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnChangeUser",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_System",
+					"Position": {
+						"X": -303,
+						"Y": 295,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnNoti",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnShop",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnPvr",
+					"Position": {
+						"X": -31,
+						"Y": 0,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					}
+				},
+				{
+					"PaneName": "L_BtnCtrl",
+					"Position": {
+						"X": -103,
+						"Y": 0,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					}
+				},
+				{
+					"PaneName": "L_BtnSet",
+					"Position": {
+						"X": -175,
+						"Y": 0,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					}
+				},
+				{
+					"PaneName": "L_BtnPow",
+					"Position": {
+						"X": -247,
+						"Y": 0,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					}
+				},
+				{
+					"PaneName": "L_ChildLock",
+					"Position": {
+						"X": 584,
+						"Y": 295,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_00",
+					"Position": {
+						"X": 41,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_01",
+					"Position": {
+						"X": 113,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_02",
+					"Position": {
+						"X": 185,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_03",
+					"Position": {
+						"X": 257,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_04",
+					"Position": {
+						"X": 329,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_05",
+					"Position": {
+						"X": 401,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_06",
+					"Position": {
+						"X": 473,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_07",
+					"Position": {
+						"X": 545,
+						"Y": 0,
+						"Z": 0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnFullLauncher.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPow.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnSet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnCtrl.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPvr.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnMyPage.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnChildLock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		}
+	]
+}
