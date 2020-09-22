@@ -147,7 +147,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.net/layouts/homemen
 }
 ```
 
-8. Create a layout overlay by following the ['Creating Overlays' guide](#3.-Creating-overlays) and save it as `overlay.png` in your layout folder.
+8. Create a layout overlay by following the ['Creating Overlays' guide](#3-Creating-overlays) and save it as `overlay.png` in your layout folder.
 
 _If with the above instructions, you're still not sure what to do, dm me (Migush#4096) on Discord._
 
@@ -167,7 +167,7 @@ This basically has the same structure as a `layout.json` file, but the only thre
 
 The values your add in this json will overwrite the values in the normal `layout.json`
 
-2.  Create another overlay using the ['Creating Overlays' guide](#3.-Creating-overlays). Make sure to select the `enable.json` (or whatever you called it). Save the png as `enable.png`. It alwasy has to have the same file**name** (not file **extension**) as the json.
+2.  Create another overlay using the ['Creating Overlays' guide](#3-Creating-overlays). Make sure to select the `enable.json` (or whatever you called it). Save the png as `enable.png`. It alwasy has to have the same file**name** (not file **extension**) as the json.
 
 ### **Dropdown**
 
