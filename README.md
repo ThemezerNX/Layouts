@@ -24,7 +24,7 @@ A user should **never modify the ID value manually** in a downloaded layout from
 
 # **Submitting**
 If you'd like to try for yourself [start reading here](#Layout-Submission-Example).  
-If you really, really don't like reading or this is just too technical for you: DM Migush#4096 on discord and send the layout.
+If you really, really don't like reading or this is just too technical for you: **DM Migush#4096 on discord** and send the layout.
 
 ## **Layouts**
 
