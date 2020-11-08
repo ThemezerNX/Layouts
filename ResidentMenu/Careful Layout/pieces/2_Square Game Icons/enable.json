@@ -1,0 +1,231 @@
+{
+    "Files": [
+        {
+            "FileName": "blyt/RdtBtnFullLauncher.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_PictBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Pict_00",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_PictBase_00",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Pict_01",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_PictBase_01",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Pict_02",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_PictBase_02",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Pict_03",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_PictBase_03",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnDecideKey",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "N_BtnFocusKey",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Effect",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Main",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BtnBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_DropShadowDistance",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_IconGame",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_DropShadowVolume",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_DropShadowDistance",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Blank",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_DropShadowDistance",
+                            "__self": null
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnDecideKey",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "__self": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
