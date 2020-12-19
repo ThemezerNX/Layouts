@@ -8,9 +8,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"30"
-							],
+							"PropValues": ["30"],
 							"type": 2
 						}
 					]
@@ -20,9 +18,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -32,9 +28,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -44,9 +38,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -56,9 +48,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -68,9 +58,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -80,9 +68,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -92,9 +78,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -104,9 +88,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -116,9 +98,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -128,9 +108,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"40"
-							],
+							"PropValues": ["40"],
 							"type": 2
 						}
 					]
@@ -140,9 +118,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"30"
-							],
+							"PropValues": ["30"],
 							"type": 2
 						}
 					]
@@ -152,9 +128,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"30"
-							],
+							"PropValues": ["30"],
 							"type": 2
 						}
 					]
@@ -169,16 +143,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
@@ -188,16 +158,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
@@ -212,16 +178,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowDistance",
-							"PropValues": [
-								"15"
-							],
+							"PropValues": ["15"],
 							"type": 2
 						}
 					]
@@ -231,30 +193,22 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowVolume",
-							"PropValues": [
-								"2,8"
-							],
+							"PropValues": ["2,8"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowDistance",
-							"PropValues": [
-								"0"
-							],
+							"PropValues": ["0"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowSize",
-							"PropValues": [
-								"8"
-							],
+							"PropValues": ["8"],
 							"type": 2
 						}
 					]
@@ -264,23 +218,17 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowDistance",
-							"PropValues": [
-								"1"
-							],
+							"PropValues": ["1"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowSize",
-							"PropValues": [
-								"8"
-							],
+							"PropValues": ["8"],
 							"type": 2
 						}
 					]
@@ -290,9 +238,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
@@ -302,9 +248,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
@@ -314,16 +258,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"8"
-							],
+							"PropValues": ["8"],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"20"
-							],
+							"PropValues": ["20"],
 							"type": 2
 						}
 					]
