@@ -1,0 +1,26 @@
+{
+    "Files": [
+        {
+            "FileName": "blyt/RdtBase.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnShop",
+                    "Position": {
+                        "X": 283,
+                        "Y": 0,
+                        "Z": 0
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnCtrl",
+                    "Position": {
+                        "X": 444,
+                        "Y": -64,
+                        "Z": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
