@@ -1,17 +1,18 @@
 {
-    "Files": [
-        {
-            "FileName": "blyt/Hud.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "RootPane",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_Root",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"Files": [
+		{
+			"FileName": "blyt/Hud.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				}
+			]
+		}
+	],
+	"uuid": "001c656c-8716-4aea-b062-a3ccd4a9e11d"
 }
