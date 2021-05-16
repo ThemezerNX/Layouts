@@ -4,28 +4,6 @@
 	"TargetName": "Entrance.szs",
 	"Files": [
 		{
-			"FileName": "blyt/EntIconPromotion.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_Promotion"
-				},
-				{
-					"PaneName": "T_TimeLimit"
-				}
-			]
-		},
-		{
-			"FileName": "blyt/EntBtnCenterNtf.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_00"
-				},
-				{
-					"PaneName": "T_01"
-				}
-			]
-		},
-		{
 			"FileName": "blyt/HudTime.bflyt",
 			"Patches": [
 				{
@@ -45,25 +23,6 @@
 				{
 					"GroupName": "G_TimeFormatMigush",
 					"Panes": ["N_Root", "N_AMPM"]
-				}
-			]
-		},
-		{
-			"FileName": "blyt/BtnPageArwLR.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_00"
-				},
-				{
-					"PaneName": "T_01"
-				}
-			]
-		},
-		{
-			"FileName": "blyt/EntBtnLock.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_00"
 				}
 			]
 		},
@@ -139,36 +98,12 @@
 					}
 				},
 				{
-					"PaneName": "L_Lock"
-				},
-				{
-					"PaneName": "L_BtnSystemAppletLock"
-				},
-				{
 					"PaneName": "L_BtnResume",
 					"Position": {
 						"X": 465,
 						"Y": -290,
 						"Z": 0
 					}
-				},
-				{
-					"PaneName": "L_BtnNewsLock"
-				},
-				{
-					"PaneName": "L_BtnNewsListLock"
-				},
-				{
-					"PaneName": "L_BtnNtf"
-				},
-				{
-					"PaneName": "L_AlarmGoEnt"
-				},
-				{
-					"PaneName": "L_AlarmBtnPagerR"
-				},
-				{
-					"PaneName": "L_AlarmBtnPagerL"
 				},
 				{
 					"PaneName": "L_Hud",
@@ -179,50 +114,8 @@
 					}
 				},
 				{
-					"PaneName": "L_AlarmGoSet"
-				},
-				{
-					"PaneName": "L_BtnGame"
-				},
-				{
 					"PaneName": "N_Home",
 					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnSystemApplet"
-				},
-				{
-					"PaneName": "L_BtnNewsSpecial"
-				},
-				{
-					"PaneName": "L_BtnNewsSpecialLock"
-				},
-				{
-					"PaneName": "T_AlarmHeader"
-				},
-				{
-					"PaneName": "T_AlarmTime"
-				},
-				{
-					"PaneName": "L_AlarmBtnResume"
-				},
-				{
-					"PaneName": "L_AlarmBtnUser"
-				},
-				{
-					"PaneName": "L_BtnHome"
-				},
-				{
-					"PaneName": "L_BtnNews_00"
-				},
-				{
-					"PaneName": "L_BtnNews_01"
-				},
-				{
-					"PaneName": "L_BtnNews_02"
-				},
-				{
-					"PaneName": "T_BalloonRecommend"
 				}
 			],
 			"AddGroups": [
@@ -281,39 +174,6 @@
 			]
 		},
 		{
-			"FileName": "blyt/EntBtnSpecialNtfLock.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_Title"
-				}
-			]
-		},
-		{
-			"FileName": "blyt/EntBtnSpecialNtf.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_Title"
-				}
-			]
-		},
-		{
-			"FileName": "blyt/EntBtnChildLock.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_On"
-				},
-				{
-					"PaneName": "T_Off"
-				},
-				{
-					"PaneName": "T_AlarmDisabled"
-				},
-				{
-					"PaneName": "T_Over"
-				}
-			]
-		},
-		{
 			"FileName": "blyt/EntBtnResumeSystemApplet.bflyt",
 			"Patches": [
 				{
@@ -363,15 +223,6 @@
 						"Y": -0.2,
 						"Z": 0
 					}
-				},
-				{
-					"PaneName": "L_GTNum_00"
-				},
-				{
-					"PaneName": "L_GTNum_01"
-				},
-				{
-					"PaneName": "L_GTNum_02"
 				}
 			]
 		},
@@ -387,9 +238,6 @@
 							"type": 2
 						}
 					]
-				},
-				{
-					"PaneName": "T_00"
 				}
 			],
 			"Materials": [
@@ -397,14 +245,6 @@
 					"MaterialName": "P_Pict",
 					"ForegroundColor": "00000000",
 					"BackgroundColor": "FFFFFFFF"
-				}
-			]
-		},
-		{
-			"FileName": "blyt/EntBtnCenterAlarmClose.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_00"
 				}
 			]
 		},
@@ -495,23 +335,6 @@
 							"type": 2
 						}
 					]
-				},
-				{
-					"PaneName": "T_00"
-				},
-				{
-					"PaneName": "T_BtnB"
-				}
-			]
-		},
-		{
-			"FileName": "blyt/BatteryConsole.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Num_01"
-				},
-				{
-					"PaneName": "L_Num_02"
 				}
 			]
 		}
