@@ -1,0 +1,36 @@
+{
+  "PatchName": "Mockup UI Bottom",
+  "AuthorName": "mustachecatto",
+  "Files": [
+    {
+      "FileName": "blyt/FooterAll.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Line_01",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_Line_02",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Right",
+          "Position": {
+            "X": 640.0,
+            "Y": 29.0,
+            "Z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/LineFooter.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Line",
+          "Visible": false
+        }
+      ]
+    }
+  ]
+}
