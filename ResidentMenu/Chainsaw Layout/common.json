@@ -1,51 +1,51 @@
 {
-    "PatchName": "Complete No Footer Common",
-    "TargetName": "common.szs",
-    "AuthorName": "NSX",
-    "Files": [
-        {
-            "FileName": "blyt/Footer.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Footer",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FooterAll.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Root_00",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineFooter.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FooterCtrl.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Root",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_CtrlDummy",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_Indi_00",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"PatchName": "Complete No Footer Common",
+	"TargetName": "common.szs",
+	"AuthorName": "NSX",
+	"Files": [
+		{
+			"FileName": "blyt/Footer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Footer",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterAll.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root_00",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterCtrl.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_CtrlDummy",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Indi_00",
+					"Visible": false
+				}
+			]
+		}
+	]
 }

@@ -3,5 +3,6 @@
 	"description": "A Layout based on Reddit user Nintenbits' design (https://www.reddit.com/r/NintendoSwitch/comments/5luxp3/mockup_nintendo_switch_home_screen_ui/). Use the background template from here: https://github.com/ThemezerNX/Layouts/tree/master/ResidentMenu/Mockup%20UI/resources",
 	"creator_id": "174983369296183298",
 	"color": "#3766bb",
-	"version": "1.0.0"
+	"version": "1.0.0",
+	"uuid": "07898a30-9b8e-4fe4-87c7-2f2598e5a076"
 }
