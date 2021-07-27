@@ -60,9 +60,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"7"
-							],
+							"PropValues": ["7"],
 							"type": 2
 						}
 					]
@@ -72,9 +70,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"7"
-							],
+							"PropValues": ["7"],
 							"type": 2
 						}
 					]
@@ -504,9 +500,7 @@
 			"AddGroups": [
 				{
 					"GroupName": "G_BatteryNumCustom",
-					"Panes": [
-						"N_BatteryNum"
-					]
+					"Panes": ["N_BatteryNum"]
 				}
 			]
 		},
