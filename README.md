@@ -23,6 +23,7 @@ An example:
 A user should **never modify the ID value manually** in a downloaded layout from Themezer.
 
 # **Submitting**
+
 If you'd like to try for yourself [start reading here](#Layout-Submission-Example).  
 If you really, really don't like reading or this is just too technical for you: **DM Migush#4096 on Discord** and send the layout.
 
@@ -89,8 +90,7 @@ The `details.json` contains information to display on the website. You're allowe
 	"name": "", *
 	"description": "", *
 	"creator_id": "", *
-	"color": "",
-	"version": "" *
+	"color": ""
 }
 ```
 
@@ -98,13 +98,11 @@ The `details.json` contains information to display on the website. You're allowe
 -   `description`: A short description of your layout
 -   `creator_id`: Your discord user id. You can find this by visiting [this page](https://themezer.net/me) on Themezer. The id will be displayed in the url. You must login **at least once** before submitting.
 -   `color`: A hex color to display behind the overlay (example: `#7ca982`)
--   `version`: A string with the layout version (example: "1.0")
 
 ### **Notes:**
 
 -   When a pull request is merged the `uuid` field is automatically added to the `details.json`. You must never add/edit this yourself!
 -   Remove the color field if not in use.
--   The version field should be updated if the base layout has changed. Not when pieces are added or updated.
 
 **Pull requests not meeting the requirements won't be merged (right away).**
 
@@ -142,8 +140,7 @@ Now lets look at [Small Compact Homescreen](https://themezer.net/layouts/homemen
 {
 	"name": "<The name of your layout>",
 	"description": "<A description of what your layout looks like or whatever>",
-	"creator_id": "<your creator ID (the ID in the url when you go to your profile on Themezer)>",
-	"version": "<Anything will do here, from '1.0' to 'boomer1'>"
+	"creator_id": "<your creator ID (the ID in the url when you go to your profile on Themezer)>"
 }
 ```
 
