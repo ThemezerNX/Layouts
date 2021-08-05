@@ -1,17 +1,18 @@
 {
-    "Files": [
-        {
-            "FileName": "blyt/FlcCntMain.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Btm",
-                    "Visible": true
-                },
-                {
-                    "PaneName": "L_Shop",
-                    "Visible": true
-                }
-            ]
-        }
-    ]
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Btm",
+					"Visible": true
+				},
+				{
+					"PaneName": "L_Shop",
+					"Visible": true
+				}
+			]
+		}
+	],
+	"uuid": "e1e2dfe5-f5b1-4d38-8cd2-bcad96d25407"
 }

@@ -1,16 +1,16 @@
 {
-  "PatchName": "No Footer",
-  "AuthorName": "Glowmoss",
-  "TargetName": "common.szs",
-  "Files": [
-    {
-      "FileName": "blyt/Footer.bflyt",
-      "Patches": [
-        {
-          "PaneName": "L_Footer",
-          "Visible": false
-        }
-      ]
-    }
-  ]
+	"PatchName": "No Footer",
+	"AuthorName": "Glowmoss",
+	"TargetName": "common.szs",
+	"Files": [
+		{
+			"FileName": "blyt/Footer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Footer",
+					"Visible": false
+				}
+			]
+		}
+	]
 }

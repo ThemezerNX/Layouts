@@ -1,5 +1,6 @@
 {
 	"name": "No Header",
 	"description": "A settings layout with no header. Remove the footer using a custom common layout. You can find this specific one on the Eternal Returnal or Banned layout pages.",
-	"creator_id": "345758496450412545"
+	"creator_id": "345758496450412545",
+	"uuid": "c0e9d805-ddff-41e3-a255-dd02f6bffbfd"
 }
