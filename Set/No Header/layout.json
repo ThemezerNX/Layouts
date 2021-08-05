@@ -1,16 +1,16 @@
 {
-  "PatchName": "No Header",
-  "AuthorName": "Glowmoss",
-  "TargetName": "Set.szs",
-  "Files": [
-    {
-      "FileName": "blyt/SetBaseHeader.bflyt",
-      "Patches": [
-        {
-          "PaneName": "L_Header",
-          "Visible": false
-        }
-      ]
-    }
-  ]
+	"PatchName": "No Header",
+	"AuthorName": "Glowmoss",
+	"TargetName": "Set.szs",
+	"Files": [
+		{
+			"FileName": "blyt/SetBaseHeader.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				}
+			]
+		}
+	]
 }
