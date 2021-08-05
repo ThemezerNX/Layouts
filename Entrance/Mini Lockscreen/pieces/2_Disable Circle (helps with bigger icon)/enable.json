@@ -1,0 +1,45 @@
+{
+	"Files": [
+		{
+			"FileName": "blyt/EntBtnResumeSystemApplet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Circle_00",
+					"Position": {
+						"X": 999999.0,
+						"Y": 999999.0,
+						"Z": 0.0
+					}
+				},
+				{
+					"PaneName": "P_Circle_01",
+					"Position": {
+						"X": 999999.0,
+						"Y": 999999.0,
+						"Z": 0.0
+					}
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_ImageEffect",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_CircleEffect_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_CircleEffect_01",
+					"Visible": false
+				}
+			]
+		}
+	]
+}
