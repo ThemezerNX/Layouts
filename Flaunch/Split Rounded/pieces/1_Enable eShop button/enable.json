@@ -1,0 +1,17 @@
+{
+    "Files": [
+        {
+            "FileName": "blyt/FlcCntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Btm",
+                    "Visible": true
+                },
+                {
+                    "PaneName": "L_Shop",
+                    "Visible": true
+                }
+            ]
+        }
+    ]
+}
