@@ -1,0 +1,13 @@
+{
+    "Files": [
+        {
+            "FileName": "blyt/SetBaseNav.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Child",
+                    "Visible": true
+                }
+            ]
+        }
+    ]
+}
