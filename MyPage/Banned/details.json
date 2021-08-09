@@ -1,7 +1,5 @@
 {
-	"name": "Default",
-	"description": "The default User Page layout",
-	"creator_id": "0",
-	"color": "#EBEBEB",
-	"uuid": "f3436b95-094f-4c0a-b106-28552c489351"
+	"name": "Banned",
+	"description": "A Banned user page layout with just the profile page.",
+	"creator_id": "345758496450412545"
 }
