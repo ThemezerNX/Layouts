@@ -1,0 +1,13 @@
+{
+  "Files": [
+    {
+      "FileName": "blyt/TextH1.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_Root",
+          "Visible": false
+        }
+      ]
+    }
+  ]
+}
