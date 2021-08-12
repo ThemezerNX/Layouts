@@ -1,298 +1,280 @@
 {
-  "PatchName": "Split All Apps 3 Rows",
-  "AuthorName": "Glowmoss",
-  "TargetName": "Flaunch.szs",
-  "Files": [
-    {
-      "FileName": "blyt/FlcCntMain.bflyt",
-      "Patches": [
-        {
-          "PaneName": "L_Header",
-          "Position": {
-            "X": 5128.0,
-            "Y": 2000.0
-          },
-          "Visible": false
-        },
-        {
-          "PaneName": "L_BtnIconGame_00",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_01",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_02",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_03",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_04",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_05",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_06",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "L_BtnIconGame_07",
-          "Size": {
-            "X": 1094.0,
-            "Y": 145.0
-          }
-        },
-        {
-          "PaneName": "N_Btm",
-          "Visible": false
-        },
-        {
-          "PaneName": "L_Shop",
-          "Visible": false
+	"PatchName": "Split All Apps 3 Rows",
+	"AuthorName": "Glowmoss",
+	"TargetName": "Flaunch.szs",
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Position": {
+						"X": 5128,
+						"Y": 2000
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnIconGame_00",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_01",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_02",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_03",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_04",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_05",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_06",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_07",
+					"Size": {
+						"X": 1094,
+						"Y": 145
+					}
+				},
+				{
+					"PaneName": "N_Btm",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Shop",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["7"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["7"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBtnIconGameBlock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_00",
+					"Position": {
+						"Y": 60
+					},
+					"Size": {
+						"X": 10,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "N_BtnIconGame_00",
+					"Position": {
+						"X": -550
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "N_BtnIconGame_01",
+					"Position": {
+						"X": -413
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "N_BtnIconGame_02",
+					"Position": {
+						"X": -275
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "N_BtnIconGame_03",
+					"Position": {
+						"X": 275
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "N_BtnIconGame_04",
+					"Position": {
+						"X": 413
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "N_BtnIconGame_05",
+					"Position": {
+						"X": 550
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					}
+				},
+				{
+					"PaneName": "B_Hit",
+					"Scale": {
+						"X": 2,
+						"Y": 2
+					},
+					"Size": {
+						"X": 130,
+						"Y": 130
+					}
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_IconGame",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BtnExpand.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["40"],
+							"type": 2
+						}
+					]
+				}
+			]
 		}
-      ]
-    },
-    {
-      "FileName": "blyt/Cursor3.bflyt",
-      "Patches": [
-        {
-          "PaneName": "P_Main",
-          "UsdPatches": [
-            {
-              "PropName": "S_BorderSize",
-              "PropValues": [
-                "7"
-              ],
-              "type": 2
-            },
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        },
-        {
-          "PaneName": "P_Grow",
-          "UsdPatches": [
-            {
-              "PropName": "S_BorderSize",
-              "PropValues": [
-                "7"
-              ],
-              "type": 2
-            },
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "FileName": "blyt/FlcBtnIconGameBlock.bflyt",
-      "Patches": [
-        {
-          "PaneName": "N_00",
-          "Position": {
-            "Y": 60.0
-          },
-          "Size": {
-            "X": 10.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "N_BtnIconGame_00",
-          "Position": {
-            "X": -550.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "N_BtnIconGame_01",
-          "Position": {
-            "X": -413.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "N_BtnIconGame_02",
-          "Position": {
-            "X": -275.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "N_BtnIconGame_03",
-          "Position": {
-            "X": 275.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "N_BtnIconGame_04",
-          "Position": {
-            "X": 413.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "N_BtnIconGame_05",
-          "Position": {
-            "X": 550.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        }
-      ]
-    },
-    {
-      "FileName": "blyt/FlcBtnIconGame.bflyt",
-      "Patches": [
-        {
-          "PaneName": "RootPane",
-          "Scale": {
-            "X": 0.75,
-            "Y": 0.75
-          }
-        },
-        {
-          "PaneName": "B_Hit",
-          "Scale": {
-            "X": 2.0,
-            "Y": 2.0
-          },
-          "Size": {
-            "X": 130.0,
-            "Y": 130.0
-          }
-        },
-        {
-          "PaneName": "L_Balloon",
-          "Visible": false
-        },
-        {
-          "PaneName": "P_BtnBase",
-          "UsdPatches": [
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        },
-        {
-          "PaneName": "P_IconGame",
-          "UsdPatches": [
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        },
-        {
-          "PaneName": "P_BtnDecideKey",
-          "UsdPatches": [
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        },
-        {
-          "PaneName": "P_BtnTouch",
-          "UsdPatches": [
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        },
-        {
-          "PaneName": "P_InnerCursor",
-          "Visible": false
-        }
-      ]
-    },
-    {
-      "FileName": "blyt/BtnExpand.bflyt",
-      "Patches": [
-        {
-          "PaneName": "P_BtnBase",
-          "UsdPatches": [
-            {
-              "PropName": "S_RoundRadius",
-              "PropValues": [
-                "40"
-              ],
-              "type": 2
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	]
 }
