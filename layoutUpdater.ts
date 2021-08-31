@@ -32,20 +32,20 @@ async function run() {
 	})
 
 	const layouts = layoutFolders.map((lF) => {
-		const fD = editJsonFile(`${lF}/details.json`)
+		const detailsFile = editJsonFile(`${lF}/details.json`, { autosave: true })
 
-		if (!fD.get('uuid')) {
-			const U = uuid()
-			fD.set('uuid', U)
-			fD.save()
+		if (!detailsFile.get('uuid')) {
+			detailsFile.set('uuid', uuid())
 		}
 
-		const details = fD.toObject(),
-			fBL = editJsonFile(`${lF}/layout.json`)
+		const details = detailsFile.toObject()
+		const jsonFile = editJsonFile(`${lF}/layout.json`, { autosave: true })
 
+		jsonFile.unset('PatchName')
+		jsonFile.unset('AuthorName')
+		jsonFile.unset('TargetName')
 		if (details.creator_id !== '0') {
-			fBL.unset('Ready8X')
-			fBL.save()
+			jsonFile.unset('Ready8X')
 		}
 
 		let commonlayout = null
@@ -53,55 +53,54 @@ async function run() {
 			commonlayout = readFileSync(`${lF}/common.json`, 'utf-8')
 		} catch (e) {}
 
-		const pcs = []
+		const pieces = []
 		if (exist(`${lF}/pieces`)) {
-			const opts = readdirSync(`${lF}/pieces`)
-			opts.forEach((op) => {
-				const split = op.split('_')
+			const options = readdirSync(`${lF}/pieces`)
+			options.forEach((option) => {
+				const split = option.split('_')
 				if (split.length > 1) split.shift()
 				const optionName = split.join()
 
-				const values = readdirSync(`${lF}/pieces/${op}`)
+				const values = readdirSync(`${lF}/pieces/${option}`)
 				const jsons = values.filter((v) => v.endsWith('.json'))
 
 				const valueJsons = []
 				jsons.forEach((j) => {
-					const trimmed = j.replace('.json', '')
+					const valueName = j.replace('.json', '')
 
-					const fO = editJsonFile(`${lF}/pieces/${op}/${trimmed}.json`)
-					if (!fO.get('uuid')) {
-						fO.set('uuid', uuid())
-						fO.save()
+					const valueFile = editJsonFile(`${lF}/pieces/${option}/${valueName}.json`)
+					if (!valueFile.get('uuid')) {
+						valueFile.set('uuid', uuid())
 					}
 
-					const value = fO.toObject()
+					const value = valueFile.toObject()
 					const value_uuid = value.uuid
 					delete value.uuid
 
 					valueJsons.push({
-						value: jsons.length > 1 ? trimmed : true,
+						value: jsons.length > 1 ? valueName : true,
 						uuid: value_uuid,
-						image: values.includes(`${trimmed}.png`) ? `${trimmed}.png` : null,
+						image: values.includes(`${valueName}.png`) ? `${valueName}.png` : null,
 						json: JSON.stringify(value),
 					})
 				})
 
-				pcs.push({
+				pieces.push({
 					name: optionName,
 					values: valueJsons,
 				})
 			})
 		}
 
-		const layout_str = JSON.stringify(fBL.toObject())
+		const layout_str = JSON.stringify(jsonFile.toObject())
 
 		let resJson: any = {
 			uuid: details.uuid,
 			details,
 			baselayout: layout_str !== '{}' ? layout_str : null,
-			target: fBL.get('TargetName')?.replace(/.szs/i, '') || lF.split('/')[0],
+			target: jsonFile.get('TargetName')?.replace(/.szs/i, '') || lF.split('/')[0],
 			last_updated: new Date(),
-			pieces: pcs,
+			pieces,
 			commonlayout,
 			creator_id: details.creator_id,
 		}
