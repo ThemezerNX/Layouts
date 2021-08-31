@@ -1,52 +1,53 @@
 {
-  "Files": [
-    {
-      "FileName": "blyt/RdtBtnCtrl.bflyt",
-      "Patches": [
-        {
-          "PaneName": "P_PictBase",
-          "ColorTL": "7F000000",
-          "ColorTR": "7F000000",
-          "ColorBL": "7F000000",
-          "ColorBR": "7F000000"
-        }
-      ]
-    },
-    {
-      "FileName": "blyt/RdtBtnFullLauncher.bflyt",
-      "Patches": [
-        {
-          "PaneName": "P_PictBase",
-          "ColorTL": "7F000000",
-          "ColorTR": "7F000000",
-          "ColorBL": "7F000000",
-          "ColorBR": "7F000000"
-        }
-      ]
-    },
-    {
-      "FileName": "blyt/RdtBtnSet.bflyt",
-      "Patches": [
-        {
-          "PaneName": "P_PictBase",
-          "ColorTL": "7F000000",
-          "ColorTR": "7F000000",
-          "ColorBL": "7F000000",
-          "ColorBR": "7F000000"
-        }
-      ]
-    },
-    {
-      "FileName": "blyt/RdtBtnPvr.bflyt",
-      "Patches": [
-        {
-          "PaneName": "P_PictBase",
-          "ColorTL": "7F000000",
-          "ColorTR": "7F000000",
-          "ColorBL": "7F000000",
-          "ColorBR": "7F000000"
-        }
-      ]
-    }
-  ]
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnCtrl.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "7F000000",
+					"ColorTR": "7F000000",
+					"ColorBL": "7F000000",
+					"ColorBR": "7F000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnFullLauncher.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "7F000000",
+					"ColorTR": "7F000000",
+					"ColorBL": "7F000000",
+					"ColorBR": "7F000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnSet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "7F000000",
+					"ColorTR": "7F000000",
+					"ColorBL": "7F000000",
+					"ColorBR": "7F000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPvr.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "7F000000",
+					"ColorTR": "7F000000",
+					"ColorBL": "7F000000",
+					"ColorBR": "7F000000"
+				}
+			]
+		}
+	],
+	"uuid": "2e73ae92-2ddb-4879-98aa-ce9afe78cf61"
 }
