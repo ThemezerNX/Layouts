@@ -41,9 +41,6 @@ async function run() {
 		const details = detailsFile.toObject()
 		const jsonFile = editJsonFile(`${lF}/layout.json`, { autosave: true })
 
-		jsonFile.unset('PatchName')
-		jsonFile.unset('AuthorName')
-		jsonFile.unset('TargetName')
 		if (details.creator_id !== '0') {
 			jsonFile.unset('Ready8X')
 		}
