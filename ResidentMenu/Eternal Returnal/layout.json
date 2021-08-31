@@ -1,604 +1,662 @@
 {
-	"PatchName": "Eternal Returnal",
-	"AuthorName": "Glowmoss",
-	"TargetName": "ResidentMenu.szs",
-	"HideOnlineBtn": true,
-	"Files": [
-		{
-			"FileName": "blyt/RdtBtnCtrl.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -280,
-						"Y": 72
-					},
-					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnFullLauncher.bflyt",
-			"Patches": [
-				{
-					"PaneName": "B_Hit",
-					"Size": {
-						"X": 80,
-						"Y": 80
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 1.1,
-						"Y": 1.1
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_Balloon",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_Pict_00",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["160"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_Pict_03",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["160"],
-							"type": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"FileName": "blyt/Cursor3.bflyt",
-			"Patches": [
-				{
-					"PaneName": "P_Main",
-					"UsdPatches": [
-						{
-							"PropName": "S_BorderSize",
-							"PropValues": ["7"],
-							"type": 2
-						},
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_Grow",
-					"UsdPatches": [
-						{
-							"PropName": "S_BorderSize",
-							"PropValues": ["7"],
-							"type": 2
-						},
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
-							"type": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnSet.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -380,
-						"Y": 72
-					},
-					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnPvr.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -280,
-						"Y": 72
-					},
-					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnMyPage.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_PictBase",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "N_BtnFocusKey",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_Effect",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_BtnDecideKey",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_BtnTouch",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
-							"type": 2
-						}
-					]
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnIconGame.bflyt",
-			"Patches": [
-				{
-					"PaneName": "RootPane",
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 1.1,
-						"Y": 1.1
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 2,
-						"Y": 2
-					},
-					"Size": {
-						"X": 132,
-						"Y": 132
-					}
-				},
-				{
-					"PaneName": "L_Balloon",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_IconGame",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["1109393408"],
-							"type": 1
-						}
-					]
-				},
-				{
-					"PaneName": "P_Blank",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["1109393408"],
-							"type": 1
-						}
-					]
-				},
-				{
-					"PaneName": "P_BtnDecideKey",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["1109393408"],
-							"type": 1
-						}
-					]
-				},
-				{
-					"PaneName": "P_BtnTouch",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["1109393408"],
-							"type": 1
-						}
-					]
-				},
-				{
-					"PaneName": "P_InnerCursor",
-					"Visible": false,
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "N_BtnFocusKey",
-					"Size": {
-						"X": 259,
-						"Y": 259
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBase.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_ScrollArea",
-					"Position": {
-						"Y": -280
-					},
-					"Scale": {
-						"X": 1,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_ScrollWindow",
-					"Position": {
-						"Y": -195
-					},
-					"Size": {
-						"X": 100000,
-						"Y": 322
-					}
-				},
-				{
-					"PaneName": "N_GameRoot",
-					"Position": {
-						"X": -530,
-						"Y": -290
-					},
-					"Scale": {
-						"X": 0.00001,
-						"Y": 1
-					}
-				},
-				{
-					"PaneName": "N_System",
-					"Position": {
-						"X": 575,
-						"Y": 310
-					},
-					"Scale": {
-						"X": 0.75,
-						"Y": 0.75
-					}
-				},
-				{
-					"PaneName": "L_ChildLock",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_MyPage",
-					"Position": {
-						"X": 580,
-						"Y": 9999
-					},
-					"Scale": {
-						"X": 0.7,
-						"Y": 0.7
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_Hud",
-					"Position": {
-						"X": 124,
-						"Y": 312
-					}
-				},
-				{
-					"PaneName": "L_BalloonCtrl",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_Game",
-					"Scale": {
-						"X": 100000,
-						"Y": 1
-					}
-				},
-				{
-					"PaneName": "L_BtnNoti",
-					"Position": {
-						"Y": -500
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnShop",
-					"Position": {
-						"Y": -300
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnPvr",
-					"Position": {
-						"Y": -200
-					}
-				},
-				{
-					"PaneName": "L_BtnCtrl",
-					"Position": {}
-				},
-				{
-					"PaneName": "L_BtnSet",
-					"Position": {
-						"Y": -100
-					}
-				},
-				{
-					"PaneName": "L_BtnPow",
-					"Position": {
-						"Y": -400
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnAccount_00",
-					"Position": {},
-					"Visible": true
-				},
-				{
-					"PaneName": "L_BtnAccount_01",
-					"Position": {
-						"Y": -100
-					}
-				},
-				{
-					"PaneName": "L_BtnAccount_02",
-					"Position": {
-						"Y": -200
-					}
-				},
-				{
-					"PaneName": "L_BtnAccount_03",
-					"Position": {
-						"Y": -300
-					}
-				},
-				{
-					"PaneName": "L_BtnAccount_04",
-					"Position": {
-						"Y": -400
-					}
-				},
-				{
-					"PaneName": "L_BtnAccount_05",
-					"Position": {
-						"Y": -500
-					}
-				},
-				{
-					"PaneName": "L_BtnAccount_06",
-					"Position": {
-						"Y": -600
-					}
-				},
-				{
-					"PaneName": "L_BtnAccount_07",
-					"Position": {
-						"Y": -700
-					}
-				},
-				{
-					"PaneName": "N_Icon_00",
-					"Position": {},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_01",
-					"Position": {
-						"X": 135
-					},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_02",
-					"Position": {
-						"X": 270
-					},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_03",
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_04",
-					"Position": {
-						"X": 540
-					},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_05",
-					"Position": {
-						"X": 675
-					},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_06",
-					"Position": {
-						"X": 810
-					},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_07",
-					"Position": {
-						"X": 945
-					},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				},
-				{
-					"PaneName": "N_Icon_08",
-					"Position": {
-						"X": 1,
-						"Y": 99999
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "N_Icon_09",
-					"Position": {
-						"X": 1,
-						"Y": 99999
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "N_Icon_10",
-					"Position": {
-						"X": 1,
-						"Y": 99999
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "N_Icon_11",
-					"Position": {
-						"X": 1,
-						"Y": 99999
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "N_Icon_12",
-					"Position": {
-						"X": 1080
-					}
-				},
-				{
-					"PaneName": "L_BtnFlc",
-					"Position": {},
-					"Scale": {
-						"X": 0.5,
-						"Y": 0.5
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnNtf.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -180,
-						"Y": 72
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnShop.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -180,
-						"Y": 72
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnPow.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -180,
-						"Y": 72
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "P_PictBase",
-					"Visible": false
-				}
-			]
-		}
-	]
+  "PatchName": "Eternal Returnal",
+  "AuthorName": "Glowmoss",
+  "TargetName": "ResidentMenu.szs",
+  "HideOnlineBtn": true,
+  "Files": [
+    {
+      "FileName": "blyt/RdtBtnCtrl.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Position": {
+            "X": -280.0,
+            "Y": 72.0
+          },
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnFullLauncher.bflyt",
+      "Patches": [
+        {
+          "PaneName": "B_Hit",
+          "Size": {
+            "X": 80.0,
+            "Y": 80.0
+          }
+        },
+        {
+          "PaneName": "N_Tip",
+          "Scale": {
+            "X": 1.1,
+            "Y": 1.1
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_Pict_00",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "160"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_Pict_03",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "160"
+              ],
+              "type": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/Cursor3.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Main",
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "40"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_Grow",
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "40"
+              ],
+              "type": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnSet.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Position": {
+            "X": -380.0,
+            "Y": 72.0
+          },
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnPvr.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Position": {
+            "X": -280.0,
+            "Y": 72.0
+          },
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnMyPage.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "10"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "10"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_Effect",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "10"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_BtnDecideKey",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "10"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_BtnTouch",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "10"
+              ],
+              "type": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnIconGame.bflyt",
+      "Patches": [
+        {
+          "PaneName": "RootPane",
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Tip",
+          "Scale": {
+            "X": 1.1,
+            "Y": 1.1
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.0,
+            "Y": 2.0
+          },
+          "Size": {
+            "X": 132.0,
+            "Y": 132.0
+          }
+        },
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_IconGame",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "1109393408"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_Blank",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "1109393408"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_BtnDecideKey",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "1109393408"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_BtnTouch",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "1109393408"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_InnerCursor",
+          "Visible": false,
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "10"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 259.0,
+            "Y": 259.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBase.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_ScrollArea",
+          "Position": {
+            "Y": -280.0
+          },
+          "Scale": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_ScrollWindow",
+          "Position": {
+            "Y": -195.0
+          },
+          "Size": {
+            "X": 100000.0,
+            "Y": 322.0
+          }
+        },
+        {
+          "PaneName": "N_GameRoot",
+          "Position": {
+            "X": -530.0,
+            "Y": -290.0
+          },
+          "Scale": {
+            "X": 1E-05,
+            "Y": 1.0
+          }
+        },
+        {
+          "PaneName": "N_System",
+          "Position": {
+            "X": 575.0,
+            "Y": 310.0
+          },
+          "Scale": {
+            "X": 0.75,
+            "Y": 0.75
+          }
+        },
+        {
+          "PaneName": "L_ChildLock",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_MyPage",
+          "Position": {
+            "X": -575.0,
+            "Y": 310.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_Hud",
+          "Position": {
+            "X": 124.0,
+            "Y": 312.0
+          }
+        },
+        {
+          "PaneName": "L_BalloonCtrl",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Game",
+          "Scale": {
+            "X": 100000.0,
+            "Y": 1.0
+          }
+        },
+        {
+          "PaneName": "L_BtnNoti",
+          "Position": {
+            "Y": -500.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnShop",
+          "Position": {
+            "Y": -300.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnPvr",
+          "Position": {
+            "Y": -200.0
+          }
+        },
+        {
+          "PaneName": "L_BtnCtrl",
+          "Position": {}
+        },
+        {
+          "PaneName": "L_BtnSet",
+          "Position": {
+            "Y": -100.0
+          }
+        },
+        {
+          "PaneName": "L_BtnPow",
+          "Position": {
+            "Y": -400.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnAccount_00",
+          "Position": {
+            "X": 0.0
+          },
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnAccount_01",
+          "Position": {
+            "X": 70.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_02",
+          "Position": {
+            "X": 140.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_03",
+          "Position": {
+            "X": 210.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_04",
+          "Position": {
+            "X": 280.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_05",
+          "Position": {
+            "X": 350.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_06",
+          "Position": {
+            "X": 420.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_07",
+          "Position": {
+            "X": 490.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_00",
+          "Position": {},
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_01",
+          "Position": {
+            "X": 135.0
+          },
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_02",
+          "Position": {
+            "X": 270.0
+          },
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_03",
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_04",
+          "Position": {
+            "X": 540.0
+          },
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_05",
+          "Position": {
+            "X": 675.0
+          },
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_06",
+          "Position": {
+            "X": 810.0
+          },
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_07",
+          "Position": {
+            "X": 945.0
+          },
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_Icon_08",
+          "Position": {
+            "X": 1.0,
+            "Y": 99999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_09",
+          "Position": {
+            "X": 1.0,
+            "Y": 99999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_10",
+          "Position": {
+            "X": 1.0,
+            "Y": 99999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_11",
+          "Position": {
+            "X": 1.0,
+            "Y": 99999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_12",
+          "Position": {
+            "X": 1080.0
+          }
+        },
+        {
+          "PaneName": "L_BtnFlc",
+          "Position": {},
+          "Scale": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/Hud.bflyt",
+      "Patches": [],
+      "AddGroups": [
+        {
+          "GroupName": "G_BatteryNumCustom",
+          "Panes": [
+            "N_BatteryNum"
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnNtf.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Position": {
+            "X": -180.0,
+            "Y": 72.0
+          },
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnShop.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Position": {
+            "X": -180.0,
+            "Y": 72.0
+          },
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnPow.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Position": {
+            "X": -180.0,
+            "Y": 72.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        }
+      ]
+    }
+  ],
+  "Anims": [
+    {
+      "FileName": "anim/RdtBase_SystemAppletPos.bflan",
+      "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"SystemAppletPos\",\"ChildBinding\":190,\"Groups\":[\"G_System\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AL8AAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+    },
+    {
+	  "FileName": "anim/Hud_BatteryNum.bflan",
+      "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"BatteryNum\",\"ChildBinding\":10,\"Groups\":[\"G_BatteryNumCustom\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AA0AAAAAAA==\"},\"pai1\":{\"FrameSize\":3,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BatteryNum\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":64.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":64.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":64.0,\"Blend\":0.0},{\"Frame\":2.0,\"Value\":64.0,\"Blend\":0.0},{\"Frame\":2.0,\"Value\":64.0,\"Blend\":0.0},{\"Frame\":3.0,\"Value\":64.0,\"Blend\":0.0},{\"Frame\":3.0,\"Value\":64.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+    }
+  ]
 }
