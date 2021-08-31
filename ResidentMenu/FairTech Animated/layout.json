@@ -1,7 +1,4 @@
 {
-	"PatchName": "FairTech Animated",
-	"AuthorName": "FairTech.us",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

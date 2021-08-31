@@ -1,7 +1,4 @@
 {
-	"PatchName": "Side Lock",
-	"AuthorName": "Migush",
-	"TargetName": "Entrance.szs",
 	"Files": [
 		{
 			"FileName": "blyt/HudTime.bflyt",

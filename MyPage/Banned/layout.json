@@ -1,7 +1,4 @@
 {
-	"PatchName": "Banned User Page",
-	"AuthorName": "Glowmoss",
-	"TargetName": "MyPage.szs",
 	"Files": [
 		{
 			"FileName": "blyt/MypMyStatus.bflyt",

@@ -1,7 +1,4 @@
 {
-	"PatchName": "Aniround",
-	"AuthorName": "Migush",
-	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",

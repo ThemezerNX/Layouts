@@ -1,7 +1,4 @@
 {
-	"PatchName": "Abstract Layout",
-	"AuthorName": "Akai, Migush",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": true,
 	"Files": [
 		{

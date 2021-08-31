@@ -1,7 +1,4 @@
 {
-	"PatchName": "JAG Layout",
-	"AuthorName": "Migush",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

@@ -1,7 +1,4 @@
 {
-	"PatchName": "Goose Apps",
-	"AuthorName": "Goose",
-	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",

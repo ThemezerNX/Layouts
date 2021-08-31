@@ -1,7 +1,4 @@
 {
-	"PatchName": "Doge Layout",
-	"AuthorName": "Such Meme, Many Skill",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

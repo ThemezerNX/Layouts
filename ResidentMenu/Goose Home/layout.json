@@ -1,7 +1,4 @@
 {
-	"PatchName": "Goose Home",
-	"AuthorName": "Goose",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBase.bflyt",

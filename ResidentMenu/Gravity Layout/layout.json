@@ -1,7 +1,4 @@
 {
-	"PatchName": "Gravity Layout",
-	"AuthorName": "203Null",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/HudTime.bflyt",

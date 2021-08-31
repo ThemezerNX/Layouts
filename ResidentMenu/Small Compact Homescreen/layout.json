@@ -1,7 +1,4 @@
 {
-	"PatchName": "Small Compact Homescreen",
-	"AuthorName": "Akai",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

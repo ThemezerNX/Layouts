@@ -1,7 +1,4 @@
 {
-	"PatchName": "Home Split",
-	"AuthorName": "Chronoss, Migush",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": true,
 	"Files": [
 		{

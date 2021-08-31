@@ -1,7 +1,4 @@
 {
-	"PatchName": "Careful Layout",
-	"AuthorName": "Migush",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/BgNml.bflyt",

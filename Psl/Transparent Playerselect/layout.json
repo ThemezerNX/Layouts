@@ -1,7 +1,4 @@
 {
-	"PatchName": "Transparent Playerselect",
-	"AuthorName": "Migush",
-	"TargetName": "Psl.szs",
 	"Files": [
 		{
 			"FileName": "blyt/DBtmHeaderNml.bflyt",

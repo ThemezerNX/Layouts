@@ -1,7 +1,4 @@
 {
-	"PatchName": "Chainsaw Layout",
-	"AuthorName": "KKerim",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": true,
 	"Files": [
 		{

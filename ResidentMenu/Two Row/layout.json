@@ -1,7 +1,4 @@
 {
-	"PatchName": "Two Row (Fixed Labels, Hud, and Hitboxes)",
-	"AuthorName": "Zaigenshi",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

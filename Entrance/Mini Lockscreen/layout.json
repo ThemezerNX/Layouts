@@ -1,7 +1,4 @@
 {
-	"PatchName": "Mini lockscreen",
-	"AuthorName": "gleonardo13",
-	"TargetName": "Entrance.szs",
 	"Files": [
 		{
 			"FileName": "blyt/EntMain.bflyt",

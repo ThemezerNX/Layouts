@@ -1,7 +1,4 @@
 {
-	"PatchName": "Eternal Returnal",
-	"AuthorName": "Glowmoss",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": true,
 	"Files": [
 		{

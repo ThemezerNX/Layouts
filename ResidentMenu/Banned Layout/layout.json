@@ -1,7 +1,4 @@
 {
-	"PatchName": "Banned Layout",
-	"AuthorName": "Lesking72",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBase.bflyt",

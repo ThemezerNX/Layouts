@@ -1,7 +1,4 @@
 {
-	"PatchName": "Two Row Layout (Compact)",
-	"AuthorName": "xFlesk",
-	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",
