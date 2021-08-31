@@ -1,4 +1,7 @@
 {
+	"PatchName": "Split All Apps 3 Rows",
+	"AuthorName": "Glowmoss",
+	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",

@@ -1,4 +1,7 @@
 {
+	"PatchName": "Left All Apps Rounded",
+	"AuthorName": "Akai",
+	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",

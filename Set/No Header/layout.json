@@ -1,4 +1,7 @@
 {
+	"PatchName": "No Header",
+	"AuthorName": "Glowmoss",
+	"TargetName": "Set.szs",
 	"Files": [
 		{
 			"FileName": "blyt/SetBaseHeader.bflyt",

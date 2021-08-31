@@ -1,4 +1,7 @@
 {
+	"PatchName": "Mockup UI v1.3.1",
+	"AuthorName": "mustachecatto",
+	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": true,
 	"Files": [
 		{

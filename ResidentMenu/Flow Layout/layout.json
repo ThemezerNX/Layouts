@@ -1,4 +1,7 @@
 {
+	"PatchName": "Flow layout",
+	"AuthorName": "Migush",
+	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/BgNml.bflyt",

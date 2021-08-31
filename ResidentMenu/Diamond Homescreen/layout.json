@@ -1,4 +1,7 @@
 {
+	"PatchName": "Diamond Homescreen",
+	"AuthorName": "Akai",
+	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

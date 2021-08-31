@@ -1,4 +1,7 @@
 {
+	"PatchName": "Doge Lock",
+	"AuthorName": "Such Meme, Many Skill",
+	"TargetName": "Entrance.szs",
 	"Files": [
 		{
 			"FileName": "blyt/EntMain.bflyt",

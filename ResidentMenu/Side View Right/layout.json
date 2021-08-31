@@ -1,4 +1,7 @@
 {
+	"TargetName": "ResidentMenu.szs",
+	"PatchName": "Side View Home",
+	"AuthorName": "Zaigenshi",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

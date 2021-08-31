@@ -1,4 +1,7 @@
 {
+	"PatchName": "Goose Lock",
+	"AuthorName": "Goose",
+	"TargetName": "Entrance.szs",
 	"Files": [
 		{
 			"FileName": "blyt/EntMain.bflyt",

@@ -1,4 +1,7 @@
 {
+	"PatchName": "All Apps 90% Scale",
+	"AuthorName": "Such Meme, Many Skill",
+	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcBtnIconGame.bflyt",

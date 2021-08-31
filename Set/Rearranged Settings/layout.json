@@ -1,4 +1,7 @@
 {
+	"PatchName": "Rearranged Settings",
+	"AuthorName": "Glowmoss",
+	"TargetName": "Set.szs",
 	"Files": [
 		{
 			"FileName": "blyt/SetCntNet.bflyt",

@@ -1,4 +1,7 @@
 {
+	"PatchName": "Vanilla-ish Two Row Layout",
+	"AuthorName": "gobbldygook",
+	"TargetName": "ResidentMenu.szs",
 	"Files": [
 		{
 			"FileName": "blyt/RdtBase.bflyt",

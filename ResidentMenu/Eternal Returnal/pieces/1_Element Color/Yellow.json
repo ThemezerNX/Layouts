@@ -8,7 +8,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -22,7 +27,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -36,7 +46,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -50,7 +65,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -64,7 +84,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -78,7 +103,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -123,7 +153,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -137,7 +172,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -151,7 +191,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -165,7 +210,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -179,7 +229,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -193,7 +248,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -212,7 +272,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -226,7 +291,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -240,7 +310,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -254,7 +329,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -273,32 +353,56 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderColorSelect0",
-							"PropValues": ["0"],
+							"PropValues": [
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "S_BorderColor0",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColorSelect",
-							"PropValues": ["0"],
+							"PropValues": [
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColor",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "C_B",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -308,32 +412,56 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderColorSelect0",
-							"PropValues": ["0"],
+							"PropValues": [
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "S_BorderColor0",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColorSelect",
-							"PropValues": ["0"],
+							"PropValues": [
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColor",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "C_B",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -360,7 +488,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -385,7 +518,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["34", "0", "0", "0"],
+							"PropValues": [
+								"34",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -395,7 +533,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -416,7 +559,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -430,7 +578,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -459,7 +612,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -478,7 +636,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -492,7 +655,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -502,7 +670,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -512,7 +685,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -545,7 +723,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -564,7 +747,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -578,7 +766,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -592,7 +785,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -606,7 +804,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -625,7 +828,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["34", "0", "0", "0"],
+							"PropValues": [
+								"34",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -635,7 +843,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -649,7 +862,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -678,7 +896,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -692,7 +915,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["34", "0", "0", "0"],
+							"PropValues": [
+								"34",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -713,7 +941,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -727,7 +960,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -756,7 +994,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -770,7 +1013,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -788,7 +1036,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -802,7 +1055,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
@@ -816,7 +1074,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					],
