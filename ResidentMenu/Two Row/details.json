@@ -1,5 +1,6 @@
 {
 	"name": "Two Row",
 	"description": "Another simple two row layout. This is an updated version of the original that fixes issues with lables, the hud, and hitboxes.",
-	"creator_id": "158776602648379393"
+	"creator_id": "158776602648379393",
+	"uuid": "af7f9970-efdf-4be1-8840-ca298cdf296d"
 }
