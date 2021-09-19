@@ -1,11 +1,10 @@
+# Build output
+dist
+
 # General files
 node_modules
 package-lock.json
 .env
-
-layoutUpdater.js
-symlinkCreator.js
-localCreatorsUpdater.js
 
 # MacOS-generated files
 .DS_Store
@@ -25,4 +24,4 @@ localCreatorsUpdater.js
 # Exception for extension recommendations
 !.vscode/extensions.json
 
-idea
+.idea
