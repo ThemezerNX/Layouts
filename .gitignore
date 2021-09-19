@@ -24,3 +24,5 @@ localCreatorsUpdater.js
 
 # Exception for extension recommendations
 !.vscode/extensions.json
+
+idea
