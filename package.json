@@ -1,39 +1,24 @@
 {
 	"name": "themezer_layouts",
-	"version": "1.0.0",
-	"author": "Migushthe2nd <Migushthe2nd@users.noreply.github.com>",
+	"version": "2.0.0",
+	"author": "Migushthe2nd",
 	"license": "MPL-2.0",
 	"scripts": {
-		"pretty": "prettier --write **/*.json",
-		"symlink": "node ./symlinkCreator.js",
-		"symlink:compile": "tsc ./symlinkCreator.ts",
-		"dev": "tsc ./localCreatorsUpdater.ts && node ./localCreatorsUpdater.js && yarn run deploy:compile && yarn run deploy",
-		"deploy": "node ./layoutUpdater.js && yarn run pretty",
-		"deploy:compile": "tsc ./layoutUpdater.ts"
+		"build": "tsc",
+		"prettify": "prettier --write **/*.json",
+		"deploy": "yarn run build && yarn run pretty && node ./dist/src/layoutUpdater.js"
 	},
 	"devDependencies": {
-		"@types/glob": "^7.1.1",
 		"@types/node": "^14.0.27",
 		"@types/prettier": "^2.0.0",
-		"@types/semver": "^7.1.0",
-		"@typescript-eslint/eslint-plugin": "^2.31.0",
-		"@typescript-eslint/parser": "^2.30.0",
-		"chalk": "^4.0.0",
-		"dotenv": "^8.2.0",
-		"eslint": "^6.8.0",
-		"eslint-config-prettier": "^6.11.0",
-		"execa": "^4.0.0",
-		"glob": "^7.1.6",
-		"pg-promise": "^10.5.5",
-		"prettier": "^2.0.5",
-		"semver": "^7.3.2",
-		"source-map-support": "^0.5.19"
+		"prettier": "^2.0.5"
 	},
 	"dependencies": {
+		"dotenv": "^10.0.0",
 		"edit-json-file": "^1.4.0",
-		"fs-symlink": "^1.2.1",
-		"typescript": "^3.8.3",
-		"uuidv4": "^6.0.8"
+		"pg-promise": "^10.11.0",
+		"typescript": "^4.4.3",
+		"uuid": "^8.3.2"
 	},
 	"repository": "https://github.com/ThemezerNX/Layouts.git",
 	"private": false
