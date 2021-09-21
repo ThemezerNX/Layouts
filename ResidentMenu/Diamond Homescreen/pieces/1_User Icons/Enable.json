@@ -1,0 +1,28 @@
+{
+    "AuthorName": "Paco",
+    "Files": [
+        {
+            "FileName": "blyt/RdtBase.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_System",
+                    "Position": {
+                        "X": -595
+                    }
+                },
+                {
+                    "PaneName": "N_MyPage",
+                    "Position": {
+                        "X": -595.0,
+                        "Y": 310.0
+                    },
+                    "Scale": {
+                        "X": 0.7,
+                        "Y": 0.7
+                    },
+                    "Visible": true
+                }
+            ]
+        }
+    ]
+}
