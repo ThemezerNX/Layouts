@@ -1,0 +1,421 @@
+{
+  "PatchName": "Small Compact Homescreen w Users",
+  "AuthorName": "Paco46/Akai",
+  "TargetName": "ResidentMenu.szs",
+  "HideOnlineBtn": false,
+  "Files": [
+    {
+      "FileName": "blyt/RdtBtnCtrl.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnFullLauncher.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_Root",
+          "Rotation": {
+            "Z": 45.0
+          }
+        },
+        {
+          "PaneName": "N_Tip",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnSet.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnPvr.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnMyPage.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_Tip",
+          "Position": {
+            "Y": 58.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnIconGame.bflyt",
+      "Patches": [
+        {
+          "PaneName": "RootPane",
+          "Scale": {
+            "X": 0.37,
+            "Y": 0.37
+          }
+        },
+        {
+          "PaneName": "N_Tip",
+          "Visible": false
+        },
+        {
+          "PaneName": "B_Hit",
+          "Position": {
+            "X": -62.0
+          },
+          "Scale": {
+            "X": 3.0,
+            "Y": 3.0
+          },
+          "Size": {
+            "X": 97.68,
+            "Y": 97.68
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBase.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_ScrollArea",
+          "Position": {
+            "Y": -280.0
+          },
+          "Scale": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_ScrollWindow",
+          "Position": {
+            "Y": -280.0
+          },
+          "Scale": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        {
+          "PaneName": "N_GameRoot",
+          "Position": {
+            "X": -50.0,
+            "Y": -230.0
+          },
+          "Scale": {
+            "X": 1E-06,
+            "Y": 1.0
+          }
+        },
+        {
+          "PaneName": "N_System",
+          "Position": {
+            "X": -595.0,
+            "Y": -250.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_ChildLock",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_MyPage",
+          "Position": {
+            "X": -595.0,
+            "Y": 310.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_Hud",
+          "Position": {
+            "X": -290.0,
+            "Y": -325.0
+          }
+        },
+        {
+          "PaneName": "L_BalloonCtrl",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Game",
+          "Scale": {
+            "X": 1000000.0,
+            "Y": 1.0
+          }
+        },
+        {
+          "PaneName": "L_BtnNoti",
+          "Position": {
+            "X": -1640.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnShop",
+          "Position": {
+            "X": -1540.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnPvr",
+          "Position": {
+            "X": 300.0
+          }
+        },
+        {
+          "PaneName": "L_BtnCtrl",
+          "Position": {
+            "X": 100.0
+          }
+        },
+        {
+          "PaneName": "L_BtnSet",
+          "Position": {
+            "X": 200.0
+          }
+        },
+        {
+          "PaneName": "L_BtnPow",
+          "Position": {}
+        },
+        {
+          "PaneName": "L_BtnAccount_00",
+          "Position": {},
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnAccount_01",
+          "Position": {
+            "X": 70.0
+          },
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnAccount_02",
+          "Position": {
+            "X": 140.0
+          },
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnAccount_03",
+          "Position": {
+            "X": 210.0
+          },
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnAccount_04",
+          "Position": {
+            "X": 280.0
+          },
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnAccount_05",
+          "Position": {
+            "X": 350.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_00",
+          "Position": {}
+        },
+        {
+          "PaneName": "N_Icon_01",
+          "Position": {
+            "X": 100.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_02",
+          "Position": {
+            "X": 200.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_03",
+          "Position": {
+            "X": 300.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_04",
+          "Position": {
+            "X": 400.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_05",
+          "Position": {
+            "X": 500.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_06",
+          "Position": {
+            "X": 1.0,
+            "Y": -9999999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_07",
+          "Position": {
+            "X": 1.0,
+            "Y": -9999999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_08",
+          "Position": {
+            "X": 1.0,
+            "Y": -9999999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_09",
+          "Position": {
+            "X": 1.0,
+            "Y": -9999999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_10",
+          "Position": {
+            "X": 1.0,
+            "Y": -9999999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_11",
+          "Position": {
+            "X": 1.0,
+            "Y": -9999999.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Icon_12",
+          "Position": {
+            "X": 600.0
+          }
+        },
+        {
+          "PaneName": "L_BtnChangeUser",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnFlc",
+          "Position": {},
+          "Scale": {
+            "X": 0.37,
+            "Y": 0.37
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/Hud.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_BatteryConsole",
+          "Scale": {
+            "X": 0.6,
+            "Y": 0.6
+          }
+        },
+        {
+          "PaneName": "N_BatteryNum",
+          "Scale": {
+            "X": 0.9,
+            "Y": 0.9
+          }
+        },
+        {
+          "PaneName": "N_Signal",
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "N_Time",
+          "Position": {
+            "X": 10.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnPow.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Balloon",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        }
+      ]
+    }
+  ],
+  "Anims": [
+    {
+      "FileName": "anim/RdtBase_SystemAppletPos.bflan",
+      "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"SystemAppletPos\",\"ChildBinding\":190,\"Groups\":[\"G_System\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AL8AAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+    }
+  ]
+}
