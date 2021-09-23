@@ -7,8 +7,7 @@ const config = {
 	database: process.env.POSTGRES_DB,
 	user: process.env.POSTGRES_USER,
 	password: process.env.POSTGRES_PASSWORD,
-	schema: process.env.POSTGRES_SCHEMA,
 }
 
-export const pgp = pgPromise({ capSQL: true })
+export const pgp = pgPromise({ capSQL: true, schema: process.env.POSTGRES_SCHEMA })
 export const db = pgp(config)
