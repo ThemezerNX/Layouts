@@ -37,6 +37,7 @@ interface Layout {
     json: string;
     commonJson: string;
     overlayPath: string;
+    insertionMD5: string;
     options?: Option[];
 }
 
@@ -50,24 +51,26 @@ const exist = (dir) => {
 };
 
 // optional function for pgp if prop does not exist in object
-// export function str(column) {
-//     return {
-//         name: column,
-//         skip: (c) => !c.exists,
-//     };
-// }
+export function str(column) {
+    return {
+        name: column,
+        skip: (c) => !c.exists,
+    };
+}
 
 const layoutTable = new pgp.helpers.ColumnSet(
     [
         "name",
-        "description",
+        {name: "description", def: undefined},
         {name: "updatedTimestamp", cast: "timestamp without time zone"},
         {name: "uuid", cast: "uuid"},
         "target",
-        "color",
+        {name: "color", def: undefined},
         "creatorId",
-        "json",
-        "commonJson",
+        {name: "json", def: undefined},
+        {name: "commonJson", def: undefined},
+        "insertionMD5",
+        {name: "cacheId", cast: "integer"},
     ],
     {
         table: "layout",
@@ -78,9 +81,9 @@ const layoutOptionTable = new pgp.helpers.ColumnSet(
     [
         "layoutId",
         "name",
-        "description",
+        {name: "description", def: undefined},
         "type",
-        "priority",
+        {name: "priority", cast: "integer"},
     ],
     {
         table: "layout_option",
@@ -90,7 +93,7 @@ const layoutOptionTable = new pgp.helpers.ColumnSet(
 const layoutOptionValueTable = new pgp.helpers.ColumnSet(
     [
         {name: "uuid", cast: "uuid"},
-        "layoutOptionId",
+        {name: "layoutOptionId", cast: "integer"},
         "json",
         "name",
     ],
@@ -101,7 +104,7 @@ const layoutOptionValueTable = new pgp.helpers.ColumnSet(
 
 const layoutOptionValuePreviewsTable = new pgp.helpers.ColumnSet(
     [
-        "cacheID",
+        {name: "cacheId", cast: "integer"},
         "image720File",
         "image360File",
         "image240File",
@@ -116,7 +119,7 @@ const layoutOptionValuePreviewsTable = new pgp.helpers.ColumnSet(
 
 const layoutPreviewsTable = new pgp.helpers.ColumnSet(
     [
-        "cacheId",
+        {name: "cacheId", cast: "int"},
         "image720File",
         "image360File",
         "image240File",
@@ -162,15 +165,40 @@ const generateImages = async (fullImagePath: string): Promise<Previews> => {
     };
 };
 
+const insertOptions = async (t, layout, insertedLayoutId?, cacheId?) => {
+    for (const option of layout.options) {
+        // insert layout option
+        const {id: insertedLayoutOptionId} = await t.one(() => pgp.helpers.insert({
+                layoutId: insertedLayoutId || layout.id,
+                ...option,
+            },
+            layoutOptionTable) + " RETURNING id");
+        for (const value of option.values) {
+            const {uuid: insertedValueUUID} = await t.one(() => pgp.helpers.insert({
+                    layoutOptionId: insertedLayoutOptionId,
+                    ...value,
+                },
+                layoutOptionValueTable) + " RETURNING uuid");
+            // insert value previews
+            const previews = await generateImages(layout.overlayPath);
+            await t.none(() => pgp.helpers.insert({
+                layoutOptionValueUUID: insertedValueUUID,
+                cacheId,
+                ...previews,
+            }, layoutOptionValuePreviewsTable));
+        }
+    }
+};
+
 const targetsFolder = path.resolve(__dirname, "..", "targets");
 
 (async () => {
     // In development, make sure there the two system accounts are there. Use 0 for every layout in development mode.
     if (process.env.NODE_ENV == "development") {
         await db.none(`
-            INSERT INTO "user" (id, username, "hasAccepted", "isAdmin", "isVerified", roles, "cacheID")
-            VALUES (0, 'unknown', FALSE, FALSE, TRUE, '{system}', 1),
-                   (1, 'Nintendo', FALSE, FALSE, TRUE, '{system}', 1)
+            INSERT INTO "user" (id, username, "hasAccepted", "isAdmin", "isVerified", roles)
+            VALUES (0, 'unknown', FALSE, FALSE, TRUE, '{system}'),
+                   (1, 'Nintendo', FALSE, FALSE, TRUE, '{system}')
             ON CONFLICT DO NOTHING
         `);
     }
@@ -185,7 +213,8 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             targets[target] = readdirSync(path.join(targetsFolder, target));
         });
 
-    //TODO: validate priority, validate TYPE enum, validate value counts for TYPE
+    // TODO: validate priority, validate TYPE enum, validate value counts for TYPE
+    // TODO: Global options
 
     const layouts: Layout[] = [];
     for (const target of Object.keys(targets)) {
@@ -193,7 +222,7 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             const layoutPath = path.join(targetsFolder, target, layoutName);
 
             // Read details
-            const detailsFile = editJsonFile(path.join(layoutPath, "details.json"), {autosave: true});
+            const detailsFile = editJsonFile(path.join(layoutPath, "details.json"), {autosave: true, stringify_width: 4});
             if (!detailsFile.get("uuid")) {
                 detailsFile.set("uuid", uuidv4());
             }
@@ -203,6 +232,9 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             layout.target = target;
             // Set updateTimestamp to current time
             layout.updatedTimestamp = new Date();
+            if (process.env.NODE_ENV == "development") {
+                layout.creatorId = "0";
+            }
             // Remove '#' in color field if it is there
             if (layout.color?.startsWith("#")) {
                 layout.color = layout.color.substring(1);
@@ -211,75 +243,78 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             // Read layout.json
             const layoutJsonPath = path.join(layoutPath, "layout.json");
             const layoutOverlayPath = path.join(layoutPath, "overlay.png");
-            if (existsSync(layoutJsonPath)) {
-                if (!existsSync(layoutOverlayPath)) throw new Error("Layout overlay does not exist for " + layoutPath);
-                layout.overlayPath = layoutOverlayPath;
+            const hasLayout = existsSync(layoutJsonPath);
+            if (!hasLayout && !(layout.creatorId == "0" || layout.creatorId == "1")) {
+                throw new Error(`${layoutJsonPath} is required, but does not exist`);
+            }
+            if (!existsSync(layoutOverlayPath)) throw new Error("Layout overlay does not exist for " + layoutPath);
+            layout.overlayPath = layoutOverlayPath;
 
-                const layoutFile = editJsonFile(path.join(layoutPath, "layout.json"), {autosave: true});
+            if (hasLayout) {
+                const layoutFile = editJsonFile(path.join(layoutPath, "layout.json"), {autosave: true, stringify_width: 4});
                 layoutFile.unset("Ready8X");
                 layoutFile.unset("PatchName");
                 layoutFile.unset("AuthorName");
                 layoutFile.unset("TargetName");
                 layoutFile.unset("ID");
-                layout.json = JSON.stringify(layoutFile, null, 4);
-
-                // Read common.json
-                try {
-                    layout.commonJson = JSON.stringify(readFileSync(path.join(layoutPath, "common.json"), "utf-8"),
-                        null,
-                        4);
-                } catch (e) {
-                }
-
-                const optionsPath = path.join(layoutPath, "options");
-                if (exist(optionsPath)) {
-                    readdirSync(optionsPath)
-                        .forEach((optionName) => {
-                            const optionPath = path.join(optionsPath, optionName);
-                            const option = editJsonFile(path.join(optionPath, "option.json")).toObject() as Option;
-                            if (option.description == "") option.description = null;
-                            if (!option.name) throw new Error("Invalid name for " + optionPath);
-                            if (!option.priority || option.priority > 99) throw new Error("Invalid priority for " + optionPath);
-                            if (!option.type || !Object.keys(LayoutOptionType).includes(option.type)) throw new Error(
-                                "Invalid option type for " + optionPath);
-                            if (option.typeOptions && !optionAbleTypes.includes(option.type)) throw new Error(
-                                "Invalid typeOptions for " + optionPath);
-
-                            const valuesPath = path.join(optionPath, "values");
-                            const valuesFolderContents = readdirSync(valuesPath);
-                            if (valuesFolderContents.length % 2 != 0) {
-                                throw new Error("Invalid values in value folder " + valuesPath);
-                            }
-                            option.values = valuesFolderContents.filter((fileName) => fileName.endsWith(".json"))
-                                .map((valueFileName) => {
-                                    const valueName = path.basename(valueFileName, "json");
-                                    const valuePath = path.join(valuesPath, valueFileName);
-                                    const valueOverlayPath = path.join(valuesPath, valueName + ".png");
-                                    if (!existsSync(valueOverlayPath)) throw new Error(
-                                        "Layout option value overlay does not exist for " + valuePath);
-
-                                    const valueFile = editJsonFile(valuePath, {autosave: true});
-                                    if (!valueFile.get("uuid")) {
-                                        valueFile.set("uuid", uuidv4());
-                                    }
-                                    const value = valueFile.toObject() as Value;
-                                    const uuid = value.uuid;
-                                    delete value.uuid;
-                                    return {
-                                        name: valueName,
-                                        uuid: uuid,
-                                        json: JSON.stringify(value, null, 4),
-                                        overlayPath: valueOverlayPath,
-                                    };
-                                });
-
-                            layout.options.push(option);
-                        });
-                }
-            } else {
-                throw new Error(`${layoutJsonPath} does not exist`);
+                layout.json = JSON.stringify(layoutFile.toObject(), null, 4);
             }
 
+            // Read common.json
+            try {
+                layout.commonJson = JSON.stringify(readFileSync(path.join(layoutPath, "common.json"), "utf-8"),
+                    null,
+                    4);
+            } catch (e) {
+            }
+
+            const optionsPath = path.join(layoutPath, "options");
+            if (exist(optionsPath)) {
+                readdirSync(optionsPath)
+                    .forEach((optionName) => {
+                        const optionPath = path.join(optionsPath, optionName);
+                        const option = editJsonFile(path.join(optionPath, "option.json")).toObject() as Option;
+                        option.name = optionName;
+                        if (option.description == "") option.description = null;
+                        if (!option.priority || option.priority > 99) throw new Error("Invalid priority for " + optionPath);
+                        if (!option.type || !Object.keys(LayoutOptionType).includes(option.type)) throw new Error(
+                            "Invalid option type for " + optionPath);
+                        if (option.typeOptions && !optionAbleTypes.includes(option.type)) throw new Error(
+                            "Invalid typeOptions for " + optionPath);
+
+                        const valuesPath = path.join(optionPath, "values");
+                        const valuesFolderContents = readdirSync(valuesPath);
+                        if (valuesFolderContents.length % 2 != 0) {
+                            throw new Error("Invalid values in value folder " + valuesPath);
+                        }
+                        option.values = valuesFolderContents.filter((fileName) => fileName.endsWith(".json"))
+                            .map((valueFileName) => {
+                                const valueName = path.basename(valueFileName, ".json");
+                                const valuePath = path.join(valuesPath, valueFileName);
+                                const valueOverlayPath = path.join(valuesPath, valueName + ".png");
+                                if (!existsSync(valueOverlayPath)) throw new Error(
+                                    "Layout option value overlay does not exist for " + valuePath + " at " + valueOverlayPath);
+
+                                const valueFile = editJsonFile(valuePath, {autosave: true, stringify_width: 4});
+                                if (!valueFile.get("uuid")) {
+                                    valueFile.set("uuid", uuidv4());
+                                }
+                                const value = valueFile.toObject() as Value;
+                                const uuid = value.uuid;
+                                delete value.uuid;
+                                return {
+                                    name: valueName,
+                                    uuid: uuid,
+                                    json: JSON.stringify(value, null, 4),
+                                    overlayPath: valueOverlayPath,
+                                };
+                            });
+
+                        layout.options.push(option);
+                    });
+            }
+
+            layout.insertionMD5 = objectHash.MD5(layout);
             layouts.push(layout);
         }
     }
@@ -296,7 +331,7 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             dbLayouts.find((dL) =>
                 dL.uuid == l.uuid &&
                 // Compare hashes to see if any data was updated
-                objectHash.MD5(l) != dL.insertionMD5,
+                l.insertionMD5 != dL.insertionMD5,
             ),
         );
     const deletedLayouts = dbLayouts.filter((dL) => !layouts.some((l) => l.uuid === dL.uuid));
@@ -308,51 +343,75 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
 
     if (newLayouts.length > 0) {
         console.log("\n---- newLayouts:");
-        console.log(newLayouts.map((l) => l.name).join("\n"));
 
         try {
             await db.tx(async t => {
                 for (const layout of newLayouts) {
+                    console.log(layout.name);
                     // insert layout
-                    const insertedLayoutId = await t.one(() => pgp.helpers.insert(layout,
+                    const {id: insertedLayoutId} = await t.one(() => pgp.helpers.insert(
+                        {
+                            ...layout,
+                            cacheId: 0,
+                        },
                         layoutTable) + " RETURNING id");
                     // insert layout previews
+                    const previews = await generateImages(layout.overlayPath);
                     await t.none(() => pgp.helpers.insert({
                         layoutId: insertedLayoutId,
-                        ...generateImages(layout.overlayPath),
+                        cacheId: 0,
+                        ...previews,
                     }, layoutPreviewsTable));
-                    // insert options
-                    for (const option of layout.options) {
-                        const insertedLayoutOptionId = await t.one(() => pgp.helpers.insert(option,
-                            layoutOptionTable) + " RETURNING id");
-                        for (const value of option.values) {
-                            const insertedValueUUID = await t.one(() => pgp.helpers.insert({
-                                    layoutOptionId: insertedLayoutOptionId,
-                                    ...value,
-                                },
-                                layoutOptionValueTable) + " RETURNING uuid");
-                            await t.none(() => pgp.helpers.insert({
-                                layoutOptionValueUUID: insertedValueUUID,
-                                ...generateImages(value.overlayPath),
-                            }, layoutOptionValuePreviewsTable));
-                        }
-                    }
+                    // insert layout options
+                    await insertOptions(t, layout, insertedLayoutId, 0);
                 }
             });
             console.log("Insert success ✔️");
         } catch (e) {
-            console.error("Insert Failed ❌", e.message);
+            console.error("Insert Failed ❌\n", e);
         }
     }
 
     if (updatedLayouts.length > 0) {
-        console.log("\n---- existingLayouts:");
-        console.log(updatedLayouts.map((l) => l.name).join("\n"));
+        console.log("\n---- updatedLayouts:");
+
+        try {
+            await db.tx(async t => {
+                for (const layout of updatedLayouts) {
+                    console.log(layout.name);
+                    const existingEntry = dbLayouts.find((dL) => dL.uuid == layout.uuid);
+
+                    // update layout
+                    await t.none(() => pgp.helpers.update({
+                        ...layout,
+                        cacheId: existingEntry.cacheId,
+                    }, layoutTable) + ` WHERE uuid = '${existingEntry.uuid}'`);
+                    // update layout previews
+                    const previews = await generateImages(layout.overlayPath);
+                    await t.none(() => pgp.helpers.update({
+                            cacheId: existingEntry.cacheId,
+                            layoutId: existingEntry.id,
+                            ...previews
+                        },
+                        layoutPreviewsTable) + ` WHERE "layoutId" = '${existingEntry.id}'`);
+                    // delete all layout options for current layoutId
+                    await t.none(`DELETE
+                                  FROM layout_option
+                                  WHERE "layoutId" = '${existingEntry.id}'`);
+                    // re-add the layout options, start at existingEntry.cacheId
+                    await insertOptions(t, layout, existingEntry.id, existingEntry?.cacheId);
+                }
+            });
+            console.log("Insert success ✔️");
+        } catch (e) {
+            console.error("Insert Failed ❌\n", e);
+        }
     }
 
     // Insert the data into the database and close connection
     await db.$pool.end();
-})();
+})
+();
 
 //
 // async function run() {
