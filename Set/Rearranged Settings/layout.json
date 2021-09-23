@@ -2,7 +2,6 @@
   "PatchName": "Rearranged Settings",
   "AuthorName": "Glowmoss",
   "TargetName": "Set.szs",
-  "ID": "Generated_db4a998b-88ee-4839-b399-7af80dbd910c",
   "Files": [
     {
       "FileName": "blyt/SetCntDataMngSoft.bflyt",
