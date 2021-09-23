@@ -174,6 +174,8 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             targets[target] = readdirSync(path.join(targetsFolder, target));
         });
 
+    //TODO: validate priority, validate TYPE enum, validate value counts for TYPE
+
     const layouts: Layout[] = [];
     for (const target of Object.keys(targets)) {
         for (const layoutName of targets[target]) {
