@@ -1,7 +1,7 @@
 {
 	"name": "Default",
 	"description": "The default Lockscreen layout",
-	"creator_id": "0",
+	"creatorId": "0",
 	"color": "#EBEBEB",
 	"uuid": "6ada1821-b176-4558-b207-910f28af5629"
 }
