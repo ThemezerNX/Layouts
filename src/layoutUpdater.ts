@@ -129,6 +129,17 @@ const layoutPreviewsTable = new pgp.helpers.ColumnSet(
     },
 );
 
+enum LayoutOptionType {
+    TOGGLE = "TOGGLE",
+    SELECT = "SELECT",
+    INTEGER = "INTEGER",
+    DECIMAL = "DECIMAL",
+    STRING = "STRING",
+    COLOR = "COLOR",
+}
+
+const optionAbleTypes = [LayoutOptionType.INTEGER.toString(), LayoutOptionType.DECIMAL.toString(), LayoutOptionType.STRING.toString()];
+
 interface Previews {
     image720File: Buffer;
     image360File: Buffer;
@@ -226,11 +237,18 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
                         .forEach((optionName) => {
                             const optionPath = path.join(optionsPath, optionName);
                             const option = editJsonFile(path.join(optionPath, "option.json")).toObject() as Option;
+                            if (option.description == "") option.description = null;
+                            if (!option.name) throw new Error("Invalid name for " + optionPath);
+                            if (!option.priority || option.priority > 99) throw new Error("Invalid priority for " + optionPath);
+                            if (!option.type || !Object.keys(LayoutOptionType).includes(option.type)) throw new Error(
+                                "Invalid option type for " + optionPath);
+                            if (option.typeOptions && !optionAbleTypes.includes(option.type)) throw new Error(
+                                "Invalid typeOptions for " + optionPath);
 
                             const valuesPath = path.join(optionPath, "values");
                             const valuesFolderContents = readdirSync(valuesPath);
                             if (valuesFolderContents.length % 2 != 0) {
-                                throw new Error("Invalid values in value folder");
+                                throw new Error("Invalid values in value folder " + valuesPath);
                             }
                             option.values = valuesFolderContents.filter((fileName) => fileName.endsWith(".json"))
                                 .map((valueFileName) => {
