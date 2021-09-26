@@ -1,48 +1,47 @@
 {
-	"PatchName": "Goose Lock",
-	"AuthorName": "Goose",
-	"TargetName": "Entrance.szs",
-	"Files": [
-		{
-			"FileName": "blyt/EntMain.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_CntL",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_CntRMain",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_AlarmCtrlResume",
-					"Position": {
-						"X": 350,
-						"Y": -340,
-						"Z": 0
-					},
-					"Scale": {
-						"X": 0.55,
-						"Y": 0.55
-					}
-				},
-				{
-					"PaneName": "L_BtnBack",
-					"Position": {
-						"X": 700,
-						"Y": -326,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_Lock",
-					"Position": {
-						"X": 0,
-						"Y": 275,
-						"Z": 0
-					}
-				}
-			]
-		}
-	]
+    "PatchName": "Goose Lock",
+    "AuthorName": "Goose",
+    "Files": [
+        {
+            "FileName": "blyt/EntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_CntL",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_CntRMain",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_AlarmCtrlResume",
+                    "Position": {
+                        "X": 350,
+                        "Y": -340,
+                        "Z": 0
+                    },
+                    "Scale": {
+                        "X": 0.55,
+                        "Y": 0.55
+                    }
+                },
+                {
+                    "PaneName": "L_BtnBack",
+                    "Position": {
+                        "X": 700,
+                        "Y": -326,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_Lock",
+                    "Position": {
+                        "X": 0,
+                        "Y": 275,
+                        "Z": 0
+                    }
+                }
+            ]
+        }
+    ]
 }

@@ -1,285 +1,292 @@
 {
-	"PatchName": "Right All Apps Rounded",
-	"AuthorName": "Akai",
-	"TargetName": "Flaunch.szs",
-	"Files": [
-		{
-			"FileName": "blyt/FlcCntMain.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Position": {
-						"X": 0,
-						"Y": 450,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BgNml",
-					"Position": {
-						"X": 0,
-						"Y": -450,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "NH_Root",
-					"Position": {
-						"X": 200,
-						"Y": -25,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_Top",
-					"Position": {
-						"X": 0,
-						"Y": -10,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_00",
-					"Position": {
-						"X": -50,
-						"Y": -318,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_01",
-					"Position": {
-						"X": -50,
-						"Y": -404,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_02",
-					"Position": {
-						"X": -50,
-						"Y": -490,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_03",
-					"Position": {
-						"X": -50,
-						"Y": -576,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_04",
-					"Position": {
-						"X": -50,
-						"Y": -662,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_05",
-					"Position": {
-						"X": -50,
-						"Y": -748,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_06",
-					"Position": {
-						"X": -50,
-						"Y": -834,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_BtnIconGame_07",
-					"Position": {
-						"X": -50,
-						"Y": -920,
-						"Z": 0
-					},
-					"Size": {
-						"X": 1094,
-						"Y": 138
-					}
-				},
-				{
-					"PaneName": "L_Header",
-					"Position": {
-						"X": -100,
-						"Y": -767,
-						"Z": 0
-					},
-					"Scale": {
-						"X": 0.7,
-						"Y": 0.7
-					}
-				},
-				{
-					"PaneName": "L_BtnSort",
-					"Position": {
-						"X": 600,
-						"Y": -130,
-						"Z": 0
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/TextH1.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Line",
-					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/FlcBtnIconGameBlock.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_BtnIconGame_00",
-					"Position": {
-						"X": -340,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_BtnIconGame_01",
-					"Position": {
-						"X": -204,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_BtnIconGame_02",
-					"Position": {
-						"X": -68,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_BtnIconGame_03",
-					"Position": {
-						"X": 68,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_BtnIconGame_04",
-					"Position": {
-						"X": 204,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "N_BtnIconGame_05",
-					"Position": {
-						"X": 340,
-						"Y": 0,
-						"Z": 0
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/FlcBtnIconGame.bflyt",
-			"Patches": [
-				{
-					"PaneName": "RootPane",
-					"Scale": {
-						"X": 0.75,
-						"Y": 0.75
-					}
-				},
-				{
-					"PaneName": "P_BtnBase",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["45"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_IconGame",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["45"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "P_InnerCursor",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["45"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "N_BtnFocusKey",
-					"UsdPatches": [
-						{
-							"PropName": "S_RoundRadius",
-							"PropValues": ["45"],
-							"type": 2
-						}
-					]
-				},
-				{
-					"PaneName": "N_Tip",
-					"Visible": false
-				},
-				{
-					"PaneName": "B_Hit",
-					"Size": {
-						"X": 97,
-						"Y": 97
-					}
-				}
-			]
-		}
-	]
+    "PatchName": "Right All Apps Rounded",
+    "AuthorName": "Akai",
+    "Files": [
+        {
+            "FileName": "blyt/FlcCntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": 0,
+                        "Y": 450,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BgNml",
+                    "Position": {
+                        "X": 0,
+                        "Y": -450,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "NH_Root",
+                    "Position": {
+                        "X": 200,
+                        "Y": -25,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_Top",
+                    "Position": {
+                        "X": 0,
+                        "Y": -10,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_00",
+                    "Position": {
+                        "X": -50,
+                        "Y": -318,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_01",
+                    "Position": {
+                        "X": -50,
+                        "Y": -404,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_02",
+                    "Position": {
+                        "X": -50,
+                        "Y": -490,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_03",
+                    "Position": {
+                        "X": -50,
+                        "Y": -576,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_04",
+                    "Position": {
+                        "X": -50,
+                        "Y": -662,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_05",
+                    "Position": {
+                        "X": -50,
+                        "Y": -748,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_06",
+                    "Position": {
+                        "X": -50,
+                        "Y": -834,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_07",
+                    "Position": {
+                        "X": -50,
+                        "Y": -920,
+                        "Z": 0
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 138
+                    }
+                },
+                {
+                    "PaneName": "L_Header",
+                    "Position": {
+                        "X": -100,
+                        "Y": -767,
+                        "Z": 0
+                    },
+                    "Scale": {
+                        "X": 0.7,
+                        "Y": 0.7
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSort",
+                    "Position": {
+                        "X": 600,
+                        "Y": -130,
+                        "Z": 0
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/TextH1.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FlcBtnIconGameBlock.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_BtnIconGame_00",
+                    "Position": {
+                        "X": -340,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_BtnIconGame_01",
+                    "Position": {
+                        "X": -204,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_BtnIconGame_02",
+                    "Position": {
+                        "X": -68,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_BtnIconGame_03",
+                    "Position": {
+                        "X": 68,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_BtnIconGame_04",
+                    "Position": {
+                        "X": 204,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "N_BtnIconGame_05",
+                    "Position": {
+                        "X": 340,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FlcBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "P_BtnBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "45"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_IconGame",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "45"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_InnerCursor",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "45"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "N_BtnFocusKey",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "45"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Size": {
+                        "X": 97,
+                        "Y": 97
+                    }
+                }
+            ]
+        }
+    ]
 }

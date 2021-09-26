@@ -1,52 +1,51 @@
 {
-	"PatchName": "Banned Layout",
-	"AuthorName": "Lesking72",
-	"TargetName": "ResidentMenu.szs",
-	"Files": [
-		{
-			"FileName": "blyt/RdtBase.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_BtnNoti",
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnShop",
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnPvr",
-					"Position": {
-						"X": -162,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnCtrl",
-					"Position": {
-						"X": -54,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnSet",
-					"Position": {
-						"X": 54,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnPow",
-					"Position": {
-						"X": 162,
-						"Y": 0,
-						"Z": 0
-					}
-				}
-			]
-		}
-	]
+    "PatchName": "Banned Layout",
+    "AuthorName": "Lesking72",
+    "Files": [
+        {
+            "FileName": "blyt/RdtBase.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnNoti",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnShop",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnPvr",
+                    "Position": {
+                        "X": -162,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnCtrl",
+                    "Position": {
+                        "X": -54,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSet",
+                    "Position": {
+                        "X": 54,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnPow",
+                    "Position": {
+                        "X": 162,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                }
+            ]
+        }
+    ]
 }
