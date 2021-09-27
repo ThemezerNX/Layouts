@@ -50,14 +50,6 @@ const exist = (dir) => {
     }
 };
 
-// optional function for pgp if prop does not exist in object
-export function str(column) {
-    return {
-        name: column,
-        skip: (c) => !c.exists,
-    };
-}
-
 const layoutTable = new pgp.helpers.ColumnSet(
     [
         "name",
@@ -222,7 +214,8 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             const layoutPath = path.join(targetsFolder, target, layoutName);
 
             // Read details
-            const detailsFile = editJsonFile(path.join(layoutPath, "details.json"), {autosave: true, stringify_width: 4});
+            const detailsFile = editJsonFile(path.join(layoutPath, "details.json"),
+                {autosave: true, stringify_width: 4});
             if (!detailsFile.get("uuid")) {
                 detailsFile.set("uuid", uuidv4());
             }
@@ -230,9 +223,8 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             layout.options = [];
             // Assign the correct target
             layout.target = target;
-            // Set updateTimestamp to current time
-            layout.updatedTimestamp = new Date();
-            if (process.env.NODE_ENV == "development") {
+            // Set the creatorId to 0 if in development (not for layouts by Nintendo)
+            if (process.env.NODE_ENV == "development" && layout.creatorId != "1") {
                 layout.creatorId = "0";
             }
             // Remove '#' in color field if it is there
@@ -244,19 +236,20 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             const layoutJsonPath = path.join(layoutPath, "layout.json");
             const layoutOverlayPath = path.join(layoutPath, "overlay.png");
             const hasLayout = existsSync(layoutJsonPath);
-            if (!hasLayout && !(layout.creatorId == "0" || layout.creatorId == "1")) {
+            if (!hasLayout && layout.creatorId != "1") {
                 throw new Error(`${layoutJsonPath} is required, but does not exist`);
             }
             if (!existsSync(layoutOverlayPath)) throw new Error("Layout overlay does not exist for " + layoutPath);
             layout.overlayPath = layoutOverlayPath;
 
             if (hasLayout) {
-                const layoutFile = editJsonFile(path.join(layoutPath, "layout.json"), {autosave: true, stringify_width: 4});
+                const layoutFile = editJsonFile(path.join(layoutPath, "layout.json"), {stringify_width: 4});
                 layoutFile.unset("Ready8X");
-                layoutFile.unset("PatchName");
-                layoutFile.unset("AuthorName");
                 layoutFile.unset("TargetName");
                 layoutFile.unset("ID");
+                layoutFile.save();
+                layoutFile.unset("PatchName");
+                layoutFile.unset("AuthorName");
                 layout.json = JSON.stringify(layoutFile.toObject(), null, 4);
             }
 
@@ -315,6 +308,8 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
             }
 
             layout.insertionMD5 = objectHash.MD5(layout);
+            // Set updateTimestamp to current time
+            layout.updatedTimestamp = new Date();
             layouts.push(layout);
         }
     }
@@ -391,7 +386,7 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
                     await t.none(() => pgp.helpers.update({
                             cacheId: existingEntry.cacheId,
                             layoutId: existingEntry.id,
-                            ...previews
+                            ...previews,
                         },
                         layoutPreviewsTable) + ` WHERE "layoutId" = '${existingEntry.id}'`);
                     // delete all layout options for current layoutId
@@ -406,6 +401,10 @@ const targetsFolder = path.resolve(__dirname, "..", "targets");
         } catch (e) {
             console.error("Insert Failed ❌\n", e);
         }
+    }
+
+    if (newLayouts.length == 0 && updatedLayouts.length == 0) {
+        console.log("No changes detected ✔️");
     }
 
     // Insert the data into the database and close connection
