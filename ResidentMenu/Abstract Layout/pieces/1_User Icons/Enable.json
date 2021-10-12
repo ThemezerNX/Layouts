@@ -13,8 +13,8 @@
 				{
 					"PaneName": "N_MyPage",
 					"Position": {
-						"X": -595.0,
-						"Y": 310.0
+						"X": -595,
+						"Y": 310
 					},
 					"Scale": {
 						"X": 0.7,
@@ -73,5 +73,6 @@
 				}
 			]
 		}
-	]
+	],
+	"uuid": "0d34fbb1-49ef-44f5-ad8a-916e8efea2ff"
 }
