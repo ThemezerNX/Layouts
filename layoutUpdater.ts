@@ -65,7 +65,7 @@ async function run() {
 				jsons.forEach((j) => {
 					const valueName = j.replace('.json', '')
 
-					const valueFile = editJsonFile(`${lF}/pieces/${option}/${valueName}.json`)
+					const valueFile = editJsonFile(`${lF}/pieces/${option}/${valueName}.json`, {autosave: true})
 					if (!valueFile.get('uuid')) {
 						valueFile.set('uuid', uuid())
 					}
