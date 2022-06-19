@@ -1,0 +1,37 @@
+{
+    "Files": [
+        {
+            "FileName": "blyt/FlcBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_InnerCursor",
+                    "UsdPatches": [
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "65",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "5"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_InnerCursor",
+                    "BackgroundColor": "FFFFFFFF"
+                }
+            ]
+        }
+    ]
+}
