@@ -1,65 +1,58 @@
 {
-    "PatchName": "Gapless (All Apps)",
-    "AuthorName": "DenizOnmus",
-    "TargetName": "Flaunch.szs",
-    "Files": [
-        {
-            "FileName": "blyt/FlcBtnIconGame.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Tip",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_Delete",
-                    "Scale": {
-                        "X": 1.06,
-                        "Y": 1.06
-                    }
-                },
-                {
-                    "PaneName": "P_InnerCursor",
-                    "Size": {
-                        "X": 174.0,
-                        "Y": 174.0
-                    },
-                    "UsdPatches": [
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "4",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        },
-                        {
-                            "PropName": "S_BorderSize",
-                            "PropValues": [
-                                "100"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                }
-            ],
-            "Materials": [
-                {
-                    "MaterialName": "P_InnerCursor",
-                    "BackgroundColor": "63FFFFFF"
-                }
-            ]
-        }
-    ],
-    "Anims": [
-        {
-            "FileName": "anim/FlcBtnIconGame_FocusKey.bflan",
-            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":1,\"Name\":\"FocusKey\",\"ChildBinding\":0,\"Groups\":[\"G_BtnKey\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAEAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_BtnBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":100.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.25},{\"Frame\":1.0,\"Value\":0.25,\"Blend\":0.0}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowVolume\"}]}],\"UnkwnownData\":\"XAAAAA==\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":4.0,\"Blend\":0.0}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowSize\"}]}],\"UnkwnownData\":\"UAAAAA==\"}]}}"
-        },
-        {
-            "FileName": "anim/FlcBtnIconGame_UnfocusKey.bflan",
-            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"UnfocusKey\",\"ChildBinding\":50,\"Groups\":[\"G_BtnKey\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADUAAAAAAA==\"},\"pai1\":{\"FrameSize\":3,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_BtnBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":100.0,\"Blend\":-33.3333321},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-49.0,\"Value\":0.25,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.25,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":-0.005}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowVolume\"}]}],\"UnkwnownData\":\"aAAAAA==\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":4.0,\"Blend\":-1.33333337},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowSize\"}]}],\"UnkwnownData\":\"XAAAAA==\"}]}}"
-        }
-    ]
+	"PatchName": "Gapless (All Apps)",
+	"AuthorName": "DenizOnmus",
+	"TargetName": "Flaunch.szs",
+	"Files": [
+		{
+			"FileName": "blyt/FlcBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Delete",
+					"Scale": {
+						"X": 1.06,
+						"Y": 1.06
+					}
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"Size": {
+						"X": 174,
+						"Y": 174
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["4", "0", "0", "0"],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["100"],
+							"type": 2
+						}
+					]
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_InnerCursor",
+					"BackgroundColor": "63FFFFFF"
+				}
+			]
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/FlcBtnIconGame_FocusKey.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":1,\"Name\":\"FocusKey\",\"ChildBinding\":0,\"Groups\":[\"G_BtnKey\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAEAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_BtnBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":100.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.25},{\"Frame\":1.0,\"Value\":0.25,\"Blend\":0.0}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowVolume\"}]}],\"UnkwnownData\":\"XAAAAA==\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":4.0,\"Blend\":0.0}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowSize\"}]}],\"UnkwnownData\":\"UAAAAA==\"}]}}"
+		},
+		{
+			"FileName": "anim/FlcBtnIconGame_UnfocusKey.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"UnfocusKey\",\"ChildBinding\":50,\"Groups\":[\"G_BtnKey\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADUAAAAAAA==\"},\"pai1\":{\"FrameSize\":3,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_BtnBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":100.0,\"Blend\":-33.3333321},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-49.0,\"Value\":0.25,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.25,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":-0.005}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowVolume\"}]}],\"UnkwnownData\":\"aAAAAA==\"},{\"Name\":\"P_BtnBase\",\"Target\":2,\"Tags\":[{\"Unknown\":44,\"TagType\":\"FLEU\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":4.0,\"Blend\":-1.33333337},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":4,\"FLEUEntryName\":\"S_DropShadowSize\"}]}],\"UnkwnownData\":\"XAAAAA==\"}]}}"
+		}
+	]
 }

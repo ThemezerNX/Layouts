@@ -1,26 +1,27 @@
 {
-    "Files": [
-        {
-            "FileName": "blyt/FlcCntMain.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Btm",
-                    "Size": {
-                        "X": 10.0,
-                        "Y": 100.0
-                    }
-                },
-                {
-                    "PaneName": "L_Shop",
-                    "Visible": false
-                }
-            ]
-        }
-    ],
-    "Anims": [
-        {
-            "FileName": "anim/FlcCntMain_Type.bflan",
-            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Type\",\"ChildBinding\":0,\"Groups\":[\"G_Type\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAEAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_Shop\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-108.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":-108.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":-320.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"T_Empty\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
-        }
-    ]
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Btm",
+					"Size": {
+						"X": 10,
+						"Y": 100
+					}
+				},
+				{
+					"PaneName": "L_Shop",
+					"Visible": false
+				}
+			]
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/FlcCntMain_Type.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Type\",\"ChildBinding\":0,\"Groups\":[\"G_Type\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAEAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_Shop\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-108.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":-108.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":-320.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"T_Empty\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		}
+	],
+	"uuid": "ce27a456-0323-47c2-9550-6c9727b4c1bf"
 }
