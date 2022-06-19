@@ -1,59 +1,54 @@
 {
     "PatchName": "Left All Apps Rounded",
     "AuthorName": "M1ke",
+    "TargetName": "Flaunch.szs",
     "Files": [
         {
             "FileName": "blyt/FlcCntMain.bflyt",
             "Patches": [
                 {
-                    "PaneName": "L_Area",
+                    "PaneName": "N_Header",
                     "Position": {
-                        "X": -2,
-                        "Y": 4
-                    }
-                },
-                {
-                    "PaneName": "N_Root",
-                    "Position": {
-                        "Y": 450
+                        "X": -300,
+                        "Y": 360
                     }
                 },
                 {
                     "PaneName": "N_Sort",
                     "Position": {
-                        "X": 600,
-                        "Y": -90
+                        "X": -100,
+                        "Y": -100
                     }
                 },
                 {
                     "PaneName": "NH_Root",
                     "Position": {
-                        "X": -225,
-                        "Y": -40
+                        "X": -210,
+                        "Y": 190
                     }
                 },
                 {
                     "PaneName": "L_Header",
                     "Position": {
-                        "X": -52,
-                        "Y": -119
+                        "X": 200,
+                        "Y": -678
+                    },
+                    "Scale": {
+                        "X": 0.7,
+                        "Y": 0.7
                     }
                 },
                 {
                     "PaneName": "L_BtnGrp",
                     "Position": {
-                        "X": 193,
-                        "Y": -128
-                    },
-                    "ParentOriginY": 2
+                        "Y": -35
+                    }
                 },
                 {
                     "PaneName": "L_BtnSort",
                     "Position": {
-                        "X": 195,
-                        "Y": -128
-                    },
-                    "ParentOriginY": 2
+                        "Y": -35
+                    }
                 },
                 {
                     "PaneName": "L_Loading"
@@ -61,21 +56,20 @@
                 {
                     "PaneName": "N_Cnt",
                     "Position": {
-                        "X": 0.5,
-                        "Y": -30
+                        "Y": 70
                     }
                 },
                 {
                     "PaneName": "N_Top",
                     "Position": {
-                        "Y": -30
+                        "Y": 150
                     }
                 },
                 {
                     "PaneName": "L_BtnIconGame_00",
                     "Position": {
                         "X": -50,
-                        "Y": -383
+                        "Y": -318
                     },
                     "Size": {
                         "X": 1094,
@@ -86,7 +80,7 @@
                     "PaneName": "L_BtnIconGame_01",
                     "Position": {
                         "X": -50,
-                        "Y": -475
+                        "Y": -404
                     },
                     "Size": {
                         "X": 1094,
@@ -97,7 +91,7 @@
                     "PaneName": "L_BtnIconGame_02",
                     "Position": {
                         "X": -50,
-                        "Y": -483
+                        "Y": -490
                     },
                     "Size": {
                         "X": 1094,
@@ -108,7 +102,7 @@
                     "PaneName": "L_BtnIconGame_03",
                     "Position": {
                         "X": -50,
-                        "Y": -616
+                        "Y": -576
                     },
                     "Size": {
                         "X": 1094,
@@ -119,7 +113,7 @@
                     "PaneName": "L_BtnIconGame_04",
                     "Position": {
                         "X": -50,
-                        "Y": -659
+                        "Y": -662
                     },
                     "Size": {
                         "X": 1094,
@@ -130,7 +124,7 @@
                     "PaneName": "L_BtnIconGame_05",
                     "Position": {
                         "X": -50,
-                        "Y": -833
+                        "Y": -748
                     },
                     "Size": {
                         "X": 1094,
@@ -152,7 +146,7 @@
                     "PaneName": "L_BtnIconGame_07",
                     "Position": {
                         "X": -50,
-                        "Y": -1008
+                        "Y": -920
                     },
                     "Size": {
                         "X": 1094,
@@ -161,16 +155,6 @@
                 },
                 {
                     "PaneName": "L_Shop"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FlcGrpSoftArrangement.bflyt",
-            "Patches": [],
-            "Materials": [
-                {
-                    "MaterialName": "T_00",
-                    "ForegroundColor": "00000000"
                 }
             ]
         },
