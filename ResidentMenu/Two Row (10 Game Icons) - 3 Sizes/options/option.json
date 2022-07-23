@@ -1,0 +1,6 @@
+// option.json
+{
+	"description": "",
+	"type": "SELECT",
+	"priority": 1
+}
