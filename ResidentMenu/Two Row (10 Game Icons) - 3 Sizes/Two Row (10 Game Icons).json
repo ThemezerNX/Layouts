@@ -1,8 +1,7 @@
 {
     "PatchName": "10 Icons (small) (Home Menu)",
-    "AuthorName": "autoDiff",
+    "AuthorName": "shmuga9",
     "TargetName": "ResidentMenu.szs",
-    "ID": "Generated_d37188ab-6848-40e0-a89a-37414a1c3f58",
     "HideOnlineBtn": false,
     "Files": [
         {
