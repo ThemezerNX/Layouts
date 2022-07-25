@@ -1,10 +1,6 @@
 {
     "name": "Two Row (10 Game Icons)",
-    "description": "Two Row Layout with 10 game icons, and options for various sizes. Includes all applets and fixed issue with cursor jumping to profiles/applets.
-
-Based off gobbldygook's design.
-https://themezer.net/layouts/homemenu/Vanilla-ish-Two-Row-Layout-10",
-    "creatorId": "TheMangoViking#5491
-",
+    "description": "Two Row Layout with 10 game icons, and options for various sizes. Includes all applets and fixed issue with cursor jumping to profiles/applets. Based off gobbldygook's design (https://themezer.net/layouts/homemenu/Vanilla-ish-Two-Row-Layout-10)",
+    "creator_id": "235472252194258955",
     "color": ""
 }
