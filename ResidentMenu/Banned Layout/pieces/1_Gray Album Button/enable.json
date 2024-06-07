@@ -1,0 +1,50 @@
+{
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnPvr.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Effect",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["34", "0", "0", "0"],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_PictMask",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["34", "0", "0", "0"],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_Color",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["34", "0", "0", "0"],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_Pict_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["34", "0", "0", "0"],
+							"type": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"uuid": "cf918eb1-cd38-4854-8f47-5c1db356cf2b"
+}

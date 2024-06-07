@@ -1,13 +1,25 @@
 {
 	"PatchName": "Goose Apps",
-	"AuthorName": "Goose",
+	"AuthorName": "Goose & M1ke",
 	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",
 			"Patches": [
 				{
-					"PaneName": "L_Shop",
+					"PaneName": "N_PosAll",
+					"Position": {
+						"Y": -20
+					}
+				},
+				{
+					"PaneName": "NH_CntInOut",
+					"Position": {
+						"Y": 90
+					}
+				},
+				{
+					"PaneName": "N_Sort",
 					"Visible": false
 				},
 				{
@@ -15,12 +27,25 @@
 					"Visible": false
 				},
 				{
-					"PaneName": "NH_CntInOut",
+					"PaneName": "L_BtnGrp",
 					"Position": {
-						"X": 0,
-						"Y": 90,
-						"Z": 0
+						"X": 604,
+						"Y": -390
 					}
+				},
+				{
+					"PaneName": "L_BtnSort",
+					"Position": {
+						"X": 604,
+						"Y": -390
+					}
+				},
+				{
+					"PaneName": "L_Loading"
+				},
+				{
+					"PaneName": "L_Shop",
+					"Visible": false
 				}
 			]
 		},

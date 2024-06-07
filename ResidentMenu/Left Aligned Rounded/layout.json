@@ -1,5 +1,5 @@
 {
-	"PatchName": "Right Aligned Rounded",
+	"PatchName": "Left Aligned Rounded",
 	"AuthorName": "M1ke",
 	"HideOnlineBtn": false,
 	"Files": [
@@ -21,7 +21,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Form",
@@ -31,7 +35,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Stick",
@@ -41,7 +49,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Y",
@@ -51,7 +63,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_X",
@@ -61,7 +77,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_A",
@@ -71,7 +91,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_B",
@@ -81,7 +105,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			],
 			"Materials": [
@@ -122,7 +150,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_M",
@@ -132,7 +164,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_P",
@@ -142,7 +178,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Colon",
@@ -152,7 +192,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Dot",
@@ -162,7 +206,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Comma",
@@ -172,7 +220,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			]
 		},
@@ -217,7 +269,9 @@
 							"type": 1
 						}
 					],
+					"ColorTL": "FFFFFFFF",
 					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
 					"ColorBR": "FFFFFFFF"
 				}
 			]
@@ -238,7 +292,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_00",
@@ -253,7 +311,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_01",
@@ -263,7 +325,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_02",
@@ -273,7 +339,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_03",
@@ -288,7 +358,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			]
 		},
@@ -397,7 +471,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict",
@@ -407,7 +485,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			],
 			"Materials": [
@@ -435,7 +517,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Effect",
@@ -445,7 +531,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_PictMask",
@@ -455,7 +545,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Color",
@@ -465,7 +559,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_00",
@@ -475,7 +573,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			],
 			"Materials": [
@@ -520,6 +622,7 @@
 				{
 					"PaneName": "N_Tip",
 					"Position": {
+						"X": -115,
 						"Y": 143
 					}
 				},
@@ -532,6 +635,17 @@
 					"Size": {
 						"X": 132,
 						"Y": 132
+					}
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Position": {
+						"X": 110,
+						"Y": -20
+					},
+					"Scale": {
+						"X": 0.599999964,
+						"Y": 1
 					}
 				},
 				{
@@ -591,6 +705,9 @@
 						"X": 259,
 						"Y": 259
 					}
+				},
+				{
+					"PaneName": "L_Loading"
 				}
 			]
 		},
@@ -605,7 +722,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			]
 		},
@@ -613,20 +734,13 @@
 			"FileName": "blyt/RdtBase.bflyt",
 			"Patches": [
 				{
-					"PaneName": "L_BgNml",
-					"Size": {
-						"X": 1400,
-						"Y": 720
-					}
-				},
-				{
 					"PaneName": "N_ScrollArea",
 					"Position": {
 						"X": -3,
 						"Y": 4
 					},
 					"Size": {
-						"X": 1280,
+						"X": 1400,
 						"Y": 720
 					}
 				},
@@ -640,18 +754,18 @@
 				{
 					"PaneName": "N_GameRoot",
 					"Position": {
-						"X": -70,
+						"X": -620,
 						"Y": 50
 					},
 					"Scale": {
-						"X": 1.19999993,
-						"Y": 1.19999993
+						"X": 1.18999994,
+						"Y": 1.18999994
 					}
 				},
 				{
 					"PaneName": "N_System",
 					"Position": {
-						"X": 325,
+						"X": -624,
 						"Y": -310
 					},
 					"Scale": {
@@ -669,14 +783,14 @@
 						"Y": 2
 					},
 					"Size": {
-						"X": 1400,
+						"X": 1280,
 						"Y": 720
 					}
 				},
 				{
 					"PaneName": "N_MyPage",
 					"Position": {
-						"X": 590,
+						"X": -593,
 						"Y": 310
 					},
 					"Scale": {
@@ -691,46 +805,55 @@
 				{
 					"PaneName": "L_Hud",
 					"Position": {
-						"X": 177,
+						"X": 10,
 						"Y": 310
+					}
+				},
+				{
+					"PaneName": "L_BtnLR",
+					"Position": {
+						"X": 26,
+						"Y": 8
 					}
 				},
 				{
 					"PaneName": "L_BtnNoti",
 					"Position": {
-						"Y": -500
+						"X": 404,
+						"Y": -492
 					},
 					"Visible": false
 				},
 				{
 					"PaneName": "L_BtnShop",
 					"Position": {
-						"Y": -400
+						"X": 404,
+						"Y": -392
 					},
 					"Visible": false
 				},
 				{
 					"PaneName": "L_BtnPvr",
 					"Position": {
-						"X": -3
+						"X": 45
 					}
 				},
 				{
 					"PaneName": "L_BtnCtrl",
 					"Position": {
-						"X": 122
+						"X": 150
 					}
 				},
 				{
 					"PaneName": "L_BtnSet",
 					"Position": {
-						"X": 246
+						"X": 255
 					}
 				},
 				{
 					"PaneName": "L_BtnPow",
 					"Position": {
-						"X": 370
+						"X": 361
 					}
 				},
 				{
@@ -740,43 +863,43 @@
 				{
 					"PaneName": "L_BtnAccount_01",
 					"Position": {
-						"X": -70
+						"X": 71
 					}
 				},
 				{
 					"PaneName": "L_BtnAccount_02",
 					"Position": {
-						"X": -140
+						"X": 141
 					}
 				},
 				{
 					"PaneName": "L_BtnAccount_03",
 					"Position": {
-						"X": -210
+						"X": 211
 					}
 				},
 				{
 					"PaneName": "L_BtnAccount_04",
 					"Position": {
-						"X": -280
+						"X": 280
 					}
 				},
 				{
 					"PaneName": "L_BtnAccount_05",
 					"Position": {
-						"X": -350
+						"X": 350
 					}
 				},
 				{
 					"PaneName": "L_BtnAccount_06",
 					"Position": {
-						"X": -420
+						"X": 419
 					}
 				},
 				{
 					"PaneName": "L_BtnAccount_07",
 					"Position": {
-						"X": -490
+						"X": 489
 					}
 				},
 				{
@@ -926,8 +1049,8 @@
 				{
 					"PaneName": "N_Icon_12",
 					"Position": {
-						"X": 230,
-						"Y": -300
+						"X": 290,
+						"Y": -304
 					},
 					"Scale": {
 						"X": 0.399999976,
@@ -957,7 +1080,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "L_GTNum_00",
@@ -967,7 +1094,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "L_GTNum_01",
@@ -977,7 +1108,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "L_GTNum_02",
@@ -987,7 +1122,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			],
 			"Materials": [
@@ -1020,7 +1159,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			]
 		},
@@ -1035,7 +1178,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Wifi",
@@ -1045,7 +1192,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Local",
@@ -1055,7 +1206,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_WireLine",
@@ -1065,7 +1220,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			]
 		},
@@ -1080,7 +1239,18 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
+				},
+				{
+					"PaneName": "P_Reset",
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Color",
@@ -1090,16 +1260,24 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "T_Main",
+					"ColorTL": "FFFFFFFF",
 					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
 					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "T_Sub",
+					"ColorTL": "FFFFFFFF",
 					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
 					"ColorBR": "FFFFFFFF"
 				}
 			]
@@ -1115,6 +1293,22 @@
 				}
 			],
 			"AddGroups": [
+				{
+					"GroupName": "G_BatteryNumCustom",
+					"Panes": ["N_BatteryNum"]
+				},
+				{
+					"GroupName": "G_BatteryNumCustom",
+					"Panes": ["N_BatteryNum"]
+				},
+				{
+					"GroupName": "G_BatteryNumCustom",
+					"Panes": ["N_BatteryNum"]
+				},
+				{
+					"GroupName": "G_BatteryNumCustom",
+					"Panes": ["N_BatteryNum"]
+				},
 				{
 					"GroupName": "G_BatteryNumCustom",
 					"Panes": ["N_BatteryNum"]
@@ -1151,7 +1345,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_00",
@@ -1161,7 +1359,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Pict_01",
@@ -1171,7 +1373,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				}
 			],
 			"Materials": [
@@ -1196,7 +1402,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Per",
@@ -1206,7 +1416,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_BatBase",
@@ -1220,7 +1434,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_Error",
@@ -1230,7 +1448,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_GaugeNml",
@@ -1240,7 +1462,11 @@
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF",
+					"ColorBR": "FFFFFFFF"
 				},
 				{
 					"PaneName": "P_GaugeOther",
