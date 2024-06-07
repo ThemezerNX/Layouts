@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "FileName": "blyt/RdtBase.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_BtnNoti",
+          "Position": {
+            "X": -200,
+            "Y": -100
+          },
+          "Visible": true
+        },
+        {
+          "PaneName": "L_BtnLR",
+          "Position": {
+            "Y": -200
+          },
+          "Visible": true
+        }
+      ]
+    }
+  ],
+  "uuid": "4a828fd7-2ebc-4c20-8038-c0b8bd57303f"
+}
