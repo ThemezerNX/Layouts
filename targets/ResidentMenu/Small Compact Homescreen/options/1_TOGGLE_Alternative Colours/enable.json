@@ -1,0 +1,135 @@
+{
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnCtrl.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Form",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Stick",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Y",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_X",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_A",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_B",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnFullLauncher.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Pict_00",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Pict_01",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Pict_02",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Pict_03",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnSet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Pict",
+					"ColorTL": "FF404040",
+					"ColorTR": "FF404040",
+					"ColorBL": "FF404040",
+					"ColorBR": "FF404040"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPvr.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Pict_01",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_Color",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPow.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "FF0000FF",
+					"ColorTR": "FF0000FF",
+					"ColorBL": "FF0000FF",
+					"ColorBR": "FF0000FF"
+				},
+				{
+					"PaneName": "P_Pict_00",
+					"ColorTL": "FF0000FF",
+					"ColorTR": "FF0000FF",
+					"ColorBL": "FF0000FF",
+					"ColorBR": "FF0000FF"
+				}
+			]
+		}
+	],
+	"uuid": "d9bdf355-10e8-4688-bfe4-3e552f4e8656"
+}

@@ -1,0 +1,43 @@
+{
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnChildLock.bflyt",
+			"__self": null
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/RdtBtnChildLock_Active.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_Inactive.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_PlayTimerIn.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_In.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_PlayTimerOut.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_ColorOff.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_ColorOn.bflan",
+			"__self": null
+		},
+		{
+			"FileName": "anim/RdtBtnChildLock_ColorOver.bflan",
+			"__self": null
+		}
+	],
+	"uuid": "b8c4067b-eb97-44aa-9e02-3ec32a7d0d8c"
+}
