@@ -1,0 +1,15 @@
+{
+	"PatchName": "No Footer",
+	"AuthorName": "Glowmoss",
+	"Files": [
+		{
+			"FileName": "blyt/Footer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Footer",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

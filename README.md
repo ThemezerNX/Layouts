@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="https://themezer.net/icon-128.png" alt="Themezer Logo" />
 </p>
 
@@ -12,7 +12,7 @@ This repository holds all layouts and options available on the [Themezer.net](ht
 
 ## Submission Instructions
 
-The instructions are available on [the wiki](../../wiki)
+The instructions are available [here](https://github.com/ThemezerNX/Layouts/tree/73d616c4f44674ce976e11960749823da954c5f1#readme). Please don't follow the Wiki instructions.
 
 ## Thanks To
 
