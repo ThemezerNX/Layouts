@@ -1,0 +1,78 @@
+{
+	"AuthorName": "Paco",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBase.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_System",
+					"Position": {
+						"X": -595
+					}
+				},
+				{
+					"PaneName": "N_MyPage",
+					"Position": {
+						"X": -595,
+						"Y": 310
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "L_BtnAccount_00",
+					"Position": {
+						"X": 0
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "L_BtnAccount_01",
+					"Position": {
+						"X": 70
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_02",
+					"Position": {
+						"X": 140
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_03",
+					"Position": {
+						"X": 210
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_04",
+					"Position": {
+						"X": 280
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_05",
+					"Position": {
+						"X": 350
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_06",
+					"Position": {
+						"X": 420
+					}
+				},
+				{
+					"PaneName": "L_BtnAccount_07",
+					"Position": {
+						"X": 490
+					}
+				}
+			]
+		}
+	],
+	"uuid": "0d34fbb1-49ef-44f5-ad8a-916e8efea2ff"
+}

@@ -1,40 +1,9 @@
-import { readdirSync, readFileSync } from 'fs'
+import { readFileSync } from 'fs'
 import * as path from 'node:path'
 import { isTarget } from '@themezernx/target-parser/dist'
 import * as editJsonFile from 'edit-json-file'
 import { randomUUID } from 'node:crypto'
 import * as directoryTree from 'directory-tree'
-
-interface Value {
-	name: string
-	uuid: string
-	json: string
-	overlayPath: string
-}
-
-interface Option {
-	name: string
-	type: string
-	// typeOptions?: { // not yet supported (in name?)
-	//     min?: number
-	//     max?: number
-	// };
-	priority: number
-	values: Value[]
-}
-
-interface Layout {
-	name: string
-	description: string
-	creatorUuid: string
-	color: string
-	uuid: string
-	target: string
-	json: string
-	commonJson: string
-	overlayPath: string
-	options?: Option[]
-}
 
 function customizeDirectoryTree(node: any): any {
 	if (Array.isArray(node.children)) {
@@ -111,7 +80,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 				}
 			}
 
-			if (layoutName === "_GLOBAL") {
+			if (layoutName === '_GLOBAL') {
 				continue
 			}
 
@@ -127,6 +96,9 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 				autosave: true,
 				stringify_width: 4,
 			})
+			if (!detailsFile.get('creatorId')) {
+				throw new Error('No creatorId found in details.json, ' + layoutTree.name)
+			}
 			if (!detailsFile.get('uuid')) {
 				console.log('No UUID found in details.json, setting one', layoutTree.name)
 				detailsFile.set('uuid', randomUUID())
