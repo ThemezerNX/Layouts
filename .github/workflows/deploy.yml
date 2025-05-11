@@ -3,58 +3,50 @@
 
 name: Deploy
 on:
-    push:
-        branches:
-            - master
-        paths:
-            - '**.ts'
-            - '**.js'
-            - '**.json'
-            - '**.yml'
+  push:
+    branches:
+      - master
+
 jobs:
-    updateLayouts:
-        runs-on: ubuntu-18.04
-        if: github.repository_owner == 'ThemezerNX'
-        steps:
-            - name: Checkout Project
-              uses: actions/checkout@v2
-            - name: Use Node.js 12
-              uses: actions/setup-node@v1
-              with:
-                  node-version: 12
-            - name: Install Deps
-              run: yarn
-            - name: Compile Script
-              run: yarn run deploy:compile
-            - name: Update Layouts
-              env:
-                  POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
-                  POSTGRES_PORT: ${{ secrets.POSTGRES_PORT }}
-                  POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
-                  POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
-                  POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-              run: yarn run deploy
-            - name: Push changes
-              run: |
-                  git config user.name github-actions
-                  git config user.email github-actions@github.com
-                  if [[ `git status --porcelain --untracked-files=no` ]]; then
-                    git commit -am "Prettify & Automated UUID generation"
-                    git push
-                  fi
-            - name: Updating cdn
-              uses: appleboy/ssh-action@master
-              with:
-                  host: ${{ secrets.SSHHOST }}
-                  username: ${{ secrets.SSHUSERNAME }}
-                  password: ${{ secrets.SSHPASSWORD }}
-                  script: |
-                      cd /home/themezer/Layouts
-                      git reset --hard
-                      git pull
-                      yarn
-                      # rm -rfd /home/themezer/cdn
-                      yarn run symlink:compile
-                      yarn run symlink
-                      find /home/themezer/cdn -xtype l -delete
-                      find /home/themezer/cdn -type d -empty -delete
+  updateLayouts:
+    runs-on: ubuntu-22.04
+    if: github.repository_owner == 'ThemezerNX'
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          cache: 'pnpm'
+          node-version: 20
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Verify all layouts
+        run: pnpm run test
+
+      - name: Prettify
+        run: pnpm run prettify
+
+      - name: Push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          if [[ `git status --porcelain --untracked-files=no` ]]; then
+            git commit -am "Prettify & Automated UUID generation"
+            git push
+          fi
+
+      - name: Deploy
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://api.themezer.net/switch/layouts/run-update'
+          method: 'POST'
+          bearerToken: ${{ secrets.THEMEZER_BEARER_TOKEN }}
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"sha": "${{ github.sha }}", "branch": "${{ github.ref }}" }'

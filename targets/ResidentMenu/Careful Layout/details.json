@@ -1,7 +1,6 @@
 {
-	"name": "Careful Layout",
-	"description": "A material theme based off a Home redesign by Rafly Nurfallah (https://dribbble.com/shots/5912835-Nintendo-Switch-Home-Redesign)",
-	"creatorId": "123859829453357056",
-	"color": "#990000",
-	"uuid": "e3f741ae-7e7a-4606-bb0b-dfdab715c0cb"
+    "description": "A material theme based off a Home redesign by Rafly Nurfallah (https://dribbble.com/shots/5912835-Nintendo-Switch-Home-Redesign)",
+    "creatorId": "123859829453357056",
+    "color": "990000",
+    "uuid": "e3f741ae-7e7a-4606-bb0b-dfdab715c0cb"
 }

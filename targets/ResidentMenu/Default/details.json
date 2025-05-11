@@ -1,7 +1,6 @@
 {
-	"name": "Default",
-	"description": "The default Home Menu layout",
-	"creatorId": "1",
-	"color": "#EBEBEB",
-	"uuid": "4aee879e-2eb6-4870-80eb-ca69845de531"
+    "description": "The default Home Menu layout",
+    "creatorId": "1",
+    "color": "EBEBEB",
+    "uuid": "4aee879e-2eb6-4870-80eb-ca69845de531"
 }

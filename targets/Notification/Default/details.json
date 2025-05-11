@@ -1,7 +1,6 @@
 {
-	"name": "Default",
-	"description": "The default News layout",
-	"creatorId": "1",
-	"color": "#EBEBEB",
-	"uuid": "dd536840-16b4-4db5-999f-c4ea6f65a064"
+    "description": "The default News layout",
+    "creatorId": "1",
+    "color": "EBEBEB",
+    "uuid": "dd536840-16b4-4db5-999f-c4ea6f65a064"
 }

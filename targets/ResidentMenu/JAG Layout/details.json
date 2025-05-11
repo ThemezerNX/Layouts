@@ -1,7 +1,6 @@
 {
-	"name": "JAG Layout",
-	"description": "A Layout based on Reddit user JustAnyGamer's design (https://www.reddit.com/r/NintendoSwitch/comments/gte2t4/trying_to_learn_uiux_design_and_decided_to_give/)",
-	"creatorId": "123859829453357056",
-	"color": "#367afb",
-	"uuid": "37fa5b25-5e90-4879-a215-81a16080c445"
+    "description": "A Layout based on Reddit user JustAnyGamer's design (https://www.reddit.com/r/NintendoSwitch/comments/gte2t4/trying_to_learn_uiux_design_and_decided_to_give/)",
+    "creatorId": "123859829453357056",
+    "color": "367afb",
+    "uuid": "37fa5b25-5e90-4879-a215-81a16080c445"
 }

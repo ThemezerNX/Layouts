@@ -5,27 +5,21 @@
 	"license": "MPL-2.0",
 	"scripts": {
 		"build": "tsc",
+		"start": "node ./dist/test.js",
 		"prettify": "prettier --write **/*.json",
-		"deploy": "yarn run build && yarn run prettify && node ./dist/layoutUpdater.js",
-		"deploy:noprettify": "yarn run build && node ./dist/layoutUpdater.js"
+		"start:dev": "tsc && node ./dist/test.js",
+		"test": "tsc && node ./dist/test.js"
 	},
 	"devDependencies": {
-		"@types/edit-json-file": "^1.6.0",
-		"@types/node": "^14.0.27",
-		"@types/prettier": "^2.0.0",
-		"@types/sharp": "^0.29.2",
-		"prettier": "^2.0.5"
+		"@types/edit-json-file": "^1.7.3",
+		"@types/node": "^20.17.46",
+		"typescript": "^5.8.3"
 	},
 	"dependencies": {
 		"@themezernx/target-parser": "^1.0.5",
-		"@types/object-hash": "^2.2.1",
-		"dotenv": "^10.0.0",
-		"edit-json-file": "^1.4.0",
-		"object-hash": "^2.2.0",
-		"pg-promise": "^10.11.0",
-		"sharp": "^0.29.1",
-		"typescript": "^4.4.3",
-		"uuid": "^8.3.2"
+		"directory-tree": "^3.5.2",
+		"edit-json-file": "^1.8.1",
+		"prettier": "^3.5.3"
 	},
 	"repository": "https://github.com/ThemezerNX/Layouts.git",
 	"private": false
