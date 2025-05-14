@@ -57,13 +57,33 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 						throw new Error(`Invalid option type ${typeKey}, ${optionsPath}`)
 					}
 					if (!!args) {
-						if (!['INTEGER', 'DECIMAL', 'STRING'].includes(typeKey)) {
-							throw new Error(`Type options not supported for ${typeKey}, ${optionsPath}`)
-						} else {
-							const typeArgs = args.split(',').map((arg) => Number(arg.trim()))
-							if (typeArgs.some((arg) => isNaN(arg))) {
+						//!['INTEGER', 'DECIMAL', 'STRING'].includes(typeKey)
+						if (typeKey === "INTEGER") {
+							// minmax
+							const [min, max] = args.split(',').map((arg) => parseInt(arg.trim()))
+							if (isNaN(min) || isNaN(max)) {
 								throw new Error(`Invalid option type ${typeKey} with args ${args}, ${optionsPath}`)
+							} else if (min > max) {
+								throw new Error(`Invalid values ${args} for ${typeKey}, ${optionsPath}`)
 							}
+						} else if (typeKey === "DECIMAL") {
+							// minmax
+							const [min, max] = args.split(',').map((arg) => Number(arg.trim()))
+							if (isNaN(min) || isNaN(max)) {
+								throw new Error(`Invalid option type ${typeKey} with args ${args}, ${optionsPath}`)
+							} else if (min > max) {
+								throw new Error(`Invalid values ${args} for ${typeKey}, ${optionsPath}`)
+							}
+						} else if (typeKey === "STRING") {
+							// minmax length
+							const [min, max] = args.split(',').map((arg) => parseInt(arg.trim()))
+							if (isNaN(min) || isNaN(max)) {
+								throw new Error(`Invalid option type ${typeKey} with args ${args}, ${optionsPath}`)
+							} else if (min > max) {
+								throw new Error(`Invalid values ${args} for ${typeKey}, ${optionsPath}`)
+							}
+						} else {
+							throw new Error(`Type options not supported for ${typeKey}, ${optionsPath}`)
 						}
 					}
 
