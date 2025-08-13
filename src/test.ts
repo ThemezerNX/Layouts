@@ -116,8 +116,8 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 				autosave: true,
 				stringify_width: 4,
 			})
-			if (!detailsFile.get('creatorId')) {
-				throw new Error('No creatorId found in details.json, ' + layoutTree.name)
+			if (!detailsFile.get('creatorUuid')) {
+				throw new Error('No creatorUuid found in details.json, ' + layoutTree.name)
 			}
 			if (!detailsFile.get('uuid')) {
 				console.log('No UUID found in details.json, setting one', layoutTree.name)
