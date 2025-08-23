@@ -9,7 +9,7 @@ on:
 
 jobs:
   updateLayouts:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     if: github.repository_owner == 'ThemezerNX'
     steps:
       - name: Checkout Project
