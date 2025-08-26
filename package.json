@@ -21,7 +21,7 @@
 		"edit-json-file": "^1.8.1",
 		"prettier": "^3.5.3"
 	},
-	"packageManager": "pnpm@9.15.5+sha256.8472168c3e1fd0bff287e694b053fccbbf20579a3ff9526b6333beab8df65a8d"
+	"packageManager": "pnpm@9.15.5+sha256.8472168c3e1fd0bff287e694b053fccbbf20579a3ff9526b6333beab8df65a8d",
 	"repository": "https://github.com/ThemezerNX/Layouts.git",
 	"private": false
 }
