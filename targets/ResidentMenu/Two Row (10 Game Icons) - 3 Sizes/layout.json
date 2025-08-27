@@ -1,7 +1,5 @@
 {
-	"PatchName": "10 Icons (small) (Home Menu)",
 	"AuthorName": "shmuga9",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": false,
 	"Files": [
 		{

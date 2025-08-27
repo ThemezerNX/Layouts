@@ -1,119 +1,119 @@
 {
-    "AuthorName": "Akai",
-    "Files": [
-        {
-            "FileName": "blyt/EntMain.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_CntRMain",
-                    "Position": {
-                        "X": 300,
-                        "Y": -299,
-                        "Z": 0
-                    },
-                    "Scale": {
-                        "X": 0.4,
-                        "Y": 0.4
-                    }
-                },
-                {
-                    "PaneName": "L_BtnResume",
-                    "Position": {
-                        "X": 1042,
-                        "Y": 0,
-                        "Z": 0
-                    }
-                },
-                {
-                    "PaneName": "N_Home",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_ChildLock",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_MarginChildLockHud",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_CntL",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_News",
-                    "Position": {
-                        "X": -100,
-                        "Y": 36,
-                        "Z": 0
-                    },
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_BtnNtf",
-                    "Scale": {
-                        "X": 0.8,
-                        "Y": 0.8
-                    },
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_Lock",
-                    "Position": {
-                        "X": -200,
-                        "Y": -290,
-                        "Z": 0
-                    },
-                    "Scale": {
-                        "X": 0.8,
-                        "Y": 0.8
-                    }
-                },
-                {
-                    "PaneName": "L_BtnBack",
-                    "Position": {
-                        "X": -362,
-                        "Y": -285,
-                        "Z": 0
-                    }
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/EntBtnChildLock.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "RootPane",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_Root",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/Hud.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Root",
-                    "Position": {
-                        "X": -900,
-                        "Y": -580,
-                        "Z": 0
-                    }
-                }
-            ]
-        }
-    ],
-    "Anims": [
-        {
-            "FileName": "anim/EntMain_LockMainOut.bflan",
-            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":4,\"Name\":\"LockMainOut\",\"ChildBinding\":70,\"Groups\":[\"G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AFIAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-835.0,\"Blend\":88.6717453},{\"Frame\":12.0,\"Value\":-446.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-19.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-15.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnHome\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-19.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":-90.08587},{\"Frame\":12.0,\"Value\":-390.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
-        },
-        {
-            "FileName": "anim/EntMain_LockMainIn.bflan",
-            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"LockMainIn\",\"ChildBinding\":50,\"Groups\":[\"G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADwAAAAAAA==\"},\"pai1\":{\"FrameSize\":10,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-446.0,\"Blend\":-142.027481},{\"Frame\":5.0,\"Value\":-835.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-106.980568},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-51.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnHome\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-390.0,\"Blend\":139.652878},{\"Frame\":5.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
-        }
-    ]
+	"AuthorName": "Akai",
+	"Files": [
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_CntRMain",
+					"Position": {
+						"X": 300,
+						"Y": -299,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.4,
+						"Y": 0.4
+					}
+				},
+				{
+					"PaneName": "L_BtnResume",
+					"Position": {
+						"X": 1042,
+						"Y": 0,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "N_Home",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_ChildLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_MarginChildLockHud",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_CntL",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_News",
+					"Position": {
+						"X": -100,
+						"Y": 36,
+						"Z": 0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNtf",
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Lock",
+					"Position": {
+						"X": -200,
+						"Y": -290,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					}
+				},
+				{
+					"PaneName": "L_BtnBack",
+					"Position": {
+						"X": -362,
+						"Y": -285,
+						"Z": 0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnChildLock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Hud.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Position": {
+						"X": -900,
+						"Y": -580,
+						"Z": 0
+					}
+				}
+			]
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/EntMain_LockMainOut.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":4,\"Name\":\"LockMainOut\",\"ChildBinding\":70,\"Groups\":[\"G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AFIAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-835.0,\"Blend\":88.6717453},{\"Frame\":12.0,\"Value\":-446.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-19.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-15.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnHome\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-19.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":42.5},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":-90.08587},{\"Frame\":12.0,\"Value\":-390.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockMainIn.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"LockMainIn\",\"ChildBinding\":50,\"Groups\":[\"G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADwAAAAAAA==\"},\"pai1\":{\"FrameSize\":10,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-446.0,\"Blend\":-142.027481},{\"Frame\":5.0,\"Value\":-835.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-106.980568},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-51.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnHome\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-255.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-390.0,\"Blend\":139.652878},{\"Frame\":5.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		}
+	]
 }

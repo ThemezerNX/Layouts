@@ -1,6 +1,6 @@
 {
-    "description": "The default News layout",
-    "creatorUuid": "00000000-0000-0000-0000-000000000000",
-    "color": "EBEBEB",
-    "uuid": "dd536840-16b4-4db5-999f-c4ea6f65a064"
+	"description": "The default News layout",
+	"creatorUuid": "00000000-0000-0000-0000-000000000000",
+	"color": "EBEBEB",
+	"uuid": "dd536840-16b4-4db5-999f-c4ea6f65a064"
 }

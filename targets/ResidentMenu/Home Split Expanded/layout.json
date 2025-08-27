@@ -1,7 +1,5 @@
 {
-	"PatchName": "Home Split Expanded",
 	"AuthorName": "Chronoss & Deses",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": false,
 	"Files": [
 		{

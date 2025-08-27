@@ -1,7 +1,5 @@
 {
-	"PatchName": "Banned (Lockscreen)",
 	"AuthorName": "Radorei",
-	"TargetName": "Entrance.szs",
 	"Files": [
 		{
 			"FileName": "blyt/EntMain.bflyt",

@@ -1,14 +1,14 @@
 {
-    "AuthorName": "Glowmoss",
-    "Files": [
-        {
-            "FileName": "blyt/SetBaseHeader.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Header",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"AuthorName": "Glowmoss",
+	"Files": [
+		{
+			"FileName": "blyt/SetBaseHeader.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				}
+			]
+		}
+	]
 }

@@ -1,15 +1,15 @@
 {
-    "PatchName": "Remove that line!",
-    "AuthorName": "Migush",
-    "Files": [
-        {
-            "FileName": "blyt/LineFooter.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"PatchName": "Remove that line!",
+	"AuthorName": "Migush",
+	"Files": [
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
 }

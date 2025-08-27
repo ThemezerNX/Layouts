@@ -1,7 +1,5 @@
 {
-	"PatchName": "Fanciful Finch",
 	"AuthorName": "Deses",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": false,
 	"Files": [
 		{

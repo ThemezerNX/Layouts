@@ -1,144 +1,133 @@
 {
-    "PatchName": "2Simple Player Select",
-    "AuthorName": "Limaaa",
-    "TargetFirmware": 2000,
-    "Files": [
-        {
-            "FileName": "blyt/Line_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Root",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/Cursor3.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Main",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_BorderSize",
-                            "PropValues": [
-                                "6"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                },
-                {
-                    "PaneName": "P_Grow",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_BorderSize",
-                            "PropValues": [
-                                "6"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/DBtmHeaderNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "T_00",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/TextH1.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslTextH1Edit.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineHeader_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Line",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslBtnCardPlayer.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_BtnCardBase",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "7"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                },
-                {
-                    "PaneName": "P_BgName",
-                    "ColorTL": "FF3A2E1E",
-                    "ColorTR": "FF3A2E1E",
-                    "ColorBL": "FF3A2E1E",
-                    "ColorBR": "FF3A2E1E"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Bg",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_Cnt",
-                    "Position": {}
-                }
-            ]
-        }
-    ]
+	"AuthorName": "Limaaa",
+	"TargetFirmware": 2000,
+	"Files": [
+		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["6"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["10"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["6"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["10"],
+							"type": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/DBtmHeaderNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/TextH1.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslTextH1Edit.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslBtnCardPlayer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnCardBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["7"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BgName",
+					"ColorTL": "FF3A2E1E",
+					"ColorTR": "FF3A2E1E",
+					"ColorBL": "FF3A2E1E",
+					"ColorBR": "FF3A2E1E"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslSelectSinglePlayer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Bg",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Cnt",
+					"Position": {}
+				}
+			]
+		}
+	]
 }

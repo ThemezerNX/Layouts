@@ -1,7 +1,5 @@
 {
-	"PatchName": "12 Icons (Home Menu)",
 	"AuthorName": "autoDiff",
-	"TargetName": "ResidentMenu.szs",
 	"HideOnlineBtn": false,
 	"Files": [
 		{

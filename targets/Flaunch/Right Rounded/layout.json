@@ -1,7 +1,5 @@
 {
-	"PatchName": "Right All Apps Rounded",
 	"AuthorName": "M1ke",
-	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",

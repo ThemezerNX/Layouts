@@ -1,7 +1,5 @@
 {
-	"PatchName": "50% Scale, Everything to the Left and no header",
 	"AuthorName": "Glowmoss",
-	"TargetName": "Notification.szs",
 	"Files": [
 		{
 			"FileName": "blyt/NtfBase.bflyt",

@@ -1,7 +1,5 @@
 {
-	"PatchName": "Gapless (All Apps)",
 	"AuthorName": "DenizOnmus",
-	"TargetName": "Flaunch.szs",
 	"Files": [
 		{
 			"FileName": "blyt/FlcBtnIconGame.bflyt",
