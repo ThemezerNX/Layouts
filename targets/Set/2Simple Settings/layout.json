@@ -1,0 +1,996 @@
+{
+    "PatchName": "2Simple Settings",
+    "AuthorName": "Limaaa",
+    "TargetFirmware": 2000,
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/ScrollIndicatorS.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Indicator",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFFEFEFE",
+                    "ColorTR": "FFFEFEFE",
+                    "ColorBL": "FFFEFEFE",
+                    "ColorBR": "FFFEFEFE"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Main",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "6"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "10"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "6"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "10"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBtnListCheckTheme_.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_CheckBaseOn",
+                    "ColorTL": "FFFEFEFE",
+                    "ColorTR": "FFFEFEF5",
+                    "ColorBL": "FFFEFEFE",
+                    "ColorBR": "FFFEFEFE"
+                },
+                {
+                    "PaneName": "P_Check",
+                    "ColorTL": "FFFEFEFE",
+                    "ColorTR": "FFFEFEFE",
+                    "ColorBL": "FFFEFEFE",
+                    "ColorBR": "FFFEFEFE"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnCenterCheck.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Check",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFFEFEFE",
+                    "ColorTR": "FFFEFEFE",
+                    "ColorBL": "FFFEFEFE",
+                    "ColorBR": "FFFEFEFE"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBtnCardPlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BgName",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF3A2E1E",
+                    "ColorTR": "FF3A2E1E",
+                    "ColorBL": "FF3A2E1E",
+                    "ColorBR": "FF3A2E1E"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBtnListData.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Nand",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFFF9900",
+                    "ColorTR": "FFFF9900",
+                    "ColorBL": "FFFF9900",
+                    "ColorBR": "FFFF9900"
+                },
+                {
+                    "PaneName": "P_Sd",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFFF9900",
+                    "ColorTR": "FFFF9900",
+                    "ColorBL": "FFFF9900",
+                    "ColorBR": "FFFF9900"
+                },
+                {
+                    "PaneName": "P_Storage",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFFF9900",
+                    "ColorTR": "FFFF9900",
+                    "ColorBL": "FFFF9900",
+                    "ColorBR": "FFFF9900"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineVertical.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnIslandNml.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BtnBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF3A2E1E",
+                    "ColorTR": "FF3A2E1E",
+                    "ColorBL": "FF3A2E1E",
+                    "ColorBR": "FF3A2E1E"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBaseNav.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Top",
+                    "Size": {
+                        "X": 10,
+                        "Y": 60
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DBtmHeaderNml.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetSlider.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_IconL",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFFEFEFE",
+                    "ColorTR": "FFFEFEFE",
+                    "ColorBL": "FFFEFEFE",
+                    "ColorBR": "FFFEFEFE"
+                },
+                {
+                    "PaneName": "P_Meter",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ],
+                    "ColorTL": "FFFEFEFE",
+                    "ColorTR": "FFFEFEFE",
+                    "ColorBL": "FFFEFEFE",
+                    "ColorBR": "FFFEFEFE"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBtnCardPlayerOrder.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BgName",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF312317",
+                    "ColorTR": "FF312317",
+                    "ColorBL": "FF312317",
+                    "ColorBR": "FF312317"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/TextH1Ex.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Text",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Data",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Account",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_DataIcon",
+                    "Position": {
+                        "X": -600,
+                        "Y": -8
+                    }
+                },
+                {
+                    "PaneName": "N_Size",
+                    "Size": {
+                        "X": 1150,
+                        "Y": 42
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Scissor",
+                    "Size": {
+                        "X": 1150,
+                        "Y": 42
+                    }
+                },
+                {
+                    "PaneName": "N_Offset",
+                    "Size": {
+                        "X": 10,
+                        "Y": 2
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Reset",
+                    "Size": {
+                        "X": 1150,
+                        "Y": 42
+                    }
+                },
+                {
+                    "PaneName": "N_Scroll",
+                    "Size": {
+                        "X": 1110,
+                        "Y": 42
+                    }
+                },
+                {
+                    "PaneName": "W_Fade",
+                    "Size": {
+                        "X": 1150,
+                        "Y": 1
+                    }
+                },
+                {
+                    "PaneName": "P_Color",
+                    "Size": {
+                        "X": 1150,
+                        "Y": 42
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BgNav_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_NavBg",
+                    "Rotation": {
+                        "Z": 1
+                    },
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "1",
+                                "4",
+                                "2"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF3A2E1E",
+                    "ColorTR": "FF3A2E1E",
+                    "ColorBL": "FF3A2E1E",
+                    "ColorBR": "FF3A2E1E"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBaseHeader.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Header"
+                }
+            ]
+        }
+    ]
+}

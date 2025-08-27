@@ -1,0 +1,112 @@
+{
+    "PatchName": "2Simple Apps",
+    "AuthorName": "Limaaa",
+    "TargetFirmware": 2000,
+    "Files": [
+        {
+            "FileName": "blyt/FlcCntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_PosAll",
+                    "Position": {
+                        "Y": -35.0
+                    }
+                },
+                {
+                    "PaneName": "NH_CntInOut",
+                    "Position": {
+                        "Y": 90.0
+                    },
+                    "Size": {
+                        "Y": 580.0
+                    }
+                },
+                {
+                    "PaneName": "N_Sort",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Header",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnGrp",
+                    "Position": {
+                        "X": 604.0,
+                        "Y": -375.0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSort",
+                    "Position": {
+                        "X": 604.0,
+                        "Y": -375.0
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FlcBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_BtnBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "6"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_IconGame",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "6"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_InnerCursor",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "6"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "N_BtnFocusKey",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "10"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Anims": [
+        {
+            "FileName": "anim/FlcCntMain_Type.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Type\",\"ChildBinding\":0,\"Groups\":[\"G_Type\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAEAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_ReDL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-108.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":-108.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":-320.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"T_Empty\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }
+    ]
+}
