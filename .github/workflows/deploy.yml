@@ -48,5 +48,6 @@ jobs:
           url: 'https://api.themezer.net/switch/layouts/run-update'
           method: 'POST'
           bearerToken: ${{ secrets.THEMEZER_BEARER_TOKEN }}
+          timeout: 30000
           customHeaders: '{"Content-Type": "application/json"}'
           data: '{"sha": "${{ github.sha }}", "branch": "${{ github.ref }}" }'
