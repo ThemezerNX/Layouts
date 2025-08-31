@@ -1,5 +1,4 @@
 {
-	"PatchName": "10 Icon Layout (v20) (Home Menu)",
 	"HideOnlineBtn": false,
 	"TargetFirmware": 2000,
 	"Files": [
@@ -388,12 +387,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
 					],
@@ -407,12 +401,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
 					],
@@ -445,12 +434,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
 					],
