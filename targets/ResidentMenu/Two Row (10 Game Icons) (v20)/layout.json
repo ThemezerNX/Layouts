@@ -1,6 +1,7 @@
 {
-	"AuthorName": "shmuga9",
+	"PatchName": "10 Icon Layout (v20) (Home Menu)",
 	"HideOnlineBtn": false,
+	"TargetFirmware": 2000,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",
@@ -8,14 +9,6 @@
 				{
 					"PaneName": "L_Balloon",
 					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBg.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_BgNml"
 				}
 			]
 		},
@@ -38,6 +31,15 @@
 			]
 		},
 		{
+			"FileName": "blyt/RdtBtnSplay.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				}
+			]
+		},
+		{
 			"FileName": "blyt/RdtBtnPvr.bflyt",
 			"Patches": [
 				{
@@ -52,7 +54,7 @@
 				{
 					"PaneName": "N_Num",
 					"Position": {
-						"X": -32,
+						"X": 32,
 						"Y": 38
 					}
 				},
@@ -103,6 +105,15 @@
 			]
 		},
 		{
+			"FileName": "blyt/RdtBtnVgc.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				}
+			]
+		},
+		{
 			"FileName": "blyt/RdtBase.bflyt",
 			"Patches": [
 				{
@@ -141,8 +152,8 @@
 				{
 					"PaneName": "N_System",
 					"Position": {
-						"X": -60,
-						"Y": -235
+						"X": -35,
+						"Y": -240
 					},
 					"Scale": {
 						"X": 0.799999952,
@@ -150,29 +161,16 @@
 					}
 				},
 				{
-					"PaneName": "L_ChildLock",
-					"Position": {
-						"Y": 311
-					}
-				},
-				{
-					"PaneName": "N_Balloon",
-					"Size": {
-						"X": 1280,
-						"Y": 720
-					}
-				},
-				{
 					"PaneName": "N_MyPage",
 					"Position": {
-						"X": -263,
+						"X": -280,
 						"Y": 309
 					}
 				},
 				{
 					"PaneName": "L_Hud",
 					"Position": {
-						"X": 540,
+						"X": 557,
 						"Y": 306
 					}
 				},
@@ -182,51 +180,62 @@
 						"X": 100
 					},
 					"Scale": {
-						"X": 1.03,
-						"Y": 1.03
+						"X": 1.1,
+						"Y": 1.1
 					}
 				},
 				{
 					"PaneName": "L_BtnLR",
 					"Position": {
-						"X": -295
-					},
-					"Visible": true
+						"X": -311
+					}
 				},
 				{
 					"PaneName": "L_BtnNoti",
 					"Position": {
-						"X": -170
+						"X": -221
 					}
 				},
 				{
 					"PaneName": "L_BtnShop",
 					"Position": {
-						"X": -45
+						"X": -131
 					}
 				},
 				{
 					"PaneName": "L_BtnPvr",
 					"Position": {
-						"X": 80
+						"X": -41
+					}
+				},
+				{
+					"PaneName": "L_BtnSplay",
+					"Position": {
+						"X": 49
 					}
 				},
 				{
 					"PaneName": "L_BtnCtrl",
 					"Position": {
-						"X": 205
+						"X": 139
+					}
+				},
+				{
+					"PaneName": "L_BtnVgc",
+					"Position": {
+						"X": 229
 					}
 				},
 				{
 					"PaneName": "L_BtnSet",
 					"Position": {
-						"X": 330
+						"X": 319
 					}
 				},
 				{
 					"PaneName": "L_BtnPow",
 					"Position": {
-						"X": 455
+						"X": 409
 					}
 				},
 				{
@@ -315,8 +324,7 @@
 						"X": -1275,
 						"Y": -1105,
 						"Z": -55
-					},
-					"Visible": false
+					}
 				},
 				{
 					"PaneName": "N_Icon_11",
@@ -324,13 +332,12 @@
 						"X": 1460,
 						"Y": -1105,
 						"Z": -55
-					},
-					"Visible": false
+					}
 				},
 				{
 					"PaneName": "N_Icon_12",
 					"Position": {
-						"X": 493,
+						"X": 461,
 						"Y": -12
 					},
 					"Scale": {
@@ -356,6 +363,17 @@
 			]
 		},
 		{
+			"FileName": "blyt/RdtBtnSelectVgcFamilyCardList.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Loading"
+				},
+				{
+					"PaneName": "L_UserIcon"
+				}
+			]
+		},
+		{
 			"FileName": "blyt/RdtBtnNtf.bflyt",
 			"Patches": [
 				{
@@ -364,6 +382,54 @@
 				{
 					"PaneName": "L_Balloon",
 					"Visible": false
+				},
+				{
+					"PaneName": "P_PictNtf_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF365EF2",
+					"ColorTR": "FF365EF2",
+					"ColorBL": "FF365EF2",
+					"ColorBR": "FF365EF2"
+				},
+				{
+					"PaneName": "P_PictNtf_01",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF365EF2",
+					"ColorTR": "FF365EF2",
+					"ColorBL": "FF365EF2",
+					"ColorBR": "FF365EF2"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_PictNtf_00",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_PictNtf_01",
+					"BackgroundColor": "FFFFFFFF"
 				}
 			]
 		},
@@ -373,6 +439,31 @@
 				{
 					"PaneName": "L_Balloon",
 					"Visible": false
+				},
+				{
+					"PaneName": "P_Pict",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF0FAFFF",
+					"ColorTR": "FF0FAFFF",
+					"ColorBL": "FF0FAFFF",
+					"ColorBR": "FF0FAFFF"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Pict",
+					"BackgroundColor": "FFFFFFFF"
 				}
 			]
 		},
@@ -384,12 +475,6 @@
 					"Visible": false
 				}
 			]
-		}
-	],
-	"Anims": [
-		{
-			"FileName": "anim/RdtBase_SystemAppletPos.bflan",
-			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"SystemAppletPos\",\"ChildBinding\":190,\"Groups\":[\"G_System\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AL8AAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
 		}
 	]
 }
