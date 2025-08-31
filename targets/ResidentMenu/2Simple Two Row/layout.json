@@ -483,7 +483,8 @@
 				{
 					"PaneName": "L_BtnShop",
 					"Position": {
-						"X": -162
+						"X": -99999,
+						"Y": -99999
 					},
 					"Size": {
 						"X": 508,
