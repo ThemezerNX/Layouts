@@ -1,5 +1,6 @@
 {
 	"AuthorName": "FairTech.us",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

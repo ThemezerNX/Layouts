@@ -1,5 +1,6 @@
 {
 	"AuthorName": "Migush",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

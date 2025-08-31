@@ -1,5 +1,6 @@
 {
 	"AuthorName": "Goose",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBase.bflyt",

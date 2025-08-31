@@ -1,5 +1,6 @@
 {
 	"AuthorName": "xFlesk",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

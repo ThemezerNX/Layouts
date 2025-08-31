@@ -1,5 +1,6 @@
 {
 	"AuthorName": "Zaigenshi",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",

@@ -1,5 +1,6 @@
 {
 	"AuthorName": "Lesking72",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBase.bflyt",

@@ -1,5 +1,6 @@
 {
 	"AuthorName": "203Null",
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/HudTime.bflyt",
