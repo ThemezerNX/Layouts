@@ -1,0 +1,5 @@
+{
+	"description": "Same layout as before, but now with the GameShare and Virtual Card apps added in firmware 20. Options to have the old news/eshop colours (red and yellow) or just the eshop (green and yellow). Based off gobbldygook's design (https://themezer.net/layouts/homemenu/Vanilla-ish-Two-Row-Layout-10)",
+	"creatorUuid": "7ffde4ce-331f-4ccb-a468-b3a4188c8950",
+	"uuid": "6d9eaee5-22b4-4e9a-8db7-f6fd32ea3ad5"
+}
