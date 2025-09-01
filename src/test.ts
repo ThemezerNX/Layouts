@@ -87,7 +87,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 						}
 					}
 
-					const optionValues = Object.values(optionTree.children).filter((c) => c['extension'] === '.json')
+					const optionValues: any[] = Object.values(optionTree.children).filter((c) => c['extension'] === '.json')
 					if (typeKey === 'SELECT') {
 						if (optionValues.length < 2) {
 							throw new Error(`Not enough select options values ${optionFolderName}, ${optionsPath}`)
@@ -95,6 +95,19 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 					} else {
 						if (optionValues.length !== 1) {
 							throw new Error(`Not exactly 1 select option ${optionFolderName}, ${optionsPath}`)
+						}
+					}
+
+					for (const optionValueFile of optionValues) {
+						let parsed: any;
+						try {
+							parsed = JSON.parse(readFileSync(optionValueFile.path, 'utf-8'))
+						} catch (e) {
+							throw new Error(`Invalid JSON in option value file ${optionValueFile.path}, ${optionsPath}`)
+						}
+
+						if (!parsed.uuid) {
+							throw new Error(`No uuid found in option value file ${optionValueFile.path}, ${optionsPath}`)
 						}
 					}
 				}
