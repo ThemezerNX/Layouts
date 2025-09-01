@@ -35,6 +35,8 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 		throw new Error('Invalid target folder structure')
 	}
 
+	const allOptionUuids = new Set<string>()
+	const allLayoutUuids = new Set<string>()
 	for (const target of Object.keys(tree.children)) {
 		const targetTree = tree.children[target]
 		for (const layoutName of Object.keys(targetTree.children)) {
@@ -108,6 +110,10 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 
 						if (!parsed.uuid) {
 							throw new Error(`No uuid found in option value file ${optionValueFile.path}, ${optionsPath}`)
+						} else if (allOptionUuids.has(parsed.uuid)) {
+							throw new Error(`Duplicate option uuid ${parsed.uuid}, ${optionValueFile.path}, ${optionsPath}`)
+						} else {
+							allOptionUuids.add(parsed.uuid)
 						}
 					}
 				}
@@ -135,6 +141,10 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 			if (!detailsFile.get('uuid')) {
 				console.log('No UUID found in details.json, setting one', layoutTree.name)
 				detailsFile.set('uuid', randomUUID())
+			} else if (allLayoutUuids.has(detailsFile.get('uuid'))) {
+				throw new Error('Duplicate layout UUID found: ' + detailsFile.get('uuid') + ', ' + layoutTree.name)
+			} else {
+				allLayoutUuids.add(detailsFile.get('uuid'))
 			}
 			// Remove '#' in color field if it is there
 			if (detailsFile.get('color')?.startsWith('#')) {
