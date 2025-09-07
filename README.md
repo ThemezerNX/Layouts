@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://themezer.net/icon-128.png" alt="Themezer Logo" />
+  <img src="https://themezer.net/icon.png" alt="Themezer Logo" />
 </p>
 
 <h1 align="center">Themezer Layouts</h1>
@@ -17,3 +17,4 @@ The instructions are available [here](https://github.com/ThemezerNX/Layouts/tree
 ## Thanks To
 
 Without layouts there wouldn't be so many awesome themes, therefore, I want to thank the awesome people who took the time to design these incredible menu layouts 🤝
+
