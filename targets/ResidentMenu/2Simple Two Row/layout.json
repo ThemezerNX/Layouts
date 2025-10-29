@@ -39,12 +39,16 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["12"],
+							"PropValues": [
+								"12"
+							],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowSize",
-							"PropValues": ["2"],
+							"PropValues": [
+								"2"
+							],
 							"type": 2
 						}
 					],
@@ -66,7 +70,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["12"],
+							"PropValues": [
+								"12"
+							],
 							"type": 2
 						}
 					]
@@ -80,7 +86,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["12"],
+							"PropValues": [
+								"12"
+							],
 							"type": 2
 						}
 					]
@@ -97,7 +105,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["2"],
+							"PropValues": [
+								"2"
+							],
 							"type": 2
 						}
 					],
@@ -118,7 +128,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["2"],
+							"PropValues": [
+								"2"
+							],
 							"type": 2
 						}
 					],
@@ -137,7 +149,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["2"],
+							"PropValues": [
+								"2"
+							],
 							"type": 2
 						}
 					]
@@ -152,7 +166,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["2"],
+							"PropValues": [
+								"2"
+							],
 							"type": 2
 						}
 					]
@@ -182,7 +198,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["12"],
+							"PropValues": [
+								"12"
+							],
 							"type": 2
 						}
 					]
@@ -196,7 +214,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["12"],
+							"PropValues": [
+								"12"
+							],
 							"type": 2
 						}
 					]
@@ -222,6 +242,8 @@
 						"P_Pict_02",
 						"P_Pict_03",
 						"P_PictBase",
+						"P_BtnDecideKey",
+						"P_BtnTouch",
 						"P_Effect"
 					]
 				},
@@ -234,6 +256,8 @@
 						"P_Pict_02",
 						"P_Pict_03",
 						"P_PictBase",
+						"P_BtnDecideKey",
+						"P_BtnTouch",
 						"P_Effect"
 					]
 				}
@@ -247,12 +271,16 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": ["8"],
+							"PropValues": [
+								"8"
+							],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["15"],
+							"PropValues": [
+								"15"
+							],
 							"type": 2
 						}
 					]
@@ -262,12 +290,16 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": ["8"],
+							"PropValues": [
+								"8"
+							],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["15"],
+							"PropValues": [
+								"15"
+							],
 							"type": 2
 						}
 					]
@@ -343,7 +375,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
+							"PropValues": [
+								"10"
+							],
 							"type": 2
 						}
 					]
@@ -353,7 +387,21 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Blank",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"10"
+							],
 							"type": 2
 						}
 					]
@@ -363,7 +411,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["10"],
+							"PropValues": [
+								"10"
+							],
 							"type": 2
 						}
 					]
@@ -483,8 +533,7 @@
 				{
 					"PaneName": "L_BtnShop",
 					"Position": {
-						"X": -99999,
-						"Y": -99999
+						"X": -162
 					},
 					"Size": {
 						"X": 508,
@@ -704,7 +753,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["2"],
+							"PropValues": [
+								"2"
+							],
 							"type": 2
 						}
 					]
@@ -723,7 +774,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
-							"PropValues": ["58", "0", "0", "0"],
+							"PropValues": [
+								"58",
+								"0",
+								"0",
+								"0"
+							],
 							"type": 1
 						}
 					]
@@ -765,11 +821,11 @@
 	"Anims": [
 		{
 			"FileName": "anim/RdtBtnFullLauncher_Active.bflan",
-			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Active\",\"ChildBinding\":0,\"Groups\":[\"Limaaa_G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AS0BAAAAAA==\"},\"grp1\":{\"GroupCount\":1,\"Groups\":[{\"Name\":\"Limaaa_G_Active\",\"MemberCount\":7,\"MemberIndices\":[0,1,2,3,4,5,6]}]},\"pai1\":{\"FrameSize\":160,\"Flags\":1,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_PictBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":-3.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":5.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":-3.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_03\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}],\"UnkwnownData\":\"\"},\"UnkwnownData\":\"\"}"
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":8,\"Name\":\"Active\",\"ChildBinding\":0,\"Groups\":[\"Limaaa_G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AS0BAAAAAA==\"},\"grp1\":{\"GroupCount\":1,\"Groups\":[{\"Name\":\"Limaaa_G_Active\",\"MemberCount\":9,\"MemberIndices\":[0,1,2,3,4,5,6,7,8]}]},\"pai1\":{\"FrameSize\":160,\"Flags\":1,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_PictBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":-3.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":5.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":-3.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_03\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnDecideKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnTouch\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}],\"UnkwnownData\":\"\"},\"UnkwnownData\":\"\"}"
 		},
 		{
 			"FileName": "anim/RdtBtnFullLauncher_Inactive.bflan",
-			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":7,\"Name\":\"Inactive\",\"ChildBinding\":0,\"Groups\":[\"Limaaa_G_Inactive\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AWEBAAAAAA==\"},\"grp1\":{\"GroupCount\":1,\"Groups\":[{\"Name\":\"Limaaa_G_Inactive\",\"MemberCount\":7,\"MemberIndices\":[0,1,2,3,4,5,6]}]},\"pai1\":{\"FrameSize\":160,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_PictBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-3.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_03\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}],\"UnkwnownData\":\"\"},\"UnkwnownData\":\"\"}"
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":9,\"Name\":\"Inactive\",\"ChildBinding\":0,\"Groups\":[\"Limaaa_G_Inactive\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AWEBAAAAAA==\"},\"grp1\":{\"GroupCount\":1,\"Groups\":[{\"Name\":\"Limaaa_G_Inactive\",\"MemberCount\":9,\"MemberIndices\":[0,1,2,3,4,5,6,7,8]}]},\"pai1\":{\"FrameSize\":160,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_PictBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-3.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_03\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnDecideKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnTouch\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}],\"UnkwnownData\":\"\"},\"UnkwnownData\":\"\"}"
 		}
 	]
 }
