@@ -56,9 +56,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						}
 					]
@@ -68,9 +66,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						}
 					]
@@ -80,9 +76,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						}
 					]
@@ -92,9 +86,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						}
 					]
@@ -104,9 +96,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"6"
-							],
+							"PropValues": ["6"],
 							"type": 2
 						}
 					]
