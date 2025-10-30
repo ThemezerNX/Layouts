@@ -42,6 +42,16 @@ jobs:
             git push
           fi
 
+      - name: Get new SHA after push
+        id: newsha
+        run: |
+          # Only get SHA if something was committed
+          if [[ `git status --porcelain --untracked-files=no` ]]; then
+            git commit -am "Prettify & Automated UUID generation"
+            git push
+          fi
+          echo "NEW_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
       - name: Deploy
         uses: fjogeleit/http-request-action@v1
         with:
@@ -50,4 +60,4 @@ jobs:
           bearerToken: ${{ secrets.THEMEZER_BEARER_TOKEN }}
           timeout: 30000
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"sha": "${{ github.sha }}", "branch": "${{ github.ref }}" }'
+          data: '{"sha": "${{ env.NEW_SHA }}", "branch": "${{ github.ref }}"}'
