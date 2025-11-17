@@ -1,186 +1,155 @@
 {
-    "PatchName": "2Simple Common",
-    "AuthorName": "Limaaa",
-    "ID": "2Simple-Common-Limaaa",
-    "Files": [
-        {
-            "FileName": "blyt/DCntIconLauncherText.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_AccountIcon_00",
-                    "Position": {
-                        "X": -240,
-                        "Y": -170
-                    }
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BtnDialogNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_BtnBase",
-                    "UsdPatches": [
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "9",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        }
-                    ],
-                    "ColorTL": "BF423E37",
-                    "ColorTR": "BF423E37",
-                    "ColorBL": "BF423E37",
-                    "ColorBR": "BF423E37"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/DBtmBaseNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_DummyBgMask",
-                    "UsdPatches": [
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "9",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        }
-                    ],
-                    "ColorTL": "FF312317",
-                    "ColorTR": "FF312317",
-                    "ColorBL": "FF312317",
-                    "ColorBR": "FF312317"
-                },
-                {
-                    "PaneName": "P_Base",
-                    "UsdPatches": [
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "9",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        }
-                    ],
-                    "ColorTL": "FF242019",
-                    "ColorTR": "FF242019",
-                    "ColorBL": "FF242019",
-                    "ColorBR": "FF242019"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FooterAll.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line_00",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/DBaseNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Base",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_BorderSize",
-                            "PropValues": [
-                                "0"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "9",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        },
-                        {
-                            "PropName": "S_DropShadowSize",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        }
-                    ],
-                    "ColorTL": "FF242019",
-                    "ColorTR": "FF242019",
-                    "ColorBL": "FF242019",
-                    "ColorBR": "FF242019"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BgMask.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Mask",
-                    "UsdPatches": [
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "9",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        }
-                    ],
-                    "ColorTL": "FF312317",
-                    "ColorTR": "FF312317",
-                    "ColorBL": "FF312317",
-                    "ColorBR": "FF312317"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BtnLineNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_BtnBase",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineFooter.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "RootPane",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"PatchName": "2Simple Common",
+	"AuthorName": "Limaaa",
+	"ID": "2Simple-Common-Limaaa",
+	"Files": [
+		{
+			"FileName": "blyt/DCntIconLauncherText.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_AccountIcon_00",
+					"Position": {
+						"X": -240,
+						"Y": -170
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BtnDialogNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["9", "0", "0", "0"],
+							"type": 1
+						}
+					],
+					"ColorTL": "BF423E37",
+					"ColorTR": "BF423E37",
+					"ColorBL": "BF423E37",
+					"ColorBR": "BF423E37"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/DBtmBaseNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_DummyBgMask",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["9", "0", "0", "0"],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF312317",
+					"ColorTR": "FF312317",
+					"ColorBL": "FF312317",
+					"ColorBR": "FF312317"
+				},
+				{
+					"PaneName": "P_Base",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["9", "0", "0", "0"],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF242019",
+					"ColorTR": "FF242019",
+					"ColorBL": "FF242019",
+					"ColorBR": "FF242019"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterAll.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line_00",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/DBaseNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Base",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["0"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["10"],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": ["9", "0", "0", "0"],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": ["10"],
+							"type": 2
+						}
+					],
+					"ColorTL": "FF242019",
+					"ColorTR": "FF242019",
+					"ColorBL": "FF242019",
+					"ColorBR": "FF242019"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BgMask.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Mask",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["9", "0", "0", "0"],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF312317",
+					"ColorTR": "FF312317",
+					"ColorBL": "FF312317",
+					"ColorBR": "FF312317"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BtnLineNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
 }
