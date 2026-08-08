@@ -1,0 +1,626 @@
+{
+    "PatchName": "Slide Lock",
+    "AuthorName": "RoninSeito",
+    "TargetName": "Entrance.szs",
+    "TargetFirmware": 2000,
+    "Files": [{
+            "FileName": "blyt/EntMain.bflyt",
+            "PullFrontPanes": ["P_BgR", "P_BgL"],
+            "Patches": [{
+                    "PaneName": "P_BgR",
+                    "Size": {
+                        "X": 10000.0,
+                        "Y": 720.0
+                    },"UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "38",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                },{
+                    "PaneName": "N_Alarm",
+                    "Visible": false
+                }, {
+                    "PaneName": "N_CntL",
+                    "Visible": false
+                }, {
+                    "PaneName": "N_CntR",
+                    "Position": {}
+                }, {
+                    "PaneName": "N_CntRMain",
+                    "Visible": false
+                }, {
+                    "PaneName": "N_AlarmCtrlResume",
+                    "Position": {
+                        "X": 480.0,
+                        "Y": -320.0
+                    }
+                }, {
+                    "PaneName": "L_BtnSystemAppletLock",
+                    "Position": {
+                        "X": 488.0
+                    }
+                }, {
+                    "PaneName": "N_AlarmCtrlCntHud",
+                    "Position": {
+                        "X": 480.0,
+                        "Y": 320.0
+                    }
+                }, {
+                    "PaneName": "L_Hud",
+                    "Position": {
+                        "X": 184.0
+                    }
+                }, {
+                    "PaneName": "N_ChildLock",
+                    "Visible": false
+                }, {
+                    "PaneName": "N_MarginChildLockHud",
+                    "Visible": false
+                }, {
+                    "PaneName": "N_Lock",
+                    "Position": {}
+                }, {
+                    "PaneName": "L_Lock",
+                    "Position": {}
+                }, {
+                    "PaneName": "N_LockSub",
+                    "Position": {
+                        "X": 480.0,
+                        "Y": -320.0
+                    }
+                }, {
+                    "PaneName": "L_BtnBack",
+                    "Position": {
+                        "X": 184.0
+                    }
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "my_Main",
+                    "Panes": [
+                        "N_Lock", "N_LockSub", "L_BtnResume", "L_BtnSystemAppletLock", "RootPane", "N_AlarmCtrlSystemApplet"
+                    ]
+                }
+            ]
+        }, {
+            "FileName": "blyt/EntBtnResumeSystemApplet.bflyt",
+            "Patches": [{
+                    "PaneName": "P_PictHome",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "Visible": true
+                }, {
+                    "PaneName": "P_Image",
+                    "Visible": false
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "my_Image",
+                    "Panes": []
+                }
+            ]
+        }, {
+            "FileName": "blyt/EntBtnBack.bflyt",
+            "Patches": [{
+                    "PaneName": "T_00",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "T_BtnB",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "P_TouchEff",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "my_Back",
+                    "Panes": ["N_BtnB"]
+                }
+            ]
+        }, {
+            "FileName": "blyt/EntBtnCenter.bflyt",
+            "Patches": [{
+                    "PaneName": "B_Hit",
+                    "Size": {
+                        "X": 10000.0,
+                        "Y": 10000.0
+                    }
+                }, {
+                    "PaneName": "N_BtnCnt",
+                    "Scale": {
+                        "X": 0.6,
+                        "Y": 0.6
+                    },
+                    "Position": {
+                        "Y": 1.5000000000
+                    }
+                }, {
+                    "PaneName": "P_BtnTouch",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "Scale": {
+                        "X": 0.655,
+                        "Y": 0.775
+                    }
+                }, {
+                    "PaneName": "P_Pict",
+                    "Scale": {
+                        "X": 0.92,
+                        "Y": 0.92
+                    },
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "T_00",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "my_btncent",
+                    "Panes": []
+                }
+            ]
+        }, {
+            "FileName": "blyt/EntBtnLock.bflyt",
+            "Patches": [{
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1000.0,
+                        "Y": 4.0
+                    }
+                }, {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.8,
+                        "Y": 0.8
+                    },
+                    "Position": {
+                        "Y": -200.0
+                    }
+                }, {
+                    "PaneName": "T_00",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "L_KeyA_00",
+                    "Position": {
+                        "X": -180.0,
+                        "Y": -30.0
+                    },
+                    "Scale": {
+                        "X": 1.0,
+                        "Y": 1.0
+                    },
+                    "Size": {
+                        "X": 180.0,
+                        "Y": 30.0
+                    }
+                }, {
+                    "PaneName": "L_KeyA_01",
+                    "Position": {
+                        "Y": -30.0
+                    },
+                    "Scale": {
+                        "X": 1.0,
+                        "Y": 1.0
+                    },
+                    "Size": {
+                        "X": 180.0,
+                        "Y": 30.0
+                    }
+                }, {
+                    "PaneName": "L_KeyA_02",
+                    "Position": {
+                        "X": 180.0,
+                        "Y": -30.0
+                    },
+                    "Scale": {
+                        "X": 1.0,
+                        "Y": 1.0
+                    },
+                    "Size": {
+                        "X": 180.0,
+                        "Y": 30.0
+                    }
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "my_btnlock",
+                    "Panes": []
+                }
+            ]
+        }, {
+            "FileName": "blyt/EntBtnLockIndicator.bflyt",
+            "Patches": [{
+                    "PaneName": "P_Btn",
+                    "Size": {
+                        "X": 180.0,
+                        "Y": 30.0
+                    },
+                    "Visible": false,
+                    "UsdPatches": [{
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "1000"
+                            ],
+                            "type": 2
+                        }, {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }, {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "myInd",
+                    "Panes": [
+                        "P_Btn"
+                    ]
+                }
+            ]
+        }, {
+            "FileName": "blyt/Hud.bflyt",
+            "Patches": [{
+                    "PaneName": "L_BatteryConsole",
+                    "Scale": {
+                        "X": 0.0,
+                        "Y": 0.0
+                    }
+                }, {
+                    "PaneName": "N_Time",
+                    "Position": {}
+                }, {
+                    "PaneName": "L_BatteryNum",
+                    "Visible": false
+                }, {
+                    "PaneName": "L_Signal",
+                    "Visible": false
+                }
+            ]
+        }, {
+            "FileName": "blyt/HudTime.bflyt",
+            "Patches": [{
+                    "PaneName": "N_AMPM",
+                    "Position": {
+                        "X": 2.0,
+                        "Y": 1.0
+                    },
+                    "Scale": {
+                        "X": 1.0,
+                        "Y": 1.6
+                    }
+                }, {
+                    "PaneName": "N_Mark",
+                    "Scale": {
+                        "X": 1.0,
+                        "Y": 1.1
+                    }
+                }, {
+                    "PaneName": "P_A",
+                    "Position": {
+                        "X": -24.0
+                    },
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "P_M",
+                    "Position": {
+                        "X": -8.0
+                    },
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "P_P",
+                    "Position": {
+                        "X": -24.0
+                    },
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "P_Colon",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "P_Comma",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }, {
+                    "PaneName": "P_Dot",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "mytime",
+                    "Panes": ["L_GTNum_00"
+                    ]
+                }
+            ]
+        }, {
+            "FileName": "blyt/GTNumL.bflyt",
+            "Patches": [{
+                    "PaneName": "P_GTNum_00",
+                    "UsdPatches": [{
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "Scale": {
+                        "X": 1.0,
+                        "Y": 1.1
+                    }
+                }
+            ],
+            "AddGroups": [{
+                    "GroupName": "mynumL",
+                    "Panes": [
+                    ]
+                }
+            ]
+        }
+    ],
+    "Anims": [{
+            "FileName": "anim/EntMain_Out.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":24,\"Name\":\"Out\",\"ChildBinding\":182,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"A+gDAAAAAA==\"},\"pai1\":{\"FrameSize\":30,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"RootPane\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":15.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":30.0,\"Value\":-1280.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlSystemApplet\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":15.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/HudTime_Digit.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":4,\"Name\":\"Digit\",\"ChildBinding\":30,\"Groups\":[\"mytime\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AB8AAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_GTNum_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_DecideTouch.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":0,\"Name\":\"DecideKey\",\"ChildBinding\":20,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ABcAAAAAAA==\"},\"pai1\":{\"FrameSize\":15,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Btn\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":128.0,\"Blend\":0.0},{\"Frame\":15.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_UnfocusTouch.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":6,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_Timeout.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Timeout\",\"ChildBinding\":248,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAQBAAAAAA==\"},\"pai1\":{\"FrameSize\":15,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Btn\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":15.0,\"Value\":128.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_DecideKey.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":0,\"Name\":\"DecideKey\",\"ChildBinding\":20,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ABcAAAAAAA==\"},\"pai1\":{\"FrameSize\":15,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Btn\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":128.0,\"Blend\":0.0},{\"Frame\":15.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_Cancel.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":5,\"Name\":\"Cancel\",\"ChildBinding\":248,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAQBAAAAAA==\"},\"pai1\":{\"FrameSize\":16,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Btn\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":128.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":15.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_FocusTouch.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":1,\"Name\":\"FocusTouch\",\"ChildBinding\":100,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AGUAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntBtnBack_Type.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Type\",\"ChildBinding\":200,\"Groups\":[\"my_Back\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AMkAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnB\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":128.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntBtnResumeSystemApplet_Image.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":7,\"Name\":\"Image\",\"ChildBinding\":160,\"Groups\":[\"my_Image\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AKsAAAAAAA==\"},\"pai1\":{\"FrameSize\":11,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_NewsType.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":24,\"Name\":\"Out\",\"ChildBinding\":182,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"A+gDAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_LockHomeIn.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":5,\"Name\":\"LockHomeIn\",\"ChildBinding\":100,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AG4AAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":488.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_LockHomeOut.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"LockHomeOut\",\"ChildBinding\":120,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AIQAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":488.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_LockMainIn.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":5,\"Name\":\"LockHomeIn\",\"ChildBinding\":100,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AG4AAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":488.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_LockMainOut.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"LockHomeOut\",\"ChildBinding\":120,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AIQAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":488.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsListIn.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":5,\"Name\":\"LockHomeIn\",\"ChildBinding\":100,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AG4AAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":488.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsListOut.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"LockHomeOut\",\"ChildBinding\":120,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AIQAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":488.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }, {
+            "FileName": "anim/EntMain_AlarmBack.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_AlarmIn.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_AlarmNext.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_AlarmNum.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_AlarmOut.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_AlarmSetUser.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsImage0In.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsImage0Out.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsImage1In.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsImage1Out.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsImage2In.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockNewsImage2Out.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockSpecialNewsImageIn.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntMain_LockSpecialNewsImageOut.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"UnfocusTouch\",\"ChildBinding\":150,\"Groups\":[\"my_Main\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntBtnBack_Color.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"color\",\"ChildBinding\":150,\"Groups\":[\"my_Back\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntBtnLock_Color.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"color\",\"ChildBinding\":150,\"Groups\":[\"my_btnlock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/EntBtnLockIndicator_Color.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"color\",\"ChildBinding\":150,\"Groups\":[\"myInd\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/GTNumL_Color.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"color\",\"ChildBinding\":150,\"Groups\":[\"mynumL\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":2,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }, {
+            "FileName": "anim/HudTime_Color.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"color\",\"ChildBinding\":150,\"Groups\":[\"mytime\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AJwAAAAAAA==\"},\"pai1\":{\"FrameSize\":2,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }
+    ]
+}
