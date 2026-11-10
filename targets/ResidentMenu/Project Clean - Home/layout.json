@@ -12,6 +12,27 @@
                 {
                     "PaneName": "P_PictBase",
                     "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
                 }
             ]
         },
@@ -203,6 +224,27 @@
                 {
                     "PaneName": "P_PictBase",
                     "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
                 }
             ]
         },
@@ -216,6 +258,27 @@
                 {
                     "PaneName": "P_PictBase",
                     "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
                 }
             ]
         },
@@ -560,6 +623,105 @@
                 {
                     "PaneName": "P_PictBase",
                     "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnLR.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnShop.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
                 }
             ]
         }
