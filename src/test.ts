@@ -160,10 +160,12 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 				layoutFile.unset('PatchName')
 				layoutFile.unset('TargetName')
 				layoutFile.save()
+			}
 
-				const layoutOverlayPath = layoutTree.children['overlay.png']?.path
-				if (!layoutOverlayPath) {
-					throw new Error('Overlay file not found for ' + layoutJsonPath)
+			// Every layout ships an overlay per Switch system theme (tools/generate-overlays.ts in the Themezer monorepo renders them)
+			for (const overlay of ['overlay-dark.png', 'overlay-light.png']) {
+				if (!layoutTree.children[overlay]) {
+					throw new Error(`${overlay} not found for ${layoutTree.name}`)
 				}
 			}
 
