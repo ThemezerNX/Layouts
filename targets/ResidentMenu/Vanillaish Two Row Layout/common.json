@@ -1,7 +1,6 @@
 {
 	"PatchName": "Remove that line!",
 	"AuthorName": "Migush",
-	"TargetName": "common.szs",
 	"Files": [
 		{
 			"FileName": "blyt/LineFooter.bflyt",

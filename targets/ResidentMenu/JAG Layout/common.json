@@ -1,8 +1,6 @@
 {
 	"PatchName": "JAG Common Layout",
 	"AuthorName": "Migush",
-	"TargetName": "common.szs",
-	"Ready8X": true,
 	"Files": [
 		{
 			"FileName": "blyt/FooterAll.bflyt",
