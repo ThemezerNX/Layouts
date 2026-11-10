@@ -1,0 +1,14 @@
+{
+	"uuid": "3dd055dd-0330-4852-818e-44cdcec8d5f2",
+	"Files": [
+		{
+			"FileName": "blyt/SetBaseHeader.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"uuid": "e3d1a3ac-8821-45d3-bfc7-8c0cf8191365",
+	"Files": [
+		{
+			"FileName": "blyt/PslSelectSinglePlayer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Bg",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

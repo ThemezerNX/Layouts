@@ -1,0 +1,14 @@
+{
+	"uuid": "0c462e53-5769-43c2-9b58-e13503b624a1",
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_BtnSort",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

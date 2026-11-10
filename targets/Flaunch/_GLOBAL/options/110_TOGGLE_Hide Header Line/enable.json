@@ -1,0 +1,18 @@
+{
+	"uuid": "10751eef-d7a8-48f5-8930-cbfaac270c0a",
+	"Files": [
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

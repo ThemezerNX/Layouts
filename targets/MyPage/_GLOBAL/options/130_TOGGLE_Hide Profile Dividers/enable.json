@@ -1,0 +1,110 @@
+{
+	"uuid": "6462e2cd-1299-4c57-a930-36ebe8b69ea1",
+	"Files": [
+		{
+			"FileName": "blyt/MypMyStatus.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_LineBLL_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_01",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_02",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_03",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_04",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_05",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_06",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_07",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_08",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_09",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_10",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_11",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_12",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_13",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_14",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_15",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_16",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_17",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_18",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_19",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_LineBLL_20",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Line_03",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Line_04",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Line_05",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnHelp",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

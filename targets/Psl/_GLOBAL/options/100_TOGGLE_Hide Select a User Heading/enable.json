@@ -1,0 +1,18 @@
+{
+	"uuid": "e09ff5ce-c3c6-478d-92d2-5be3808ee391",
+	"Files": [
+		{
+			"FileName": "blyt/DBtmHeaderNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

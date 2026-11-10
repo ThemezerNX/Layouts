@@ -1,0 +1,14 @@
+{
+	"uuid": "41770964-2290-4960-be4b-7b5752d41472",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBase.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_ChildLock",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

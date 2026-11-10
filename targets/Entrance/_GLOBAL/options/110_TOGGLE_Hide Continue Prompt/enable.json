@@ -1,0 +1,14 @@
+{
+	"uuid": "91e3ed82-63af-4a15-b6e7-3f6144479b38",
+	"Files": [
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_BtnResume",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

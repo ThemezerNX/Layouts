@@ -1,0 +1,14 @@
+{
+	"uuid": "370f9cc9-a241-4c02-aaf9-6ac17f5b6bf0",
+	"Files": [
+		{
+			"FileName": "blyt/MypHeader.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

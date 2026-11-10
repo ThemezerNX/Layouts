@@ -1,0 +1,14 @@
+{
+	"uuid": "af8da278-32e0-4bef-9bae-8d0df957a8eb",
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

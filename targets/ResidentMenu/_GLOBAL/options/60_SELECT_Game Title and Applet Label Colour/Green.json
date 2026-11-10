@@ -1,0 +1,45 @@
+{
+	"uuid": "6fd22206-6e5d-41b9-9bc7-9c44b81e2c7f",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBalloon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Color",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"25",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBalloonSystemApplet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_Main",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"25",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"uuid": "f9be6e0c-c8da-4271-91ce-74313b0c9691",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBase.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_MyPage",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnChangeUser",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

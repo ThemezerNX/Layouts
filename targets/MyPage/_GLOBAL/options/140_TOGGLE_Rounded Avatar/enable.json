@@ -1,0 +1,82 @@
+{
+	"uuid": "587fec65-0612-4224-b400-33cd8169548c",
+	"Files": [
+		{
+			"FileName": "blyt/MypBtnUserIcon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Image",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"20"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"20"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"20"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"20"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnShdw",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"20"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"20"
+							],
+							"type": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

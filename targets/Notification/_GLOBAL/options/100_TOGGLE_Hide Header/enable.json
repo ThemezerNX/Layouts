@@ -1,0 +1,14 @@
+{
+	"uuid": "07a1f6ec-ac43-4216-aed5-cc2f8629e2b5",
+	"Files": [
+		{
+			"FileName": "blyt/NtfBase.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

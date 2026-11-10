@@ -1,0 +1,47 @@
+{
+	"uuid": "fbd07d71-0696-4c0c-9ce8-7845ca67385c",
+	"Files": [
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_CntL",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_News",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNtf",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BgL",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BgR",
+					"Size": {
+						"X": 1280,
+						"Y": 720
+					}
+				},
+				{
+					"PaneName": "P_LocBgRMask",
+					"Size": {
+						"X": 1280,
+						"Y": 720
+					}
+				},
+				{
+					"PaneName": "P_LockBgR",
+					"Size": {
+						"X": 1280,
+						"Y": 720
+					}
+				}
+			]
+		}
+	]
+}

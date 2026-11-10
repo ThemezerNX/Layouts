@@ -1,0 +1,14 @@
+{
+	"uuid": "9ca58b61-2791-49fb-ba80-473d2547ae28",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_InnerCursor",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

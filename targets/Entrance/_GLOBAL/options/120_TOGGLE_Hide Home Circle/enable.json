@@ -1,0 +1,18 @@
+{
+	"uuid": "d427e2eb-3399-468c-a7a6-9381f5a8eb4f",
+	"Files": [
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_BtnSystemApplet",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnSystemAppletLock",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

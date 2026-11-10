@@ -1,4 +1,5 @@
 {
+	"uuid": "b517f029-81b3-4832-80ad-dc429788642b",
 	"Files": [
 		{
 			"FileName": "blyt/Cursor3.bflyt",
@@ -8,7 +9,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
+							"PropValues": [
+								"40"
+							],
 							"type": 2
 						}
 					]
@@ -18,7 +21,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
+							"PropValues": [
+								"40"
+							],
 							"type": 2
 						}
 					]
@@ -33,7 +38,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
+							"PropValues": [
+								"40"
+							],
 							"type": 2
 						}
 					]
@@ -43,7 +50,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["38"],
+							"PropValues": [
+								"38"
+							],
 							"type": 2
 						}
 					]
@@ -53,7 +62,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
+							"PropValues": [
+								"40"
+							],
 							"type": 2
 						}
 					]
@@ -63,7 +74,9 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
+							"PropValues": [
+								"40"
+							],
 							"type": 2
 						}
 					]
@@ -73,13 +86,38 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["40"],
+							"PropValues": [
+								"40"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"40"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_EffectDecide",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"40"
+							],
 							"type": 2
 						}
 					]
 				}
 			]
 		}
-	],
-	"uuid": "65fd036a-cad2-447d-90f7-7a0f9135688e"
+	]
 }

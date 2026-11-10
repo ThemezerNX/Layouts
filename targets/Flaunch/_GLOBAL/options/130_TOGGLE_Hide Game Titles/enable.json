@@ -1,0 +1,14 @@
+{
+	"uuid": "9381029f-d333-458f-8170-66faf31606d8",
+	"Files": [
+		{
+			"FileName": "blyt/FlcBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				}
+			]
+		}
+	]
+}
