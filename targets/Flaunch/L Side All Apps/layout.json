@@ -1,0 +1,161 @@
+{
+    "AuthorName": "NSX",
+    "Files": [
+        {
+            "FileName": "blyt/FlcCntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "NH_Root",
+                    "Position": {
+                        "X": -239,
+                        "Y": -202
+                    },
+                    "Scale": {
+                        "X": 0.7,
+                        "Y": 0.7
+                    }
+                },
+                {
+                    "PaneName": "L_Header",
+                    "Position": {
+                        "X": 5128,
+                        "Y": 2000
+                    },
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FlcBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Delete",
+                    "Scale": {
+                        "X": 0.7,
+                        "Y": 0.7
+                    }
+                },
+                {
+                    "PaneName": "P_BtnBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_IconGame",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Blank",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnDecideKey",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_InnerCursor",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                }
+            ],
+            "AddGroups": [
+                {
+                    "GroupName": "NSX_G_Active",
+                    "Panes": [
+                        "P_InnerCursor",
+                        "N_Root"
+                    ]
+                },
+                {
+                    "GroupName": "NSX_G_Inactive",
+                    "Panes": [
+                        "P_InnerCursor",
+                        "N_Root"
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Position": {
+                        "X": 5128,
+                        "Y": 2000
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Position": {
+                        "X": 5128,
+                        "Y": 2000
+                    },
+                    "Visible": false
+                }
+            ]
+        }
+    ],
+    "Anims": [
+        {
+            "FileName": "anim/FlcBtnIconGame_Inactive.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":11,\"Name\":\"Inactive\",\"ChildBinding\":0,\"Groups\":[\"NSX_G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AWEB\"},\"pai1\":{\"FrameSize\":3,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_InnerCursor\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-85.0},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_Root\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":4,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        },
+        {
+            "FileName": "anim/FlcBtnIconGame_Active.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":10,\"Name\":\"Active\",\"ChildBinding\":0,\"Groups\":[\"NSX_G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AS0B\"},\"pai1\":{\"FrameSize\":300,\"Flags\":1,\"Textures\":[],\"Entries\":[{\"Name\":\"P_InnerCursor\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":255.0},{\"Frame\":1.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_Root\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":4,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":300.0,\"Value\":360.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        }
+    ],
+    "TargetFirmware": 1100
+}

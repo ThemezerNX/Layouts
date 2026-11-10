@@ -1,0 +1,55 @@
+{
+    "AuthorName": "NSX",
+    "Files": [
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Main",
+                    "ColorTL": "FF0000C0",
+                    "ColorTR": "FF0000FF",
+                    "ColorBL": "FF0000C0",
+                    "ColorBR": "FF0000FF"
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "ColorTL": "FF000080",
+                    "ColorTR": "FF0000C0",
+                    "ColorBL": "FF0000FF",
+                    "ColorBR": "FF8080FF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/MypHeader.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Header",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Pict",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_00",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        }
+    ],
+    "TargetFirmware": 1100
+}

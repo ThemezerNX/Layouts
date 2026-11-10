@@ -1,0 +1,243 @@
+{
+    "AuthorName": "Rodel",
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/MypMyStatus.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": -498,
+                        "Y": 541
+                    },
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "N_User",
+                    "Position": {
+                        "X": 785,
+                        "Y": -398
+                    }
+                },
+                {
+                    "PaneName": "L_BtnUserIcon",
+                    "Position": {
+                        "X": -277,
+                        "Y": -84
+                    },
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "N_BtnEditName",
+                    "Position": {
+                        "X": 64,
+                        "Y": -75
+                    }
+                },
+                {
+                    "PaneName": "N_Presence",
+                    "Position": {
+                        "X": -62,
+                        "Y": -82
+                    }
+                },
+                {
+                    "PaneName": "T_MyCode",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LinePlate.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/MypNav.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": -100,
+                        "Y": 370
+                    },
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "N_Top",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Account",
+                    "Position": {
+                        "X": 373,
+                        "Y": 409
+                    }
+                },
+                {
+                    "PaneName": "N_FrdList",
+                    "Position": {
+                        "Y": -570
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Trend",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Invitaiton",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Recommend",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_FrdAdd",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Setting",
+                    "Position": {
+                        "Y": -220
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Btm",
+                    "Position": {
+                        "Y": -34
+                    }
+                },
+                {
+                    "PaneName": "L_BtnAccount",
+                    "Position": {
+                        "X": -1502,
+                        "Y": -287
+                    },
+                    "Scale": {}
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnFrdList",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_NewList",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnTrend",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnInvitation",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_NewInv",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnRecommend",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnFrdAdd",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_New",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnSetting",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/MypHeader.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LinePlateDlg.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnLineNml.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_BtnLine",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_BtnLine",
+                    "Visible": false
+                }
+            ]
+        }
+    ],
+    "TargetFirmware": 1100
+}

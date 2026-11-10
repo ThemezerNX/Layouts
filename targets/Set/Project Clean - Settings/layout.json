@@ -1,0 +1,848 @@
+{
+    "AuthorName": "usiruktv",
+    "Files": [
+        {
+            "FileName": "blyt/SetCntNet.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntTheme.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "N_Top",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Main",
+                    "ColorTL": "FFDA8972",
+                    "ColorTR": "FFDA8972",
+                    "ColorBL": "FFDA8972",
+                    "ColorBR": "FFDA8972"
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "ColorTL": "FF332F2C",
+                    "ColorTR": "FF332F2C",
+                    "ColorBL": "FF332F2C",
+                    "ColorBR": "FF332F2C"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Main",
+                    "BackgroundColor": "FFDA8972"
+                },
+                {
+                    "MaterialName": "P_Grow",
+                    "BackgroundColor": "FF332F2C"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntSup.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "N_GuideFooter",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_GuideHeader",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_HelpIllust",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Support",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Version",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_UrlHelp",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnSafe",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnErrList",
+                    "Position": {
+                        "Y": 250
+                    }
+                },
+                {
+                    "PaneName": "T_SSID",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_Err",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_ExFat",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_Cradle",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_Timezone",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_Controller",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_NupVersion",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_NPNS",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntHardware.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line720_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_09",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_06",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_08",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line720_07",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_06",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_08",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_18",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_09",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_12",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_19",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_16",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_13",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_14",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_15",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_07",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_17",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_10",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_11",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntLock.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_09",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntDisplay.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBaseNav.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": -80,
+                        "Y": 355
+                    },
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "N_FlightMode",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Display",
+                    "Position": {
+                        "Y": -520
+                    }
+                },
+                {
+                    "PaneName": "N_Lock",
+                    "Position": {
+                        "Y": -1418
+                    }
+                },
+                {
+                    "PaneName": "N_Child",
+                    "Position": {
+                        "Y": -1518
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Internet",
+                    "Position": {
+                        "Y": -420
+                    }
+                },
+                {
+                    "PaneName": "N_DataMng",
+                    "Position": {
+                        "Y": -320
+                    }
+                },
+                {
+                    "PaneName": "N_Player",
+                    "Position": {
+                        "Y": -620
+                    }
+                },
+                {
+                    "PaneName": "N_Mii",
+                    "Position": {
+                        "Y": -1018
+                    }
+                },
+                {
+                    "PaneName": "N_Amiibo",
+                    "Position": {
+                        "Y": -918
+                    }
+                },
+                {
+                    "PaneName": "N_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Theme",
+                    "Position": {
+                        "Y": -820
+                    }
+                },
+                {
+                    "PaneName": "N_Ntf",
+                    "Position": {
+                        "Y": -1118
+                    }
+                },
+                {
+                    "PaneName": "N_Sleep",
+                    "Position": {
+                        "Y": -1318
+                    }
+                },
+                {
+                    "PaneName": "N_Controller",
+                    "Position": {
+                        "Y": -720
+                    }
+                },
+                {
+                    "PaneName": "N_Tv",
+                    "Position": {
+                        "Y": -1218
+                    }
+                },
+                {
+                    "PaneName": "N_Hardware",
+                    "Position": {
+                        "Y": -220
+                    }
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Child",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntMii.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntSleep.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_06",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntController.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_18",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_06",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_07",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_08",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_09",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_10",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_16",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_11",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_17",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_12",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_13",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_14",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_15",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntPlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_07",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntTv.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_06",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_07",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_08",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_09",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntDataMng.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_10",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_05",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_06",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_07",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_08",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_09",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_010",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_011",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBaseHeader.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Header",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntAmiibo.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetCntNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_11",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_12",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_03",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_04",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                }
+            ]
+        }
+    ],
+    "TargetFirmware": 1100
+}

@@ -1,0 +1,116 @@
+{
+    "AuthorName": "Zhi",
+    "Files": [
+        {
+            "FileName": "blyt/ScrollIndicatorS.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Indicator",
+                    "Size": {
+                        "X": 28,
+                        "Y": 700
+                    },
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "40"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "71",
+                                "4",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Grow",
+                    "ColorTL": "FFFFFFFF",
+                    "ColorTR": "FFFFFFFF",
+                    "ColorBL": "FFFFFFFF"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Main",
+                    "BackgroundColor": "FFFFFFFF"
+                },
+                {
+                    "MaterialName": "P_Grow",
+                    "BackgroundColor": "FFFFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnOpt_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BtnBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FooterAll.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line_00",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/ScrollIndicator.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_ScrollIndicator",
+                    "Position": {
+                        "X": 570,
+                        "Y": -48
+                    },
+                    "Scale": {
+                        "X": 1,
+                        "Y": 0.7
+                    },
+                    "Size": {
+                        "X": 30,
+                        "Y": 324
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineFooter.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FooterCtrl.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "Y": 645
+                    }
+                }
+            ]
+        }
+    ],
+    "TargetFirmware": 1100
+}

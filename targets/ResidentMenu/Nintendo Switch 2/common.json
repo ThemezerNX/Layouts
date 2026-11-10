@@ -1,0 +1,15 @@
+{
+    "AuthorName": "loyah",
+    "Files": [
+        {
+            "FileName": "blyt/LineFooter.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        }
+    ],
+    "TargetFirmware": 1100
+}

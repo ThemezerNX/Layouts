@@ -1,0 +1,15 @@
+{
+    "Files": [
+        {
+            "Patches": [
+                {
+                    "UsdPatches": [],
+                    "PaneName": "P_InnerCursor"
+                }
+            ],
+            "AddGroups": [],
+            "FileName": "blyt/RdtBtnIconGame.bflyt"
+        }
+    ],
+    "uuid": "5c93c159-9cc0-4ccf-a95c-c7b57d608506"
+}

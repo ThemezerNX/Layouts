@@ -1,0 +1,116 @@
+{
+    "Files": [
+        {
+            "Patches": [
+                {
+                    "Position": {
+                        "Y": -180
+                    },
+                    "Scale": {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    "PaneName": "N_Tip"
+                },
+                {
+                    "Size": {
+                        "Y": 326.4
+                    },
+                    "PaneName": "B_Hit"
+                },
+                {
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    },
+                    "UsdPatches": [],
+                    "PaneName": "P_BtnBase"
+                },
+                {
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    },
+                    "UsdPatches": [],
+                    "PaneName": "P_IconGame"
+                },
+                {
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    },
+                    "UsdPatches": [],
+                    "PaneName": "P_Blank"
+                },
+                {
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    },
+                    "UsdPatches": [],
+                    "PaneName": "P_BtnDecideKey"
+                },
+                {
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    },
+                    "UsdPatches": [],
+                    "PaneName": "P_BtnTouch"
+                },
+                {
+                    "Size": {
+                        "Y": 384
+                    },
+                    "UsdPatches": [],
+                    "PaneName": "P_InnerCursor"
+                },
+                {
+                    "Size": {
+                        "Y": 384
+                    },
+                    "PaneName": "N_BtnFocusKey"
+                },
+                {
+                    "PaneName": "L_Promotion",
+                    "Position": {
+                        "Y": -50
+                    }
+                },
+                {
+                    "PaneName": "N_TextPos",
+                    "Position": {
+                        "Y": -50
+                    }
+                }
+            ],
+            "AddGroups": [],
+            "FileName": "blyt/RdtBtnIconGame.bflyt"
+        },
+        {
+            "Patches": [
+                {
+                    "Position": {
+                        "Y": 30
+                    },
+                    "PaneName": "N_GameRoot"
+                },
+                {
+                    "Scale": {
+                        "X": 1.03,
+                        "Y": 1.03
+                    },
+                    "PaneName": "N_Game"
+                },
+                {
+                    "Position": {
+                        "Y": 199
+                    },
+                    "PaneName": "N_Icon_12"
+                }
+            ],
+            "FileName": "blyt/RdtBase.bflyt"
+        }
+    ],
+    "uuid": "3bf01bc6-0be4-4e27-bcec-737ffcae6a34"
+}

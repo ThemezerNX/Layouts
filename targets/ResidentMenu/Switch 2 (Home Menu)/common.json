@@ -1,0 +1,15 @@
+{
+    "AuthorName": "Deemitry88",
+    "TargetFirmware": 1100,
+    "Files": [
+        {
+            "FileName": "blyt/LineFooter.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        }
+    ]
+}

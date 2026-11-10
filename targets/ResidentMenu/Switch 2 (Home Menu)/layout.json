@@ -1,0 +1,457 @@
+{
+    "AuthorName": "Deemitry88",
+    "HideOnlineBtn": false,
+    "TargetFirmware": 2000,
+    "Files": [
+        {
+            "FileName": "blyt/RdtBtnCtrl.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Main",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "20"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "20"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Main",
+                    "ForegroundColor": "00000000",
+                    "BackgroundColor": "FFFFD2FF"
+                },
+                {
+                    "MaterialName": "P_Grow",
+                    "ForegroundColor": "00000000",
+                    "BackgroundColor": "FFF5EB96"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnSet.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnSplay.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnPvr.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BtnBase",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "20"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_IconGame",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "20"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_Blank",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "20"
+                            ],
+                            "type": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnLR.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnVgc.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBase.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_System",
+                    "Position": {
+                        "Y": -186
+                    }
+                },
+                {
+                    "PaneName": "L_BtnLR",
+                    "Position": {
+                        "X": -370,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 508,
+                        "Y": 180
+                    }
+                },
+                {
+                    "PaneName": "L_BtnNoti",
+                    "Position": {
+                        "X": -277.5,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 508,
+                        "Y": 180
+                    }
+                },
+                {
+                    "PaneName": "L_BtnShop",
+                    "Position": {
+                        "X": -185,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 508,
+                        "Y": 180
+                    }
+                },
+                {
+                    "PaneName": "L_BtnPvr",
+                    "Position": {
+                        "X": -92.5,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 100,
+                        "Y": 100
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSplay",
+                    "Position": {
+                        "Y": -15
+                    }
+                },
+                {
+                    "PaneName": "L_BtnCtrl",
+                    "Position": {
+                        "X": 92.5,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 100,
+                        "Y": 100
+                    }
+                },
+                {
+                    "PaneName": "L_BtnVgc",
+                    "Position": {
+                        "X": 185,
+                        "Y": -15
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSet",
+                    "Position": {
+                        "X": 277.5,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 100,
+                        "Y": 100
+                    }
+                },
+                {
+                    "PaneName": "L_BtnPow",
+                    "Position": {
+                        "X": 370,
+                        "Y": -15
+                    },
+                    "Size": {
+                        "X": 100,
+                        "Y": 100
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_PictNtf_00",
+                    "UsdPatches": [
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF67af3f",
+                    "ColorTR": "FF67af3f",
+                    "ColorBL": "FF67af3f",
+                    "ColorBR": "FF67af3f"
+                },
+                {
+                    "PaneName": "P_PictNtf_01",
+                    "UsdPatches": [
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF67af3f",
+                    "ColorTR": "FF67af3f",
+                    "ColorBL": "FF67af3f",
+                    "ColorBR": "FF67af3f"
+                },
+                {
+                    "PaneName": "P_Effect",
+                    "UsdPatches": [
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "34",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ]
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_PictNtf_00",
+                    "BackgroundColor": "FFFFFFFF"
+                },
+                {
+                    "MaterialName": "P_PictNtf_01",
+                    "BackgroundColor": "FFFFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnShop.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnPow.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": -70
+                    }
+                },
+                {
+                    "PaneName": "P_PictBase",
+                    "Visible": false,
+                    "ColorTL": "00000000",
+                    "ColorTR": "00000000",
+                    "ColorBL": "00000000",
+                    "ColorBR": "00000000"
+                },
+                {
+                    "PaneName": "P_Effect",
+                    "ColorTL": "00000000",
+                    "ColorTR": "00000000",
+                    "ColorBL": "00000000",
+                    "ColorBR": "00000000"
+                },
+                {
+                    "PaneName": "P_BtnDecideKey",
+                    "ColorTL": "00000000",
+                    "ColorTR": "00000000",
+                    "ColorBL": "00000000",
+                    "ColorBR": "00000000"
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "ColorTL": "00000000",
+                    "ColorTR": "00000000",
+                    "ColorBL": "00000000",
+                    "ColorBR": "00000000"
+                }
+            ]
+        }
+    ]
+}
