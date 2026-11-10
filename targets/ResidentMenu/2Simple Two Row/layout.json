@@ -425,7 +425,7 @@
 						"Y": 80
 					},
 					"Scale": {
-						"X": 0.00001,
+						"X": 1e-5,
 						"Y": 1
 					}
 				},
@@ -721,6 +721,12 @@
 					"PaneName": "L_BtnFlc",
 					"Position": {}
 				}
+			],
+			"AddGroups": [
+				{
+					"GroupName": "ThemezerAllSoftware",
+					"Panes": ["L_BtnChangeUser", "L_BtnFlc"]
+				}
 			]
 		},
 		{
@@ -745,6 +751,10 @@
 		{
 			"FileName": "anim/RdtBtnFullLauncher_Active.bflan",
 			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":8,\"Name\":\"Active\",\"ChildBinding\":0,\"Groups\":[\"Limaaa_G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AS0BAAAAAA==\"},\"pai1\":{\"FrameSize\":160,\"Flags\":1,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnFocusKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_PictBase\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":-3.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":5.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":-3.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict_03\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnDecideKey\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnTouch\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":60.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":110.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":160.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/RdtBase_BtnChangeUserOut.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":5,\"Name\":\"BtnChangeUserOut\",\"ChildBinding\":180,\"Groups\":[\"ThemezerAllSoftware\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ALcAAAAAAA==\"},\"pai1\":{\"FrameSize\":3,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_BtnChangeUser\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":-0.01333334},{\"Frame\":3.0,\"Value\":0.96,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":7,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":-0.01333334},{\"Frame\":3.0,\"Value\":0.96,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":-85.0},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnFlc\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
 		}
 	]
 }
