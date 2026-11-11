@@ -279,15 +279,6 @@
 					}
 				},
 				{
-					"PaneName": "L_Balloon",
-					"Position": {
-						"X": -128,
-						"Y": -20,
-						"Z": 0
-					},
-					"ParentOriginY": 1
-				},
-				{
 					"PaneName": "P_InnerCursor",
 					"Size": {
 						"X": 265,
@@ -666,68 +657,46 @@
 			"FileName": "blyt/RdtBalloon.bflyt",
 			"Patches": [
 				{
-					"PaneName": "RootPane",
-					"Position": {
-						"X": -640,
-						"Y": 0,
-						"Z": 0
-					},
-					"ParentOriginY": 1
-				},
-				{
-					"PaneName": "N_Root",
-					"Position": {
-						"X": -37,
-						"Y": 9,
-						"Z": 0
-					},
-					"ParentOriginY": 1
-				},
-				{
-					"PaneName": "N_Trans",
-					"ParentOriginY": 1
-				},
-				{
 					"PaneName": "N_Size",
-					"Position": {
-						"X": 0,
-						"Y": 7.5,
-						"Z": 0
-					},
-					"ParentOriginY": 1
-				},
-				{
-					"PaneName": "N_Card",
-					"Position": {
-						"X": -20,
-						"Y": -15,
-						"Z": 0
-					},
-					"Scale": {
-						"X": 1.4,
-						"Y": 1.4
+					"Size": {
+						"X": 0.56,
+						"Y": 42.0
 					}
 				},
 				{
 					"PaneName": "N_Scissor",
-					"ParentOriginY": 1
-				},
-				{
-					"PaneName": "P_Card",
-					"UsdPatches": [
-						{
-							"PropName": "C_W",
-							"PropValues": ["31", "0", "0", "0"],
-							"type": 1
-						}
-					]
+					"Scale": {
+						"X": 1000.0,
+						"Y": 1.0
+					}
 				},
 				{
 					"PaneName": "N_Offset",
-					"OriginY": 0
+					"Scale": {
+						"X": 1e-7,
+						"Y": 1.0
+					}
+				},
+				{
+					"PaneName": "N_Scroll",
+					"Scale": {
+						"X": 10000.0,
+						"Y": 1.0
+					}
+				},
+				{
+					"PaneName": "P_Reset",
+					"Scale": {
+						"X": 10000000.0,
+						"Y": 1.0
+					}
 				},
 				{
 					"PaneName": "P_Color",
+					"Scale": {
+						"X": 10000000.0,
+						"Y": 1.0
+					},
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
@@ -735,6 +704,17 @@
 							"type": 1
 						}
 					]
+				},
+				{
+					"PaneName": "N_Card",
+					"Position": {
+						"X": 10000.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "T_Sub",
+					"Scale": {}
 				}
 			]
 		},
