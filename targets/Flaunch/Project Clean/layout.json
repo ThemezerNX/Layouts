@@ -1,5 +1,6 @@
 {
 	"AuthorName": "usiruktv",
+	"TargetFirmware": 1100,
 	"Files": [
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",
@@ -10,6 +11,10 @@
 				},
 				{
 					"PaneName": "L_BtnSort",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Shop",
 					"Visible": false
 				}
 			]
@@ -209,6 +214,5 @@
 				}
 			]
 		}
-	],
-	"TargetFirmware": 1100
+	]
 }
