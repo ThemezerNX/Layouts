@@ -39,26 +39,6 @@
 					"Visible": false
 				},
 				{
-					"PaneName": "P_A",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_B",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_X",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_Y",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_Stick",
-					"Visible": false
-				},
-				{
 					"PaneName": "P_PictBase",
 					"Position": {
 						"Y": -44
