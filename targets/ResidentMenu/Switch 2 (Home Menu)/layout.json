@@ -324,6 +324,9 @@
                         "Y": 100
                     }
                 }
+            ],
+            "PullFrontPanes": [
+                "L_BtnNoti"
             ]
         },
         {
@@ -384,7 +387,24 @@
                 },
                 {
                     "PaneName": "P_PictBase",
-                    "Visible": false
+                    "Position": {
+                        "X": 277.5,
+                        "Y": 0
+                    },
+                    "Size": {
+                        "X": 832,
+                        "Y": 90
+                    },
+                    "Visible": true,
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "45"
+                            ],
+                            "type": 2
+                        }
+                    ]
                 }
             ],
             "Materials": [
@@ -452,6 +472,16 @@
                     "ColorBR": "00000000"
                 }
             ]
+        }
+    ],
+    "Anims": [
+        {
+            "FileName": "anim/RdtBtnNtf_Active.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"Active\",\"ChildBinding\":44,\"Groups\":[\"G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AS0BAAAAAAA=\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_New\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":32,\"Blend\":7},{\"Frame\":1,\"Value\":39,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":32,\"Blend\":7},{\"Frame\":1,\"Value\":39,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_ScaleDecide\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":1,\"Blend\":0.08000004291534424},{\"Frame\":1,\"Value\":1.1162790060043335,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":7,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":1,\"Blend\":0.08000004291534424},{\"Frame\":1,\"Value\":1.1162790060043335,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+        },
+        {
+            "FileName": "anim/RdtBtnNtf_Inactive.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":7,\"Name\":\"Inactive\",\"ChildBinding\":94,\"Groups\":[\"G_Active\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AWEBAAAAAAA=\"},\"pai1\":{\"FrameSize\":3,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"L_New\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":39,\"Blend\":-2.3333332538604736},{\"Frame\":3,\"Value\":32,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":39,\"Blend\":-2.3333332538604736},{\"Frame\":3,\"Value\":32,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_ScaleDecide\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":1.1162790060043335,\"Blend\":-0.026666680350899696},{\"Frame\":3,\"Value\":1,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":7,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0,\"Value\":1.1162790060043335,\"Blend\":-0.026666680350899696},{\"Frame\":3,\"Value\":1,\"Blend\":0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
         }
     ]
 }
