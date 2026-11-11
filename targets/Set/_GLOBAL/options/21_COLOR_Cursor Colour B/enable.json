@@ -1,0 +1,50 @@
+{
+	"uuid": "101778f0-acc5-4448-9a93-864481148f31",
+	"Files": [
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"ForegroundColor": "00??{color:BBGGRR}??"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"ForegroundColor": "00??{color:BBGGRR}??"
+				}
+			]
+		}
+	]
+}
