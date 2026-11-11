@@ -9,56 +9,32 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderColorSelect0",
-							"PropValues": [
-								"0"
-							],
+							"PropValues": ["0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_BorderColor0",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 2
 						},
 						{
 							"PropName": "C_B",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColorSelect",
-							"PropValues": [
-								"0"
-							],
+							"PropValues": ["0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColor",
-							"PropValues": [
-								"??{color:R}??",
-								"??{color:G}??",
-								"??{color:B}??",
-								"1"
-							],
+							"PropValues": ["??{color:R}??", "??{color:G}??", "??{color:B}??", "1"],
 							"type": 2
 						}
 					]
@@ -68,56 +44,32 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderColorSelect0",
-							"PropValues": [
-								"0"
-							],
+							"PropValues": ["0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_BorderColor0",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 2
 						},
 						{
 							"PropName": "C_B",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColorSelect",
-							"PropValues": [
-								"0"
-							],
+							"PropValues": ["0"],
 							"type": 1
 						},
 						{
 							"PropName": "S_DropShadowColor",
-							"PropValues": [
-								"??{color:R}??",
-								"??{color:G}??",
-								"??{color:B}??",
-								"1"
-							],
+							"PropValues": ["??{color:R}??", "??{color:G}??", "??{color:B}??", "1"],
 							"type": 2
 						}
 					]

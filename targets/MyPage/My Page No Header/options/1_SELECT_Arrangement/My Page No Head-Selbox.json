@@ -1,26 +1,26 @@
 {
-    "Files": [
-        {
-            "Patches": [
-                {
-                    "ColorTL": "FF0000C0",
-                    "ColorTR": "FF0000FF",
-                    "ColorBL": "FF0000C0",
-                    "ColorBR": "FF0000FF",
-                    "PaneName": "P_Grow"
-                }
-            ],
-            "FileName": "blyt/Cursor3.bflyt"
-        },
-        {
-            "FileName": "blyt/BtnNav_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_BtnBase",
-                    "Visible": false
-                }
-            ]
-        }
-    ],
-    "uuid": "70453422-792e-42dd-bc8d-2f0cad51cc23"
+	"Files": [
+		{
+			"Patches": [
+				{
+					"ColorTL": "FF0000C0",
+					"ColorTR": "FF0000FF",
+					"ColorBL": "FF0000C0",
+					"ColorBR": "FF0000FF",
+					"PaneName": "P_Grow"
+				}
+			],
+			"FileName": "blyt/Cursor3.bflyt"
+		},
+		{
+			"FileName": "blyt/BtnNav_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"Visible": false
+				}
+			]
+		}
+	],
+	"uuid": "70453422-792e-42dd-bc8d-2f0cad51cc23"
 }

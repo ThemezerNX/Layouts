@@ -1,63 +1,61 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# Checks every layout, adds missing UUIDs, formats the repository and tells the Themezer API to import the new commit.
 
 name: Deploy
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 
 jobs:
-  updateLayouts:
-    runs-on: ubuntu-latest
-    if: github.repository_owner == 'ThemezerNX'
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v4
+    updateLayouts:
+        runs-on: ubuntu-latest
+        if: github.repository_owner == 'ThemezerNX'
+        steps:
+            - name: Checkout Project
+              uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v3
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version-file: package.json
 
-      - name: Use Node.js 20
-        uses: actions/setup-node@v3
-        with:
-          cache: 'pnpm'
-          node-version: 20
+            - name: Install dependencies
+              run: bun install --frozen-lockfile
 
-      - name: Install dependencies
-        run: pnpm install
+            - name: Typecheck
+              run: bun run typecheck
 
-      - name: Verify all layouts
-        run: pnpm run test
+            - name: Verify all layouts
+              run: bun run test
 
-      - name: Prettify
-        run: pnpm run prettify
+            - name: Format
+              run: bun fmt
 
-      - name: Push changes
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          if [[ `git status --porcelain --untracked-files=no` ]]; then
-            git commit -am "Prettify & Automated UUID generation"
-            git push
-          fi
+            - name: Push changes
+              run: |
+                  git config user.name github-actions
+                  git config user.email github-actions@github.com
+                  if [[ `git status --porcelain --untracked-files=no` ]]; then
+                    git commit -am "Format & Automated UUID generation"
+                    git push
+                  fi
 
-      - name: Get new SHA after push
-        id: newsha
-        run: |
-          # Only get SHA if something was committed
-          if [[ `git status --porcelain --untracked-files=no` ]]; then
-            git commit -am "Prettify & Automated UUID generation"
-            git push
-          fi
-          echo "NEW_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+            - name: Get new SHA after push
+              id: newsha
+              run: |
+                  # Only get SHA if something was committed
+                  if [[ `git status --porcelain --untracked-files=no` ]]; then
+                    git commit -am "Format & Automated UUID generation"
+                    git push
+                  fi
+                  echo "NEW_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
-      - name: Deploy
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://api.themezer.net/switch/layouts/run-update'
-          method: 'POST'
-          bearerToken: ${{ secrets.THEMEZER_BEARER_TOKEN }}
-          timeout: 60000
-          customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"sha": "${{ env.NEW_SHA }}", "branch": "${{ github.ref }}"}'
+            - name: Deploy
+              uses: fjogeleit/http-request-action@v1
+              with:
+                  url: 'https://api.themezer.net/switch/layouts/run-update'
+                  method: 'POST'
+                  bearerToken: ${{ secrets.THEMEZER_BEARER_TOKEN }}
+                  timeout: 60000
+                  customHeaders: '{"Content-Type": "application/json"}'
+                  data: '{"sha": "${{ env.NEW_SHA }}", "branch": "${{ github.ref }}"}'

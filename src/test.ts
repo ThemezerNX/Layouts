@@ -1,9 +1,9 @@
 import { readFileSync } from 'fs'
 import * as path from 'node:path'
 import { isTarget } from '@themezernx/target-parser/dist'
-import * as editJsonFile from 'edit-json-file'
+import editJsonFile from 'edit-json-file'
 import { randomUUID } from 'node:crypto'
-import * as directoryTree from 'directory-tree'
+import directoryTree from 'directory-tree'
 
 function customizeDirectoryTree(node: any): any {
 	if (Array.isArray(node.children)) {
@@ -60,7 +60,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 					}
 					if (!!args) {
 						//!['INTEGER', 'DECIMAL', 'STRING'].includes(typeKey)
-						if (typeKey === "INTEGER") {
+						if (typeKey === 'INTEGER') {
 							// minmax
 							const [min, max] = args.split(',').map((arg) => parseInt(arg.trim()))
 							if (isNaN(min) || isNaN(max)) {
@@ -68,7 +68,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 							} else if (min > max) {
 								throw new Error(`Invalid values ${args} for ${typeKey}, ${optionsPath}`)
 							}
-						} else if (typeKey === "DECIMAL") {
+						} else if (typeKey === 'DECIMAL') {
 							// minmax
 							const [min, max] = args.split(',').map((arg) => Number(arg.trim()))
 							if (isNaN(min) || isNaN(max)) {
@@ -76,7 +76,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 							} else if (min > max) {
 								throw new Error(`Invalid values ${args} for ${typeKey}, ${optionsPath}`)
 							}
-						} else if (typeKey === "STRING") {
+						} else if (typeKey === 'STRING') {
 							// minmax length
 							const [min, max] = args.split(',').map((arg) => parseInt(arg.trim()))
 							if (isNaN(min) || isNaN(max)) {
@@ -89,7 +89,9 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 						}
 					}
 
-					const optionValues: any[] = Object.values(optionTree.children).filter((c) => c['extension'] === '.json')
+					const optionValues: any[] = Object.values(optionTree.children).filter(
+						(c) => c['extension'] === '.json',
+					)
 					if (typeKey === 'SELECT') {
 						if (optionValues.length < 2) {
 							throw new Error(`Not enough select options values ${optionFolderName}, ${optionsPath}`)
@@ -101,7 +103,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 					}
 
 					for (const optionValueFile of optionValues) {
-						let parsed: any;
+						let parsed: any
 						try {
 							parsed = JSON.parse(readFileSync(optionValueFile.path, 'utf-8'))
 						} catch (e) {
@@ -109,9 +111,13 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 						}
 
 						if (!parsed.uuid) {
-							throw new Error(`No uuid found in option value file ${optionValueFile.path}, ${optionsPath}`)
+							throw new Error(
+								`No uuid found in option value file ${optionValueFile.path}, ${optionsPath}`,
+							)
 						} else if (allOptionUuids.has(parsed.uuid)) {
-							throw new Error(`Duplicate option uuid ${parsed.uuid}, ${optionValueFile.path}, ${optionsPath}`)
+							throw new Error(
+								`Duplicate option uuid ${parsed.uuid}, ${optionValueFile.path}, ${optionsPath}`,
+							)
 						} else {
 							allOptionUuids.add(parsed.uuid)
 						}

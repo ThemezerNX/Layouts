@@ -9,23 +9,17 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"7"
-							],
+							"PropValues": ["7"],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"10"
-							],
+							"PropValues": ["10"],
 							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowSize",
-							"PropValues": [
-								"10"
-							],
+							"PropValues": ["10"],
 							"type": 2
 						}
 					]
@@ -35,16 +29,12 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderSize",
-							"PropValues": [
-								"7"
-							],
+							"PropValues": ["7"],
 							"type": 2
 						},
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": [
-								"10"
-							],
+							"PropValues": ["10"],
 							"type": 2
 						}
 					]

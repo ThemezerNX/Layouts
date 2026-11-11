@@ -17,6 +17,3 @@ The instructions are available [here](https://github.com/ThemezerNX/Layouts/tree
 ## Thanks To
 
 Without layouts there wouldn't be so many awesome themes, therefore, I want to thank the awesome people who took the time to design these incredible menu layouts 🤝
-
-
-

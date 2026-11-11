@@ -4,11 +4,8 @@
 	"author": "Migushthe2nd",
 	"license": "MPL-2.0",
 	"scripts": {
-		"build": "tsc",
-		"start": "node ./dist/test.js",
-		"prettify": "prettier --write **/*.json",
-		"start:dev": "tsc && node ./dist/test.js",
-		"test": "tsc && node ./dist/test.js"
+		"test": "bun src/test.ts",
+		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {
 		"@types/edit-json-file": "^1.7.3",
@@ -18,10 +15,9 @@
 	"dependencies": {
 		"@themezernx/target-parser": "^1.0.5",
 		"directory-tree": "^3.5.2",
-		"edit-json-file": "^1.8.1",
-		"prettier": "^3.5.3"
+		"edit-json-file": "^1.8.1"
 	},
-	"packageManager": "pnpm@9.15.5+sha256.8472168c3e1fd0bff287e694b053fccbbf20579a3ff9526b6333beab8df65a8d",
+	"packageManager": "bun@1.4.4",
 	"repository": "https://github.com/ThemezerNX/Layouts.git",
 	"private": false
 }

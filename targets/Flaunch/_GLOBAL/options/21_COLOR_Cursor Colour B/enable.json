@@ -9,12 +9,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_B",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
 					]
@@ -24,12 +19,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "C_B",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
+							"PropValues": ["0", "0", "0", "0"],
 							"type": 1
 						}
 					]

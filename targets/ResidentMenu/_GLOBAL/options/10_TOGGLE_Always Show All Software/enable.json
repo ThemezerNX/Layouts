@@ -7,10 +7,7 @@
 			"AddGroups": [
 				{
 					"GroupName": "ThemezerAllSoftware",
-					"Panes": [
-						"L_BtnChangeUser",
-						"L_BtnFlc"
-					]
+					"Panes": ["L_BtnChangeUser", "L_BtnFlc"]
 				}
 			]
 		}

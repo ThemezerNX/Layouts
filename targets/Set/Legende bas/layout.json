@@ -1,48 +1,48 @@
 {
-    "AuthorName": "Akai",
-    "Files": [
-        {
-            "FileName": "blyt/TextH1.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Line",
-                    "Position": {}
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineHeader_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Line",
-                    "Position": {
-                        "Y": -200
-                    }
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Position": {
-                        "Y": -200
-                    }
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/SetBaseHeader.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Header",
-                    "Position": {
-                        "X": -100,
-                        "Y": -677
-                    },
-                    "Scale": {
-                        "X": 0.7,
-                        "Y": 0.7
-                    }
-                }
-            ]
-        }
-    ],
-    "TargetFirmware": 1100
+	"AuthorName": "Akai",
+	"Files": [
+		{
+			"FileName": "blyt/TextH1.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Position": {}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Position": {
+						"Y": -200
+					}
+				},
+				{
+					"PaneName": "P_Line",
+					"Position": {
+						"Y": -200
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SetBaseHeader.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Position": {
+						"X": -100,
+						"Y": -677
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					}
+				}
+			]
+		}
+	],
+	"TargetFirmware": 1100
 }
