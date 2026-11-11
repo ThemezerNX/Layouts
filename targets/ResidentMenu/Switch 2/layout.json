@@ -43,6 +43,11 @@
 							"PropName": "S_BorderColor0",
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
 						}
 					]
 				},
@@ -68,6 +73,11 @@
 							"PropName": "S_BorderColor0",
 							"PropValues": ["0", "0", "0", "0"],
 							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
 						}
 					]
 				}
@@ -75,13 +85,13 @@
 			"Materials": [
 				{
 					"MaterialName": "P_Main",
-					"ForegroundColor": "00000000",
-					"BackgroundColor": "FFFFD2FF"
+					"ForegroundColor": "00CD785A",
+					"BackgroundColor": "FFE1AACD"
 				},
 				{
 					"MaterialName": "P_Grow",
-					"ForegroundColor": "00000000",
-					"BackgroundColor": "FFF5EB96"
+					"ForegroundColor": "00E6B48C",
+					"BackgroundColor": "FFE1AACD"
 				}
 			]
 		},
@@ -138,7 +148,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["20"],
+							"PropValues": ["16"],
 							"type": 2
 						}
 					]
@@ -148,7 +158,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["20"],
+							"PropValues": ["16"],
 							"type": 2
 						}
 					]
@@ -158,7 +168,7 @@
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
-							"PropValues": ["20"],
+							"PropValues": ["16"],
 							"type": 2
 						}
 					]
@@ -417,6 +427,25 @@
 					"ColorTR": "00000000",
 					"ColorBL": "00000000",
 					"ColorBR": "00000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBalloon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Color",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFB56F4A",
+					"ColorTR": "FFB56F4A",
+					"ColorBL": "FFB56F4A",
+					"ColorBR": "FFB56F4A"
 				}
 			]
 		}
