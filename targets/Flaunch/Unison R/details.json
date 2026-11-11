@@ -1,5 +1,6 @@
 {
-	"description": "Adapted from Unison R by Kalyvara. This layout has more pastel buttons, custom bg and original lovely animations. I designed this layout so I could use the beautiful Unison R with a custom bg image.",
-	"creatorUuid": "2ab5399b-a3b8-42c6-a886-143ddb13c8ad",
-	"uuid": "a2a29b83-2f51-477d-85d5-c52b09674011"
+	"description": "A community Flaunch layout with the Unison R (all apps) arrangement.",
+	"creatorUuid": "8343f82c-34c2-4e41-904e-4d8c93a12ba0",
+	"color": "6B91B8",
+	"uuid": "0f82632c-4234-4a60-b7c8-de7cdafed8be"
 }
