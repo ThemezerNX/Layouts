@@ -152,10 +152,9 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 			} else {
 				allLayoutUuids.add(detailsFile.get('uuid'))
 			}
-			// Remove '#' in color field if it is there
-			if (detailsFile.get('color')?.startsWith('#')) {
-				console.log('Removing # from color field', layoutTree.name)
-				detailsFile.set('color', detailsFile.get('color').slice(1))
+			// Layouts have no colour of their own any more: the site shows them on the Switch's default background
+			if (detailsFile.get('color') !== undefined) {
+				throw new Error('details.json has a color field, which is no longer used: ' + layoutTree.name)
 			}
 
 			const layoutJsonPath = layoutTree.children['layout.json']?.path
