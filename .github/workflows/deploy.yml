@@ -1,10 +1,14 @@
-# Checks every layout, adds missing UUIDs, formats the repository and tells the Themezer API to import the new commit.
+# Renders the overlays of the layouts a push changed, checks every layout, adds missing UUIDs, formats the repository and tells the Themezer API to
+# import the new commit.
 
 name: Deploy
 on:
     push:
         branches:
             - master
+
+permissions:
+    contents: write
 
 jobs:
     updateLayouts:
@@ -13,6 +17,8 @@ jobs:
         steps:
             - name: Checkout Project
               uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
 
             - name: Install Bun
               uses: oven-sh/setup-bun@v2
@@ -21,6 +27,12 @@ jobs:
 
             - name: Install dependencies
               run: bun install --frozen-lockfile
+
+            - name: Render overlays
+              # Since the commit before the push; every layout when that commit is unknown (a new branch or a force push).
+              run: |
+                  BEFORE=${{ github.event.before }}
+                  if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then bun src/overlays.ts "$BEFORE"; else bun src/overlays.ts; fi
 
             - name: Typecheck
               run: bun run typecheck
@@ -35,8 +47,10 @@ jobs:
               run: |
                   git config user.name github-actions
                   git config user.email github-actions@github.com
+                  # A new layout's overlays are new files.
+                  git add -A targets
                   if [[ `git status --porcelain --untracked-files=no` ]]; then
-                    git commit -am "Format & Automated UUID generation"
+                    git commit -am "Format, automated UUID generation & overlays"
                     git push
                   fi
 

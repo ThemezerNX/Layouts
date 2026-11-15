@@ -5,6 +5,7 @@
 	"license": "MPL-2.0",
 	"scripts": {
 		"test": "bun src/test.ts",
+		"overlays": "bun src/overlays.ts",
 		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {

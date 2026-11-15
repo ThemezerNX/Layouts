@@ -1,0 +1,62 @@
+# Renders the overlays of the layouts a pull request adds or changes, checks every layout, and commits the overlays to the pull request's branch.
+# A pull request from a fork cannot be pushed to: its overlays are attached to the run instead, and the deploy workflow renders them on merge.
+
+name: Pull request
+on:
+    pull_request:
+
+permissions:
+    contents: write
+
+concurrency:
+    group: pull-request-${{ github.event.pull_request.number }}
+    cancel-in-progress: true
+
+jobs:
+    overlays:
+        runs-on: ubuntu-latest
+        env:
+            SAME_REPO: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+        steps:
+            - name: Checkout Project
+              uses: actions/checkout@v4
+              with:
+                  # The branch itself, so its overlays can be pushed back; a fork's pull request checks out the merge commit.
+                  ref: ${{ env.SAME_REPO == 'true' && github.head_ref || '' }}
+                  fetch-depth: 0
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version-file: package.json
+
+            - name: Install dependencies
+              run: bun install --frozen-lockfile
+
+            - name: Render overlays
+              run: bun src/overlays.ts "$(git merge-base origin/${{ github.base_ref }} HEAD)"
+
+            - name: Typecheck
+              run: bun run typecheck
+
+            - name: Verify all layouts
+              run: bun run test
+
+            - name: Push overlays
+              if: env.SAME_REPO == 'true'
+              run: |
+                  git add -A targets
+                  if [[ `git status --porcelain targets` ]]; then
+                    git config user.name github-actions
+                    git config user.email github-actions@github.com
+                    git commit -m "Render layout overlays"
+                    git push
+                  fi
+
+            - name: Attach overlays
+              if: env.SAME_REPO != 'true'
+              uses: actions/upload-artifact@v4
+              with:
+                  name: overlays
+                  path: targets/**/overlay-*.png
+                  if-no-files-found: ignore

@@ -167,7 +167,7 @@ const TARGETS_FOLDER_PATH = path.resolve(__dirname, '..', 'targets')
 				layoutFile.save()
 			}
 
-			// Every layout ships an overlay per Switch system theme (tools/generate-overlays.ts in the Themezer monorepo renders them)
+			// Every layout ships an overlay per Switch system theme (bun run overlays renders them, and so do the workflows)
 			for (const overlay of ['overlay-dark.png', 'overlay-light.png']) {
 				if (!layoutTree.children[overlay]) {
 					throw new Error(`${overlay} not found for ${layoutTree.name}`)
