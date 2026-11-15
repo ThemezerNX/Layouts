@@ -1,0 +1,14 @@
+{
+	"uuid": "17dace14-0925-4273-a2c7-71d541132e97",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnMyPage.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

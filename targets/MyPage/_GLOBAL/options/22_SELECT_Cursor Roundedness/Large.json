@@ -1,0 +1,30 @@
+{
+	"uuid": "2bb797d8-4dcc-44f5-8ab4-672e458d9c85",
+	"Files": [
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["96"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["96"],
+							"type": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

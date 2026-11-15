@@ -1,0 +1,30 @@
+{
+	"uuid": "b3184f78-5db7-44a1-b69e-399a20b416ac",
+	"Files": [
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["??{integer}??"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["??{integer}??"],
+							"type": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}
