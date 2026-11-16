@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://themezer.net/android-chrome-192x192.png" alt="Themezer Logo" />
+  <img src="https://themezer.net/icon.png" alt="Themezer Logo" width="192" />
 </p>
 
 <h1 align="center">Themezer Layouts</h1>
