@@ -1,7 +1,7 @@
 {
 	"TargetFirmware": 1100,
 	"AuthorName": "Chronoss & Deses",
-	"HideOnlineBtn": false,
+	"HideOnlineBtn": true,
 	"Files": [
 		{
 			"FileName": "blyt/RdtBtnCtrl.bflyt",
