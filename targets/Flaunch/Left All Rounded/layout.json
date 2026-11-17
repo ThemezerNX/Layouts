@@ -11,12 +11,6 @@
 					}
 				},
 				{
-					"PaneName": "L_BgNml",
-					"Position": {
-						"Y": -450
-					}
-				},
-				{
 					"PaneName": "NH_Root",
 					"Position": {
 						"X": -200,
