@@ -1,272 +1,218 @@
 {
-    "AuthorName": "usiruktv",
-    "TargetFirmware": 1100,
-    "Files": [
-        {
-            "FileName": "blyt/FlcCntMain.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Header",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_BtnSort",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_Shop",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/Cursor3.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Main",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_BorderSize",
-                            "PropValues": [
-                                "7"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_BorderColorSelect0",
-                            "PropValues": [
-                                "0"
-                            ],
-                            "type": 1
-                        },
-                        {
-                            "PropName": "S_BorderColor0",
-                            "PropValues": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_DropShadowSize",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "C_B",
-                            "PropValues": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        },
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        }
-                    ]
-                },
-                {
-                    "PaneName": "P_Grow",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_BorderSize",
-                            "PropValues": [
-                                "7"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_BorderColorSelect0",
-                            "PropValues": [
-                                "0"
-                            ],
-                            "type": 1
-                        },
-                        {
-                            "PropName": "S_BorderColor0",
-                            "PropValues": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "10"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "S_DropShadowSize",
-                            "PropValues": [
-                                "0"
-                            ],
-                            "type": 2
-                        },
-                        {
-                            "PropName": "C_B",
-                            "PropValues": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        },
-                        {
-                            "PropName": "C_W",
-                            "PropValues": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ],
-                            "type": 1
-                        }
-                    ],
-                    "ColorTL": "FFFFFFFF",
-                    "ColorTR": "FFFFFFFF",
-                    "ColorBL": "FFFFFFFF"
-                }
-            ],
-            "Materials": [
-                {
-                    "MaterialName": "P_Main",
-                    "ForegroundColor": "00FFFFFF",
-                    "BackgroundColor": "FFFFFFFF"
-                },
-                {
-                    "MaterialName": "P_Grow",
-                    "ForegroundColor": "00FFFFFF",
-                    "BackgroundColor": "FFFFFFFF"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BaseTop.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_HeaderPos",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FlcBalloon.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Tip",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_TipShdw",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FlcBtnIconGame.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Tip",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_Delete",
-                    "Scale": {
-                        "X": 0.9,
-                        "Y": 0.9
-                    }
-                },
-                {
-                    "PaneName": "P_BtnBase",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "20"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                },
-                {
-                    "PaneName": "P_IconGame",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "18"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                },
-                {
-                    "PaneName": "P_InnerCursor",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "20"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                },
-                {
-                    "PaneName": "N_BtnFocusKey",
-                    "UsdPatches": [
-                        {
-                            "PropName": "S_RoundRadius",
-                            "PropValues": [
-                                "20"
-                            ],
-                            "type": 2
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineHeader_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Line",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"AuthorName": "usiruktv",
+	"TargetFirmware": 1100,
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnSort",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Shop",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["7"],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": ["0"],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["10"],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": ["10"],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": ["7"],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": ["0"],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["10"],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": ["0"],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": ["0", "0", "0", "0"],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFFFFFFF",
+					"ColorTR": "FFFFFFFF",
+					"ColorBL": "FFFFFFFF"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"ForegroundColor": "00FFFFFF",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"ForegroundColor": "00FFFFFF",
+					"BackgroundColor": "FFFFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BaseTop.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_HeaderPos",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBalloon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Tip",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_TipShdw",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Delete",
+					"Scale": {
+						"X": 0.9,
+						"Y": 0.9
+					}
+				},
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["20"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_IconGame",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["18"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["20"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["20"],
+							"type": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
 }

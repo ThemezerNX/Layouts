@@ -1,133 +1,133 @@
 {
-    "AuthorName": "NSX",
-    "Files": [
-        {
-            "FileName": "blyt/Line_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslTextOpenNg.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Bg",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "T_text_00",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BgNavNoHeader.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_NavBg",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BtnLinePlateNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_BtnLine",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/DBtmHeaderNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "B_Content",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "T_00",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/TextH1.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Text",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslTextH1Edit.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Text",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "T_00",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineHeader_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Line",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BgNav_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_NavBg",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslSelectSinglePlayerData.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Bg",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/BtnLineNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_BtnLine",
-                    "Visible": false
-                }
-            ]
-        }
-    ],
-    "TargetFirmware": 1100
+	"AuthorName": "NSX",
+	"Files": [
+		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslTextOpenNg.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Bg",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_text_00",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BgNavNoHeader.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_NavBg",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BtnLinePlateNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_BtnLine",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/DBtmHeaderNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "B_Content",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/TextH1.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Text",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslTextH1Edit.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Text",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BgNav_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_NavBg",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslSelectSinglePlayerData.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Bg",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BtnLineNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnLine",
+					"Visible": false
+				}
+			]
+		}
+	],
+	"TargetFirmware": 1100
 }

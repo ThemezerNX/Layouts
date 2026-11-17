@@ -1,97 +1,97 @@
 {
-    "AuthorName": "usiruktv",
-    "Files": [
-        {
-            "FileName": "blyt/Line_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Root",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/Cursor3.bflyt",
-            "Patches": [],
-            "Materials": [
-                {
-                    "MaterialName": "P_Main",
-                    "BackgroundColor": "FFFFFFFF"
-                },
-                {
-                    "MaterialName": "P_Grow",
-                    "BackgroundColor": "FFFFFFFF"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/DBtmHeaderNml.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "T_00",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/TextH1.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslTextH1Edit.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineHeader_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "N_Line",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "RootPane",
-                    "Scale": {
-                        "X": 0.9,
-                        "Y": 0.9
-                    }
-                },
-                {
-                    "PaneName": "P_Bg",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "N_Cnt",
-                    "Position": {}
-                }
-            ]
-        }
-    ],
-    "TargetFirmware": 1100
+	"AuthorName": "usiruktv",
+	"Files": [
+		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"BackgroundColor": "FFFFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/DBtmHeaderNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/TextH1.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslTextH1Edit.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/PslSelectSinglePlayer.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Scale": {
+						"X": 0.9,
+						"Y": 0.9
+					}
+				},
+				{
+					"PaneName": "P_Bg",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Cnt",
+					"Position": {}
+				}
+			]
+		}
+	],
+	"TargetFirmware": 1100
 }
