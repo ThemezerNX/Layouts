@@ -1,0 +1,14 @@
+{
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnLR.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_PictBase",
+					"__self": null
+				}
+			]
+		}
+	],
+	"uuid": "b8c4067b-eb97-44aa-9e02-3ec32a7d0d8c"
+}
