@@ -1,7 +1,7 @@
 {
 	"Files": [
 		{
-			"FileName": "blyt/RdtBtnNtf.bflyt",
+			"FileName": "blyt/RdtBtnLR.bflyt",
 			"Patches": [
 				{
 					"PaneName": "P_PictBase",

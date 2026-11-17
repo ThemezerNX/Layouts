@@ -6,6 +6,14 @@
 				{
 					"PaneName": "L_BtnShop",
 					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNoti",
+					"Position": {
+						"X": -192.5,
+						"Y": 0,
+						"Z": 0
+					}
 				}
 			]
 		}
