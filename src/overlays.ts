@@ -126,7 +126,8 @@ for (const dir of todo) {
 	const layout = JSON.stringify({
 		PatchName: name,
 		ID: id,
-		...JSON.parse(readText(path.join(ROOT, dir, 'layout.json')) ?? '{}'),
+		// A layout without layout.json is the stock menu: current firmware, online button shown, so no installer fix rearranges it.
+		...JSON.parse(readText(path.join(ROOT, dir, 'layout.json')) ?? '{"TargetFirmware":2000,"HideOnlineBtn":false}'),
 	})
 	const common = readText(path.join(ROOT, dir, 'common.json'))
 	for (const overlay of OVERLAYS) {
