@@ -1,15 +1,15 @@
 {
-	"TargetFirmware": 1100,
-	"AuthorName": "Glowmoss",
-	"Files": [
-		{
-			"FileName": "blyt/SetBaseHeader.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_Header",
-					"Visible": false
-				}
-			]
-		}
-	]
+    "TargetFirmware": 1100,
+    "AuthorName": "Glowmoss",
+    "Files": [
+        {
+            "FileName": "blyt/SetBaseHeader.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Header",
+                    "Visible": false
+                }
+            ]
+        }
+    ]
 }

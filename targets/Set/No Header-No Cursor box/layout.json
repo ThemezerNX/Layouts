@@ -1,24 +1,24 @@
 {
-	"AuthorName": "NSX",
-	"Files": [
-		{
-			"FileName": "blyt/BtnNav_Root.bflyt",
-			"Patches": [
-				{
-					"PaneName": "P_BtnBase",
-					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/SetBaseHeader.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Visible": false
-				}
-			]
-		}
-	],
-	"TargetFirmware": 1100
+    "AuthorName": "NSX",
+    "Files": [
+        {
+            "FileName": "blyt/BtnNav_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BtnBase",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/SetBaseHeader.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                }
+            ]
+        }
+    ],
+    "TargetFirmware": 1100
 }

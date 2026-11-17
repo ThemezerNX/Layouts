@@ -1,103 +1,103 @@
 {
-	"AuthorName": "usiruktv",
-	"TargetFirmware": 1100,
-	"Files": [
-		{
-			"FileName": "blyt/EntMain.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_CntRMain",
-					"Position": {
-						"X": 3000,
-						"Y": -299
-					},
-					"Scale": {
-						"X": 0.4,
-						"Y": 0.4
-					}
-				},
-				{
-					"PaneName": "L_BtnResume",
-					"Position": {
-						"X": 10000
-					}
-				},
-				{
-					"PaneName": "N_ChildLock",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_MarginChildLockHud",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_CntL",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_News",
-					"Position": {
-						"X": -1000,
-						"Y": 36
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnNtf",
-					"Scale": {
-						"X": 0.8,
-						"Y": 0.8
-					},
-					"Visible": false
-				},
-				{
-					"PaneName": "L_Lock",
-					"Position": {
-						"X": -2000,
-						"Y": -290
-					},
-					"Scale": {
-						"X": 0.8,
-						"Y": 0.8
-					}
-				},
-				{
-					"PaneName": "L_BtnBack",
-					"Position": {
-						"X": -3062,
-						"Y": -285
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/EntBtnChildLock.bflyt",
-			"Patches": [
-				{
-					"PaneName": "RootPane",
-					"Visible": false
-				},
-				{
-					"PaneName": "N_Root",
-					"Visible": false
-				}
-			]
-		},
-		{
-			"FileName": "blyt/Hud.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Position": {
-						"X": -980,
-						"Y": 30
-					},
-					"Scale": {
-						"X": 0.75,
-						"Y": 0.75
-					}
-				}
-			]
-		}
-	]
+    "AuthorName": "usiruktv",
+    "TargetFirmware": 1100,
+    "Files": [
+        {
+            "FileName": "blyt/EntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_CntRMain",
+                    "Position": {
+                        "X": 3000,
+                        "Y": -299
+                    },
+                    "Scale": {
+                        "X": 0.4,
+                        "Y": 0.4
+                    }
+                },
+                {
+                    "PaneName": "L_BtnResume",
+                    "Position": {
+                        "X": 10000
+                    }
+                },
+                {
+                    "PaneName": "N_ChildLock",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_MarginChildLockHud",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_CntL",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_News",
+                    "Position": {
+                        "X": -1000,
+                        "Y": 36
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnNtf",
+                    "Scale": {
+                        "X": 0.8,
+                        "Y": 0.8
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Lock",
+                    "Position": {
+                        "X": -2000,
+                        "Y": -290
+                    },
+                    "Scale": {
+                        "X": 0.8,
+                        "Y": 0.8
+                    }
+                },
+                {
+                    "PaneName": "L_BtnBack",
+                    "Position": {
+                        "X": -3062,
+                        "Y": -285
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnChildLock.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Hud.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": -980,
+                        "Y": 30
+                    },
+                    "Scale": {
+                        "X": 0.75,
+                        "Y": 0.75
+                    }
+                }
+            ]
+        }
+    ]
 }

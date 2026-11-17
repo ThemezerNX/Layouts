@@ -1,234 +1,234 @@
 {
-	"TargetFirmware": 1100,
-	"AuthorName": "Lesking72",
-	"HideOnlineBtn": true,
-	"Files": [
-		{
-			"FileName": "blyt/RdtBase.bflyt",
-			"Patches": [
-				{
-					"PaneName": "L_BtnNoti",
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnShop",
-					"Visible": false
-				},
-				{
-					"PaneName": "L_BtnPvr",
-					"Position": {
-						"X": -162,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnCtrl",
-					"Position": {
-						"X": -54,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnSet",
-					"Position": {
-						"X": 54,
-						"Y": 0,
-						"Z": 0
-					}
-				},
-				{
-					"PaneName": "L_BtnPow",
-					"Position": {
-						"X": 162,
-						"Y": 0,
-						"Z": 0
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnLR.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnNtf.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnShop.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnPvr.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnCtrl.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnSet.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		},
-		{
-			"FileName": "blyt/RdtBtnPow.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Root",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				},
-				{
-					"PaneName": "N_Tip",
-					"Scale": {
-						"X": 0.83721,
-						"Y": 0.83721
-					}
-				},
-				{
-					"PaneName": "B_Hit",
-					"Scale": {
-						"X": 1.194444,
-						"Y": 1.194444
-					}
-				}
-			]
-		}
-	]
+    "TargetFirmware": 1100,
+    "AuthorName": "Lesking72",
+    "HideOnlineBtn": true,
+    "Files": [
+        {
+            "FileName": "blyt/RdtBase.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnNoti",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnShop",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnPvr",
+                    "Position": {
+                        "X": -162,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnCtrl",
+                    "Position": {
+                        "X": -54,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSet",
+                    "Position": {
+                        "X": 54,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                },
+                {
+                    "PaneName": "L_BtnPow",
+                    "Position": {
+                        "X": 162,
+                        "Y": 0,
+                        "Z": 0
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnLR.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnShop.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnPvr.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnCtrl.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnSet.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/RdtBtnPow.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Scale": {
+                        "X": 0.83721,
+                        "Y": 0.83721
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Scale": {
+                        "X": 1.194444,
+                        "Y": 1.194444
+                    }
+                }
+            ]
+        }
+    ]
 }

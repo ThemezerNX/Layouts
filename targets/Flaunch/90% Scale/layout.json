@@ -1,18 +1,18 @@
 {
-	"TargetFirmware": 1100,
-	"AuthorName": "Such Meme, Many Skill",
-	"Files": [
-		{
-			"FileName": "blyt/FlcBtnIconGame.bflyt",
-			"Patches": [
-				{
-					"PaneName": "N_Delete",
-					"Scale": {
-						"X": 0.9,
-						"Y": 0.9
-					}
-				}
-			]
-		}
-	]
+    "TargetFirmware": 1100,
+    "AuthorName": "Such Meme, Many Skill",
+    "Files": [
+        {
+            "FileName": "blyt/FlcBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Delete",
+                    "Scale": {
+                        "X": 0.9,
+                        "Y": 0.9
+                    }
+                }
+            ]
+        }
+    ]
 }
