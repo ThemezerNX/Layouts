@@ -172,6 +172,36 @@
 							"type": 2
 						}
 					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["16"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["16"],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": ["16"],
+							"type": 2
+						}
+					]
 				}
 			]
 		},
