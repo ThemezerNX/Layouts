@@ -1,0 +1,66 @@
+{
+	"uuid": "57ee608f-aae6-4c6b-acdd-14b2b9cea1e5",
+	"Files": [
+		{
+			"FileName": "blyt/RdtBalloon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Size",
+					"Size": {
+						"X": 0.254,
+						"Y": 42
+					}
+				},
+				{
+					"PaneName": "N_Scissor",
+					"Scale": {
+						"X": 1000,
+						"Y": 1
+					}
+				},
+				{
+					"PaneName": "N_Offset",
+					"Scale": {
+						"X": 1e-7,
+						"Y": 1
+					}
+				},
+				{
+					"PaneName": "N_Scroll",
+					"Scale": {
+						"X": 10000,
+						"Y": 1
+					}
+				},
+				{
+					"PaneName": "P_Reset",
+					"Scale": {
+						"X": 10000000,
+						"Y": 1
+					}
+				},
+				{
+					"PaneName": "P_Color",
+					"Scale": {
+						"X": 10000000,
+						"Y": 1
+					}
+				},
+				{
+					"PaneName": "T_Sub",
+					"Scale": {
+						"X": 0,
+						"Y": 0
+					}
+				},
+				{
+					"PaneName": "N_Card",
+					"Position": {
+						"X": 10000
+					},
+					"Visible": false
+				}
+			]
+		}
+	]
+}
