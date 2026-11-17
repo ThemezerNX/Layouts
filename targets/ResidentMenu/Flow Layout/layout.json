@@ -539,7 +539,7 @@
 				{
 					"PaneName": "L_BtnSplay",
 					"Position": {
-						"X": -55.0,
+						"X": -55,
 						"Y": 0,
 						"Z": 0
 					}
@@ -571,7 +571,7 @@
 				{
 					"PaneName": "L_BtnPow",
 					"Position": {
-						"X": 220.0,
+						"X": 220,
 						"Y": 0,
 						"Z": 0
 					}
@@ -607,7 +607,7 @@
 				{
 					"PaneName": "L_BalloonCtrl",
 					"Position": {
-						"X": 406.0,
+						"X": 406,
 						"Y": 226,
 						"Z": 0
 					},
