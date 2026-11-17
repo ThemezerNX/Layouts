@@ -1,0 +1,14 @@
+{
+	"uuid": "41ffc0ca-a805-4def-9cb7-ee796dd2d93b",
+	"Files": [
+		{
+			"FileName": "blyt/BtnNav_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"Visible": false
+				}
+			]
+		}
+	]
+}
