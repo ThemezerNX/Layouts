@@ -657,8 +657,13 @@
 			"Patches": [
 				{
 					"PaneName": "N_Size",
+					"Position": {
+						"X": 177,
+						"Y": 7.5,
+						"Z": 0
+					},
 					"Size": {
-						"X": 0.56,
+						"X": 0.6,
 						"Y": 42
 					}
 				},
@@ -707,13 +712,62 @@
 				{
 					"PaneName": "N_Card",
 					"Position": {
-						"X": 10000
+						"X": 60,
+						"Y": 7.5,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "P_Card",
+					"Position": {
+						"X": -191,
+						"Y": 0,
+						"Z": 0
 					},
-					"Visible": false
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["31", "4", "40", "0"],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_CardDash",
+					"Position": {
+						"X": -191,
+						"Y": 0,
+						"Z": 0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["31", "4", "0", "0"],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_CardLine",
+					"Position": {
+						"X": -191,
+						"Y": 0,
+						"Z": 0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": ["31", "4", "0", "0"],
+							"type": 1
+						}
+					]
 				},
 				{
 					"PaneName": "T_Sub",
-					"Scale": {}
+					"Scale": {
+						"X": 0,
+						"Y": 0
+					}
 				}
 			]
 		},
