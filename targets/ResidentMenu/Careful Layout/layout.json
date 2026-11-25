@@ -297,7 +297,7 @@
 					"PaneName": "N_Pos",
 					"Position": {
 						"X": -43.86666666666667,
-						"Y": -3.9,
+						"Y": 5.6,
 						"Z": 0
 					}
 				},
@@ -305,7 +305,7 @@
 					"PaneName": "N_02",
 					"Position": {
 						"X": -23,
-						"Y": -3.5,
+						"Y": -13,
 						"Z": 0
 					}
 				},
@@ -352,7 +352,7 @@
 					"PaneName": "N_00",
 					"Position": {
 						"X": -23,
-						"Y": -3.5,
+						"Y": -13,
 						"Z": 0
 					}
 				},
@@ -1062,7 +1062,27 @@
 					"PaneName": "N_Pict_00",
 					"Position": {
 						"X": -42.22222222222222,
-						"Y": -1.8,
+						"Y": -4,
+						"Z": 0
+					}
+				},
+				{
+					"PaneName": "P_PictNtf_00",
+					"Position": {
+						"X": 0,
+						"Y": 4,
+						"Z": 0
+					},
+					"Scale": {
+						"X": 0.6,
+						"Y": 0.6
+					}
+				},
+				{
+					"PaneName": "P_PictNtf_01",
+					"Position": {
+						"X": -4.2,
+						"Y": 1,
 						"Z": 0
 					},
 					"Scale": {
@@ -1341,7 +1361,7 @@
 		},
 		{
 			"FileName": "anim/RdtBtnShop_Effect.bflan",
-			"AnimJson": "{\"LittleEndian\":true,\"Version\":134610944,\"pat1\":{\"AnimationOrder\":8,\"Name\":\"Effect\",\"ChildBinding\":0,\"Groups\":[\"G_Effect\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADAA\"},\"pai1\":{\"FrameSize\":28,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.112759516},{\"Frame\":7.0,\"Value\":1.36130941,\"Blend\":0.00614828477},{\"Frame\":20.0,\"Value\":1.41330492,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":7,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.112759516},{\"Frame\":7.0,\"Value\":1.36130941,\"Blend\":0.00614828477},{\"Frame\":20.0,\"Value\":1.41330492,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":34.88073},{\"Frame\":3.0,\"Value\":60.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":-1.20279527},{\"Frame\":4.0,\"Value\":0.5,\"Blend\":0.1582468},{\"Frame\":4.0,\"Value\":0.0,\"Blend\":1.011456},{\"Frame\":6.0,\"Value\":0.5,\"Blend\":0.50025},{\"Frame\":10.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":1.0,\"Blend\":-0.100279547},{\"Frame\":12.0,\"Value\":0.5,\"Blend\":0.1582468},{\"Frame\":14.0,\"Value\":0.0,\"Blend\":-0.102795228},{\"Frame\":16.0,\"Value\":0.5,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":134610944,\"pat1\":{\"AnimationOrder\":8,\"Name\":\"Effect\",\"ChildBinding\":0,\"Groups\":[\"G_Effect\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADAA\"},\"pai1\":{\"FrameSize\":28,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Effect\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.112759516},{\"Frame\":7.0,\"Value\":1.36130941,\"Blend\":0.00614828477},{\"Frame\":20.0,\"Value\":1.41330492,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":7,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.112759516},{\"Frame\":7.0,\"Value\":1.36130941,\"Blend\":0.00614828477},{\"Frame\":20.0,\"Value\":1.41330492,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":34.88073},{\"Frame\":3.0,\"Value\":60.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Pict\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.6,\"Blend\":-0.721677162},{\"Frame\":4.0,\"Value\":0.3,\"Blend\":0.09494808},{\"Frame\":4.0,\"Value\":0.0,\"Blend\":0.6068736},{\"Frame\":6.0,\"Value\":0.3,\"Blend\":0.30015},{\"Frame\":10.0,\"Value\":0.6,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.6,\"Blend\":-0.0601677282},{\"Frame\":12.0,\"Value\":0.3,\"Blend\":0.09494808},{\"Frame\":14.0,\"Value\":0.0,\"Blend\":-0.0616771368},{\"Frame\":16.0,\"Value\":0.3,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":0.6,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
 		},
 		{
 			"FileName": "anim/RdtBtnIconGame_SuspendIn.bflan",
