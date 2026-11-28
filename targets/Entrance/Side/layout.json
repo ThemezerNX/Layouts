@@ -148,13 +148,6 @@
 			"Patches": [
 				{
 					"PaneName": "P_PictHome",
-					"UsdPatches": [
-						{
-							"PropName": "C_W",
-							"PropValues": ["0", "0", "0", "0"],
-							"type": 1
-						}
-					],
 					"Visible": true
 				},
 				{
